@@ -1,5 +1,22 @@
+@font-face {
+    font-family: 'More Sugar';
+    src: url('../assets/fonts/MoreSugar-Regular.otf') format('opentype'),
+         url('../assets/fonts/MoreSugar-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'More Sugar';
+    src: url('../assets/fonts/MoreSugar-Thin.otf') format('opentype'),
+         url('../assets/fonts/MoreSugar-Thin.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap');
 @import 'components.css';
+
 
 :root {
     /* Primary Palette */
@@ -45,17 +62,19 @@
 
 .kidscorner-theme {
     /* Dim/Evening Palette */
-    --color-primary: #1b3b2b; /* Desaturated forest green */
+    --color-primary: #1b3b2b;
+    /* Desaturated forest green */
     --color-secondary: #E87528;
-    --color-bg: #e6e2d3; /* Soft dim cream */
+    --color-bg: #e6e2d3;
+    /* Soft dim cream */
     --color-bg-alt: #dcd7c9;
     --color-text: #2a2a2a;
     --color-text-muted: #5a5a5a;
     --color-white: #f5f3ef;
-    
+
     --font-heading: 'More Sugar', cursive;
     --font-body: 'Times New Roman', serif;
-    
+
     --grain-opacity: 0.04;
 }
 
@@ -77,14 +96,37 @@
 }
 
 /* Multi-color Title Utility */
-.word-red { color: #8B0000; }
-.word-green-dark { color: #073015; }
-.word-blue { color: #226DC4; }
-.word-yellow { color: #E2E246; }
-.word-lime { color: #BADA55; }
-.word-green-bright { color: #52CC27; }
-.word-orange { color: #E87528; }
-.word-pink { color: #E547CF; }
+.word-red {
+    color: #8B0000;
+}
+
+.word-green-dark {
+    color: #073015;
+}
+
+.word-blue {
+    color: #226DC4;
+}
+
+.word-yellow {
+    color: #E2E246;
+}
+
+.word-lime {
+    color: #BADA55;
+}
+
+.word-green-bright {
+    color: #52CC27;
+}
+
+.word-orange {
+    color: #E87528;
+}
+
+.word-pink {
+    color: #E547CF;
+}
 
 /* Circular Category Cards */
 .category-grid-circular {
@@ -246,6 +288,20 @@ img {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+}
+
+@font-face {
+    font-family: 'More Sugar';
+    src: url('../assets/fonts/MoreSugar-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'More Sugar';
+    src: url('../assets/fonts/MoreSugar-Thin.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
 }
 
 .logo {
