@@ -1,16 +1,5 @@
-@font-face {
-    font-family: 'More Sugar';
-    src: url('../assets/fonts/MoreSugar-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'More Sugar';
-    src: url('../assets/fonts/MoreSugar-Thin.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap');
+@import 'components.css';
 
 :root {
     /* Primary Palette */
