@@ -131,6 +131,22 @@ img {
     color: var(--color-primary);
 }
 
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.nav-back {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    font-weight: 500;
+}
+
+.nav-back:hover {
+    color: var(--color-secondary);
+}
+
 .nav-toggle {
     display: none;
     background: none;
@@ -215,6 +231,41 @@ img {
     text-decoration: underline;
 }
 
+/* Button Components */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition-base);
+    border: none;
+    font-family: var(--font-heading);
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-secondary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-text {
+    font-weight: 600;
+    color: var(--color-primary);
+    display: block;
+}
+
+.btn-text:hover {
+    color: var(--color-secondary);
+    transform: translateX(5px);
+}
+
 /* Animations */
 @keyframes fadeInUp {
     from {
@@ -250,3 +301,63 @@ img {
 .mt-4 { margin-top: var(--space-md); }
 .mb-2 { margin-bottom: var(--space-sm); }
 .mb-4 { margin-bottom: var(--space-md); }
+
+/* New Refactored Styles */
+.section-title {
+    color: var(--color-primary);
+    font-size: 2.5rem;
+}
+
+.bg-alt {
+    background-color: #f0f4f8;
+}
+
+.mission-grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: var(--space-lg); 
+    align-items: center;
+}
+
+.mission-image {
+    background-color: var(--color-bg-alt); 
+    border-radius: var(--radius-lg); 
+    padding: var(--space-md); 
+    text-align: center;
+}
+
+.mission-image img {
+    width: 100%; 
+    border-radius: var(--radius-md);
+}
+
+@media (max-width: 768px) {
+    .mission-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Spias Specific Styles */
+.spias-hero {
+    background-image: linear-gradient(rgba(253, 251, 247, 0.8), rgba(253, 251, 247, 0.8)), 
+                      radial-gradient(circle at top right, var(--color-bg-alt), transparent),
+                      radial-gradient(circle at bottom left, var(--color-accent-lime), transparent);
+    background-size: cover;
+    border-bottom: none;
+}
+
+.platform-card.muted {
+    opacity: 0.7;
+    filter: grayscale(0.5);
+    cursor: default;
+}
+
+.platform-card.muted:hover {
+    transform: none;
+    box-shadow: var(--shadow-sm);
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+.footer-links p {
+    margin-bottom: var(--space-xs);
+}

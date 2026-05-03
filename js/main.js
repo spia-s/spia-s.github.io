@@ -23,9 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (icon) icon.textContent = '☰';
             }
             
-            // Set active class
-            navLinksList.forEach(l => l.classList.remove('active'));
-            link.classList.add('active');
+            // Set active class for in-page anchors
+            if (link.getAttribute('href').startsWith('#')) {
+                navLinksList.forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+            }
         });
     });
 
@@ -45,15 +47,15 @@ document.addEventListener('DOMContentLoaded', () => {
         let current = '';
         sections.forEach(section => {
             const sectionTop = section.offsetTop;
-            const sectionHeight = section.clientHeight;
-            if (pageYOffset >= sectionTop - 100) {
+            if (pageYOffset >= sectionTop - 150) {
                 current = section.getAttribute('id');
             }
         });
 
         navLinksList.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href').includes(current)) {
+            const href = link.getAttribute('href');
+            if (current && href.includes('#' + current)) {
+                navLinksList.forEach(l => l.classList.remove('active'));
                 link.classList.add('active');
             }
         });
