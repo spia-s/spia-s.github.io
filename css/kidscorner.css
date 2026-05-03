@@ -117,6 +117,15 @@
     border-bottom: 2px solid var(--color-primary);
 }
 
+.hero-title {
+    font-family: 'More Sugar', cursive;
+    font-size: 48px;
+    font-weight: 400; /* Regular */
+    word-spacing: -0.15em; /* Closer words */
+    letter-spacing: -0.01em; /* Slightly closer letters */
+    line-height: 1.1;
+}
+
 .hero-subtitle-kc {
     font-family: var(--font-body);
     font-size: 1.25rem;
