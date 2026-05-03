@@ -1,0 +1,169 @@
+/* KidsCorner Specific Styles */
+
+.kidscorner-theme {
+    /* Dim/Evening Palette */
+    --color-primary: #1b3b2b; /* Desaturated forest green */
+    --color-secondary: #E87528;
+    --color-bg: #e6e2d3; /* Soft dim cream */
+    --color-bg-alt: #dcd7c9;
+    --color-text: #2a2a2a;
+    --color-text-muted: #5a5a5a;
+    --color-white: #f5f3ef;
+    
+    --grain-opacity: 0.04;
+}
+
+/* Grain Overlay */
+.kidscorner-theme::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: var(--grain-opacity);
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Multi-color Title Utility */
+.word-red { color: #8B0000; }
+.word-green-dark { color: #073015; }
+.word-blue { color: #226DC4; }
+.word-yellow { color: #E2E246; }
+.word-lime { color: #BADA55; }
+.word-green-bright { color: #52CC27; }
+.word-orange { color: #E87528; }
+.word-pink { color: #E547CF; }
+
+/* Circular Category Cards */
+.category-grid-circular {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-md);
+    margin-top: var(--space-md);
+}
+
+.category-card-circular {
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.category-circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    margin: 0 auto var(--space-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    border: 6px solid var(--color-white);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.category-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.4s ease;
+}
+
+.category-circle .category-icon {
+    font-size: 3.5rem;
+    position: absolute;
+    transition: all 0.4s ease;
+    z-index: 1;
+}
+
+.category-card-circular:hover .category-circle {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-secondary);
+}
+
+.category-card-circular:hover .category-circle img {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.category-card-circular:hover .category-circle .category-icon {
+    opacity: 0;
+    transform: scale(1.5);
+}
+
+.category-card-circular h3 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    margin-top: var(--space-xs);
+    font-size: 1.5rem;
+}
+
+/* KidsCorner Hero */
+.kidscorner-hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(230, 226, 211, 0.8), rgba(230, 226, 211, 0.8)), url('../assets/hero-books.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.hero-subtitle-kc {
+    font-family: var(--font-body);
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: var(--space-sm) auto;
+    line-height: 1.8;
+}
+
+/* Book Cards (Specific to KidsCorner Curator's Picks) */
+.book-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid #eee;
+    transition: var(--transition-base);
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.book-image {
+    aspect-ratio: 2/3;
+    background-color: #f9f9f9;
+    object-fit: cover;
+}
+
+.book-info {
+    padding: var(--space-sm);
+}
+
+.book-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.book-author {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+}
+
+/* KidsCorner Animations */
+.hero-content {
+    animation: fadeInUp 0.8s ease-out;
+}

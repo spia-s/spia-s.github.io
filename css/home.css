@@ -1,0 +1,112 @@
+/* Home Page Specific Styles */
+
+.spias-hero {
+    background-image: linear-gradient(rgba(253, 251, 247, 0.8), rgba(253, 251, 247, 0.8)),
+        radial-gradient(circle at top right, var(--color-bg-alt), transparent),
+        radial-gradient(circle at bottom left, var(--color-accent-lime), transparent);
+    background-size: cover;
+    border-bottom: none;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.spias-hero h1 {
+    font-size: clamp(3rem, 10vw, 5rem);
+    color: var(--color-primary);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.spias-hero p {
+    font-size: 1.25rem;
+    color: var(--color-text-muted);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Platform/Category Cards */
+.category-card,
+.platform-card {
+    background-color: var(--color-white);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition-base);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    display: block;
+}
+
+.category-card:hover,
+.platform-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-primary);
+}
+
+.platform-card.muted {
+    opacity: 0.7;
+    filter: grayscale(0.5);
+    cursor: default;
+}
+
+.platform-card.muted:hover {
+    transform: none;
+    box-shadow: var(--shadow-sm);
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+.category-image {
+    height: 200px;
+    background-color: var(--color-bg-alt);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-content {
+    padding: var(--space-sm);
+    text-align: center;
+}
+
+.category-title {
+    font-size: 1.25rem;
+    color: var(--color-primary);
+    margin-bottom: var(--space-xs);
+}
+
+/* Mission Section */
+.mission-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    align-items: center;
+}
+
+.mission-image {
+    background-color: var(--color-bg-alt);
+    border-radius: var(--radius-lg);
+    padding: var(--space-md);
+    text-align: center;
+    font-size: 8rem;
+    color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+    .mission-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Home Animations */
+.hero-content {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.platform-card {
+    animation: fadeInUp 0.5s ease-out both;
+}
+
+.platform-card:nth-child(1) { animation-delay: 0.1s; }
+.platform-card:nth-child(2) { animation-delay: 0.2s; }
+.platform-card:nth-child(3) { animation-delay: 0.3s; }
