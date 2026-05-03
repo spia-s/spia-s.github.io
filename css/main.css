@@ -168,15 +168,11 @@
 
 /* Hero Modifications */
 .kidscorner-hero {
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../assets/hero-books.jpg');
-    background-size: cover;
-    background-position: center;
     min-height: 80vh;
     display: flex;
     align-items: center;
-    color: white;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
+
 
 .hero-subtitle-kc {
     font-family: var(--font-body);
@@ -336,9 +332,10 @@ img {
 
 /* Hero Section */
 .hero {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../assets/hero-bg.png');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../assets/hero-books.jpg');
     background-size: cover;
     background-position: center;
+
     border-bottom: 2px solid var(--color-primary);
     min-height: 60vh;
     display: flex;
