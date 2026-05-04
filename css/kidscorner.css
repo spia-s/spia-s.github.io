@@ -17,7 +17,32 @@
     --space-lg: 3.2rem; /* Reduced from 4rem */
 }
 
-/* Header Logo Styling */
+/* Header Logo & Navigation Styling */
+.nav-back {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: var(--transition-fast);
+}
+
+.back-arrow {
+    color: var(--color-text-muted);
+}
+
+.spia-text {
+    font-family: 'Didot Elder', 'Didot', serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.02em;
+}
+
+.nav-back:hover .spia-text,
+.nav-back:hover .back-arrow {
+    color: var(--color-secondary);
+}
+
 .logo-kc {
     font-family: 'More Sugar', cursive;
     font-size: 1.8rem;
