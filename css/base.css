@@ -46,6 +46,17 @@
     --transition-base: 0.3s ease;
 }
 
+/* Global Brand Styling */
+.brand-kidscorner {
+    font-family: 'More Sugar', cursive;
+    font-weight: 700;
+}
+
+.brand-spia {
+    font-family: 'Didot Elder', 'Didot', serif;
+    font-weight: 700;
+}
+
 /* Reset & Base */
 *, *::before, *::after {
     box-sizing: border-box;
@@ -215,6 +226,12 @@ img {
     align-items: center;
     flex-wrap: wrap;
     gap: var(--space-md);
+}
+
+.footer-logo {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
 }
 
 .footer h3 {
