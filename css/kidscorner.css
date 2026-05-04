@@ -43,6 +43,10 @@
     color: var(--color-secondary);
 }
 
+.nav-link {
+    font-weight: 700;
+}
+
 .logo-kc {
     font-family: 'More Sugar', cursive;
     font-size: 1.8rem;
