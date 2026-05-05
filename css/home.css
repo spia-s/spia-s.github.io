@@ -1,10 +1,24 @@
+:root {
+    --color-bg: #101613; /* Subtle deep charcoal-green */
+    --color-bg-alt: #161D18; /* Slightly lighter contrast for sections */
+    --color-text: #FDFBF7; /* Cream */
+    --color-text-muted: #E6D4BD; /* Muted Cream */
+    --color-primary: #C7EDF4; /* Light Blue Accent */
+    --color-white: #1A221C; /* For cards and header */
+}
+
+body {
+    background-image: linear-gradient(rgba(16, 22, 19, 0.85), rgba(16, 22, 19, 0.85)),
+        radial-gradient(circle at top right, #073015, transparent),
+        radial-gradient(circle at bottom left, rgba(199, 237, 244, 0.15), transparent);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 /* Home Page Specific Styles */
 
 .spias-hero {
-    background-image: linear-gradient(rgba(253, 251, 247, 0.8), rgba(253, 251, 247, 0.8)),
-        radial-gradient(circle at top right, var(--color-bg-alt), transparent),
-        radial-gradient(circle at bottom left, var(--color-accent-lime), transparent);
-    background-size: cover;
+    background: transparent;
     border-bottom: none;
     min-height: 60vh;
     display: flex;
@@ -146,6 +160,9 @@
     }
 }
 
+/* Override base classes for dark mode */
+.bg-alt { background-color: transparent !important; }
+
 /* Circular Platform Holder */
 .circular-platform-container {
     display: flex;
@@ -190,4 +207,19 @@
 .word-green-bright { color: #52CC27; }
 .word-orange { color: #E87528; }
 .word-pink { color: #E547CF; }
+
+/* Footer Overrides for Home Page Dark Mode */
+.footer {
+    background-color: var(--color-white) !important; /* Match the header */
+    color: #FDFBF7 !important; /* Cream */
+}
+
+.footer a {
+    color: var(--color-accent-lime) !important;
+}
+
+.footer a:hover {
+    color: #FDFBF7 !important;
+    text-decoration: underline;
+}
 
