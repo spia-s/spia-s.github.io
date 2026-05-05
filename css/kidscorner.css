@@ -56,37 +56,75 @@
     line-height: 1;
 }
 
-/* KidsCorner Footer Specific Layout */
+/* Footer Layout — mirrors home.css */
+.footer {
+    padding-top: 1.25rem !important;
+    padding-bottom: 0.75rem !important;
+}
+
+/* Footer main row: logo anchored left, columns truly centered */
+.footer-main {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-bottom: 1rem;
+    min-height: 80px;
+}
+
 .footer-info-centered {
-    margin-bottom: var(--space-lg);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    min-width: 130px;
+    text-align: center;
 }
 
 .footer-info-centered p {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-style: italic;
     opacity: 0.9;
     letter-spacing: 0.05em;
+    margin: 0;
 }
 
 .footer-links-three-cols {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-md);
+    grid-template-columns: repeat(3, auto);
+    gap: 1.5rem;
     text-align: center;
-    max-width: 800px;
+    width: max-content;
     margin: 0 auto;
+    padding-top: 3%;
+}
+
+.footer-links-three-cols .footer-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links-three-cols .footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 .footer-links-three-cols .footer-col h4 {
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 0.6rem;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
+    .footer-main {
+        flex-direction: column;
+    }
     .footer-links-three-cols {
-        grid-template-columns: 1fr;
-        gap: var(--space-md);
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--space-sm);
     }
 }
 
@@ -101,6 +139,10 @@
 
 .kidscorner-theme .container {
     max-width: 1000px; /* Narrower than global 1200px */
+}
+
+.kidscorner-theme .footer .container {
+    max-width: 1200px; /* Match global footer width */
 }
 
 /* Grain Overlay */
