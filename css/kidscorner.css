@@ -4,8 +4,8 @@
     /* Dim/Evening Palette */
     --color-primary: #1b3b2b; /* Desaturated forest green */
     --color-secondary: #E87528;
-    --color-bg: #e6e2d3; /* Soft dim cream */
-    --color-bg-alt: #dcd7c9;
+    --color-bg: #d0ceba; /* Darker cream to bridge Spia's dark theme */
+    --color-bg-alt: #d0ceba;
     --color-text: #2a2a2a;
     --color-text-muted: #5a5a5a;
     --color-white: #f5f3ef;
@@ -145,6 +145,16 @@
     max-width: 1200px; /* Match global footer width */
 }
 
+/* Header Overrides */
+.kidscorner-theme .header {
+    background-color: #e0ddc6; /* New soft earthy cream for header to complement background and green text */
+}
+
+/* Singular Background override for all sections */
+.kidscorner-theme .bg-alt {
+    background-color: var(--color-bg) !important;
+}
+
 /* Grain Overlay */
 .kidscorner-theme::before {
     content: "";
@@ -243,7 +253,7 @@
     min-height: 80vh;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(230, 226, 211, 0.8), rgba(230, 226, 211, 0.8)), url('../assets/hero-books.jpg');
+    background-image: linear-gradient(rgba(208, 206, 186, 0.8), rgba(208, 206, 186, 0.8)), url('../assets/hero-books.jpg');
     background-size: cover;
     background-position: center;
     border-bottom: 2px solid var(--color-primary);
