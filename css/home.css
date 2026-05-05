@@ -223,3 +223,29 @@ body {
     text-decoration: underline;
 }
 
+/* ── Nav Link Styles (Home Page) ─────────────────────────── */
+
+/* Home & About links */
+.nav-link {
+    color: #C7EDF4 !important;
+    display: inline-block;
+    transition: color 0.25s ease, font-weight 0.25s ease, transform 0.25s ease;
+}
+
+.nav-link:hover,
+.nav-link.active:hover {
+    color: #BADA55 !important;   /* lime green */
+    font-weight: 700 !important;
+    transform: scale(1.15);
+}
+
+/* KidsCorner link — keeps More Sugar font, turns orange on hover */
+.nav-link-kidscorner {
+    display: inline-block;
+    transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.nav-link-kidscorner:hover {
+    color: #E87528 !important;   /* KidsCorner orange */
+    transform: scale(1.15);
+}
