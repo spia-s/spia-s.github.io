@@ -155,8 +155,8 @@
 }
 
 .circular-platform {
-    width: clamp(250px, 40vw, 350px);
-    height: clamp(250px, 40vw, 350px);
+    width: clamp(159.375px, 25.5vw, 223.125px);
+    height: clamp(159.375px, 25.5vw, 223.125px);
     border-radius: 50%;
     overflow: hidden;
     position: relative;
@@ -180,4 +180,14 @@
     object-fit: cover;
     display: block;
 }
+
+/* Multi-color Title Utility */
+.word-red { color: #8B0000; }
+.word-green-dark { color: #073015; }
+.word-blue { color: #226DC4; }
+.word-yellow { color: #E2E246; }
+.word-lime { color: #BADA55; }
+.word-green-bright { color: #52CC27; }
+.word-orange { color: #E87528; }
+.word-pink { color: #E547CF; }
 
