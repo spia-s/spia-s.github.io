@@ -249,3 +249,13 @@ body {
     color: #E87528 !important;   /* KidsCorner orange */
     transform: scale(1.15);
 }
+
+/* ── Logo hover ───────────────────────────────────────────── */
+.logo {
+    display: inline-block;
+    transition: transform 0.25s ease;
+}
+
+.logo:hover {
+    transform: scale(1.15);
+}
