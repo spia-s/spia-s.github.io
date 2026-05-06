@@ -300,12 +300,29 @@
     line-height: 1.1;
 }
 
+.hero-subtitle-kc-lead {
+    font-family: var(--font-body);
+    font-size: 1.45rem;
+    font-weight: 700;
+    max-width: 800px;
+    margin: var(--space-sm) auto 0.5rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
 .hero-subtitle-kc {
     font-family: var(--font-body);
     font-size: 1.25rem;
     max-width: 800px;
-    margin: var(--space-sm) auto;
+    margin: 0.5rem auto var(--space-sm);
     line-height: 1.8;
+    text-align: center;
+}
+
+.hero-subtitle-kc .brand-kidscorner {
+    font-family: 'More Sugar', cursive;
+    font-size: 1.4rem;
+    font-weight: 400;
 }
 
 /* Curator's Picks / General Category Grid override */
