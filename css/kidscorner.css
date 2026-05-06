@@ -54,6 +54,11 @@
     color: var(--color-primary);
     text-decoration: none;
     line-height: 1;
+    transition: color 0.3s ease;
+}
+
+.logo-kc:hover {
+    color: #E87528;
 }
 
 /* Footer Layout — mirrors home.css */
