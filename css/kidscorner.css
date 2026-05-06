@@ -314,7 +314,7 @@
     font-family: var(--font-body);
     font-size: 1.25rem;
     max-width: 800px;
-    margin: 0.5rem auto var(--space-sm);
+    margin: 0.5rem auto 0.6rem;
     line-height: 1.8;
     text-align: center;
 }
@@ -323,6 +323,20 @@
     font-family: 'More Sugar', cursive;
     font-size: 1.4rem;
     font-weight: 400;
+}
+
+.text-green-primary {
+    color: var(--color-primary);
+}
+
+.hero-subtitle-kc-tagline {
+    font-family: var(--font-body);
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0.5rem auto var(--space-sm);
+    line-height: 1.8;
+    text-align: center;
+    font-style: italic;
 }
 
 /* Curator's Picks / General Category Grid override */
