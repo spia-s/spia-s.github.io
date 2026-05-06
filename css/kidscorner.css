@@ -298,6 +298,7 @@
     word-spacing: -0.15em; /* Closer words */
     letter-spacing: -0.01em; /* Slightly closer letters */
     line-height: 1.1;
+    margin-bottom: 0.25rem;
 }
 
 .hero-subtitle-kc-lead {
