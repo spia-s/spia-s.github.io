@@ -45,6 +45,14 @@
 
 .nav-link {
     font-weight: 700;
+    color: var(--color-primary);
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #D96A20;
+    font-size: 1.1em;
+    font-weight: 800;
 }
 
 .logo-kc {
