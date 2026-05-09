@@ -210,6 +210,20 @@
     background-color: var(--color-bg) !important;
 }
 
+/* Section Differentiators - horizontal line separators */
+
+/* All category sections get top border line */
+.kidscorner-theme .categories,
+.kidscorner-theme .age-groups,
+.kidscorner-theme .values,
+.kidscorner-theme .experience,
+.kidscorner-theme .languages,
+.kidscorner-theme .curators-picks {
+    border-top: 1px solid rgba(27, 59, 43, 0.15);
+}
+
+/* Curator's Picks - no layout changes, keeps original styling */
+
 /* Grain Overlay */
 .kidscorner-theme::before {
     content: "";
