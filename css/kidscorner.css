@@ -131,6 +131,19 @@
     text-align: center;
 }
 
+/* Footer Spark Images */
+.footer-spark-desktop {
+    position: absolute;
+    right: 3.5%;
+    top: 10%;
+    height: 100px;
+    width: auto;
+}
+
+.footer-spark-mobile {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .footer-main {
         display: flex;
@@ -143,12 +156,22 @@
         left: auto;
         top: auto;
         transform: none;
+        margin-top: 3%;
     }
     .footer-links-three-cols {
         grid-template-columns: 1fr;
         width: 100%;
         gap: 1.5rem;
         padding-top: 0;
+    }
+    .footer-spark-desktop {
+        display: none;
+    }
+    .footer-spark-mobile {
+        display: block;
+        margin-top: 4%;
+        height: 100px;
+        width: auto;
     }
     #LB9PC3rcmh7BQRmZ {
         position: relative !important;
