@@ -278,7 +278,8 @@
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.category-circle img {
+.category-circle img,
+.category-circle .flag-svg {
     display: block;
     width: 100%;
     height: 100%;
@@ -286,6 +287,35 @@
     opacity: 0.35;
     transform: scale(1.15);
     transition: all 0.4s ease;
+}
+
+/* Languages section: dual image setup */
+.languages .category-circle {
+    position: relative;
+}
+
+.languages .category-circle .flag-img,
+.languages .category-circle .category-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+
+/* Default: flag visible (faded), category hidden */
+.languages .category-circle .flag-img {
+    opacity: 0.35;
+    transform: scale(1.15);
+    z-index: 0;
+}
+
+.languages .category-circle .category-img {
+    opacity: 0;
+    transform: scale(1.15);
+    z-index: 1;
 }
 
 .category-circle .category-icon {
@@ -302,9 +332,19 @@
     border-color: var(--color-secondary);
 }
 
-.category-card-circular:hover .category-circle img {
+.category-card-circular:hover .category-circle img,
+.category-card-circular:hover .category-circle .flag-svg {
     opacity: 1;
     transform: scale(1.15);
+}
+
+/* Hover: swap flag and category images */
+.languages .category-card-circular:hover .category-circle .flag-img {
+    opacity: 0;
+}
+
+.languages .category-card-circular:hover .category-circle .category-img {
+    opacity: 1;
 }
 
 .category-card-circular:hover .category-circle .category-icon {
