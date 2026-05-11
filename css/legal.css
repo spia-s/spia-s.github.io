@@ -117,6 +117,12 @@
     letter-spacing: 0.02em;
 }
 
+#privacy .section-body h3,
+#terms .section-body h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
 .section-body p {
     font-size: 1.1rem;
     line-height: 1.7;
