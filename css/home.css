@@ -279,6 +279,7 @@ body {
     display: block;
     background-color: var(--color-bg-alt);
     animation: fadeInUp 0.8s ease-out;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .circular-platform:hover {
