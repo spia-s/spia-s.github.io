@@ -333,3 +333,11 @@ img {
         transform: translateY(0);
     }
 }
+
+/* Remove mobile tap highlight on all clickable elements */
+a, button, .circular-platform {
+    -webkit-tap-highlight-color: transparent !important;
+    -moz-tap-highlight-color: transparent !important;
+    tap-highlight-color: transparent !important;
+    outline: none !important;
+}

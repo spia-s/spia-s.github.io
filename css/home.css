@@ -279,7 +279,14 @@ body {
     display: block;
     background-color: var(--color-bg-alt);
     animation: fadeInUp 0.8s ease-out;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent !important;
+    -moz-tap-highlight-color: transparent !important;
+    tap-highlight-color: transparent !important;
+    outline: none;
+}
+
+.circular-platform:focus {
+    outline: none;
 }
 
 .circular-platform:hover {
