@@ -60,4 +60,63 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Language Switcher
+    initLanguageSwitcher();
 });
+
+function initLanguageSwitcher() {
+    const nav = document.querySelector('.nav');
+    if (!nav) return;
+
+    let navRight = nav.querySelector('.nav-right');
+    if (!navRight) {
+        navRight = document.createElement('div');
+        navRight.className = 'nav-right';
+        nav.appendChild(navRight);
+    }
+
+    const switcher = document.createElement('div');
+    switcher.className = 'language-switcher';
+    
+    const activeLang = languages.find(l => l.code === currentLanguage) || languages[0];
+    
+    switcher.innerHTML = `
+        <button class="lang-current" id="lang-toggle">
+            <span class="flag">${activeLang.flag}</span>
+            <span class="lang-name">${activeLang.name}</span>
+        </button>
+        <div class="lang-dropdown" id="lang-dropdown">
+            ${languages.map(lang => `
+                <button class="lang-option ${lang.code === currentLanguage ? 'active' : ''}" data-lang="${lang.code}">
+                    <span class="flag">${lang.flag}</span>
+                    <span class="lang-name">${lang.name}</span>
+                </button>
+            `).join('')}
+        </div>
+    `;
+    
+    navRight.appendChild(switcher);
+
+    const toggle = switcher.querySelector('#lang-toggle');
+    const dropdown = switcher.querySelector('#lang-dropdown');
+
+    toggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        dropdown.classList.toggle('show');
+    });
+
+    switcher.querySelectorAll('.lang-option').forEach(option => {
+        option.addEventListener('click', () => {
+            const lang = option.dataset.lang;
+            setLanguage(lang);
+            dropdown.classList.remove('show');
+        });
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!switcher.contains(e.target)) {
+            dropdown.classList.remove('show');
+        }
+    });
+}
