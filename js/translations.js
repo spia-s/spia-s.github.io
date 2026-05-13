@@ -29,15 +29,15 @@ const translations = {
         "platforms.stories": "Stories for young readers and those guiding them,",
         "platforms.glance": "where a simple glance can magnify empathy,",
         "platforms.perspective": "perspective, and a love of reading.",
-        "about.welcome": "Welcome to a curated digital space built for those who believe that stories shape who we become.",
+        "about.welcome": "Welcome to a curated digital space built for those who believe stories form who we become.",
         "about.content": "In an age of endless content, intention matters more than volume. Every book, idea, and recommendation you find here is selected with care, designed to inspire curiosity, deepen emotional understanding, and open new ways of seeing the world.",
-        "about.spia-role": "Spia doesn't just organize content. It connects meaning.",
+        "about.spia-role": "<strong>Spia</strong> doesn't just organize content. It connects meaning.",
         "about.built": "Built on three core ideas:",
-        "about.feeling": "Feeling. Stories that help us understand ourselves and others",
-        "about.thinking": "Thinking. Ideas that challenge, question, and expand our perspective",
-        "about.growing": "Growing. Tools that support lifelong learning, from early childhood to adulthood",
-        "about.kidscorner.desc": "The first branch, KidsCorner, is dedicated to young readers and the adults guiding them. It focuses on books that nurture emotional intelligence, cultural awareness, and a genuine love for reading, without overwhelming choice.",
-        "about.expand": "Spia will continue to expand into new domains, always guided by the same principle:",
+        "about.feeling": "• <span style=\"color: #BADA55;\">Feeling</span>. Stories that help us understand ourselves and others",
+        "about.thinking": "• <span style=\"color: #BADA55;\">Thinking</span>. Ideas that challenge, question, and expand our perspective",
+        "about.growing": "• <span style=\"color: #BADA55;\">Growing</span>. Tools that support lifelong learning, from early childhood to adulthood",
+        "about.kidscorner.desc": "The first branch, <kc>KidsCorner</kc>, is dedicated to young readers and the adults guiding them. It focuses on books that nurture emotional intelligence, cultural awareness, and a genuine love for reading, without overwhelming choice.",
+        "about.expand": "will continue to expand into new domains, always guided by the same principle:",
         "about.less-noise": "Less noise. More meaning.",
         "footer.tagline": "Where Stories Lead.",
         "footer.explore": "Explore",
@@ -459,9 +459,10 @@ function getTranslation(key) {
 function applyTranslations() {
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
-        const text = getTranslation(key);
+        let text = getTranslation(key);
         if (text) {
-            el.textContent = text;
+            text = text.replace(/<kc>(.*?)<\/kc>/g, '<span style="font-family: \'More Sugar\', cursive; font-size: 1.5rem; color: #E87528;">$1</span>');
+            el.innerHTML = text;
         }
     });
     document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
