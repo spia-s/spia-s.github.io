@@ -13,7 +13,7 @@
   "platforms.books": "Books",
   "platforms.wide": "Wide",
   "platforms.worlds": "Worlds",
-  "platforms.spia-first": "'s first chapter,",
+  "platforms.spia-first": "<span style=\"font-family: 'Didot Elder Bold', serif; font-weight: bold;\">Spia</span>'s first chapter,",
   "platforms.kidscorner-name": "KidsCorner.",
   "platforms.stories": "Stories for young readers and those guiding them,",
   "platforms.glance": "where a simple glance can magnify empathy,",
