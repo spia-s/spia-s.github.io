@@ -133,6 +133,13 @@ img {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    position: relative;
+}
+
+.nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .logo {
