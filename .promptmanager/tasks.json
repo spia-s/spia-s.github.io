@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "detachedPrompts": [],
+  "tasks": [
+    {
+      "id": "task-1778789103234",
+      "title": "New Task",
+      "category": "other",
+      "status": "todo",
+      "acceptanceCriteria": [],
+      "prompts": [],
+      "references": [],
+      "isCollapsed": false,
+      "createdAt": 1778789103234
+    }
+  ]
+}
