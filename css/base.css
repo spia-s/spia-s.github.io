@@ -214,6 +214,24 @@ img {
     }
 }
 
+/* Tablet & Small Desktop */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav {
+        position: relative;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        transform: none;
+        background-color: var(--color-white);
+        z-index: 1000;
+        padding: 1rem;
+    }
+}
+
 /* Hero Section Base */
 .hero {
     min-height: 60vh;
