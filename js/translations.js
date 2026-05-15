@@ -1,9 +1,13 @@
+// Dynamic root path detection based on script inclusion
+const scriptTag = document.querySelector('script[src*="translations.js"]');
+const rootPath = scriptTag ? scriptTag.getAttribute('src').replace('js/translations.js', '') : '';
+
 const languages = [
-    { code: 'en', name: 'English', flag: 'Reference (Spia)/CountryFlagsIcons/uk.png' },
-    { code: 'fr', name: 'Français', flag: 'Reference (Spia)/CountryFlagsIcons/fr.png' },
-    { code: 'it', name: 'Italiano', flag: 'Reference (Spia)/CountryFlagsIcons/it.png' },
-    { code: 'es', name: 'Español', flag: 'Reference (Spia)/CountryFlagsIcons/es.png' },
-    { code: 'pt', name: 'Português', flag: 'Reference (Spia)/CountryFlagsIcons/br.png' }
+    { code: 'en', name: 'English', flag: `${rootPath}Reference%20(Spia)/CountryFlagsIcons/uk.png` },
+    { code: 'fr', name: 'Français', flag: `${rootPath}Reference%20(Spia)/CountryFlagsIcons/fr.png` },
+    { code: 'it', name: 'Italiano', flag: `${rootPath}Reference%20(Spia)/CountryFlagsIcons/it.png` },
+    { code: 'es', name: 'Español', flag: `${rootPath}Reference%20(Spia)/CountryFlagsIcons/es.png` },
+    { code: 'pt', name: 'Português', flag: `${rootPath}Reference%20(Spia)/CountryFlagsIcons/br.png` }
 ];
 
 let currentLanguage = 'en';
@@ -359,29 +363,29 @@ it: {
         "nav.about": "Sobre",
         "hero.title": "Além do ruído,",
         "hero.subtitle": "siga o sussurro.",
-        "hero.description": "Em um mundo de barulho infinito, Spia se concentra nos sinais que importam, as histórias que nos fazem sentir, pensar e crescer. Descubra livros, ideias e perspectivas cuidadosamente selecionados para despertar o maravilhamento em cada fase da vida.",
+        "hero.description": "Em um mundo cheio de barulho, <span style=\"font-family: 'Didot Elder Bold', serif; font-weight: bold;\">Spia</span> se concentra nas histórias que nos fazem sentir, refletir e crescer. Descubra livros, ideias e perspectivas cuidadosamente selecionados para despertar o encantamento em cada fase da vida.",
         "hero.explore": "Explorar",
         "hero.explore-kids": "KidsCorner",
-        "hero.refine": "Refinar",
+        "hero.refine": "Buscar",
         "platforms.kidscorner.alt": "KidsCorner",
         "platforms.small": "Pequenos",
         "platforms.books": "Livros",
         "platforms.wide": "Grandes",
         "platforms.worlds": "Mundos",
-        "platforms.spia-first": "O primeiro capítulo da Spia,",
+        "platforms.spia-first": "O primeiro capítulo de <span style=\"font-family: 'Didot Elder Bold', serif; font-weight: bold;\">Spia</span>, ",
         "platforms.kidscorner-name": "KidsCorner.",
-        "platforms.stories": "Histórias para jovens leitores e aqueles que os guiam,",
+        "platforms.stories": "Histórias para jovens leitores e para quem os guia,",
         "platforms.glance": "onde um simples olhar pode amplificar a empatia,",
         "platforms.perspective": "a perspectiva e o amor pela leitura.",
-        "about.welcome": "Bem-vindo a um espaço digital selecionado para aqueles que acreditam que as histórias moldam quem nos tornamos.",
+        "about.welcome": "<span style=\"font-family: 'Didot Elder Bold', serif; font-weight: bold;\">Bem-vindo</span> a um espaço digital pensado para aqueles que acreditam que as histórias dão forma a quem nos tornamos.",
         "about.content": "Em uma era de conteúdo infinito, a intenção importa mais do que o volume. Cada livro, ideia e recomendação que você encontra aqui é selecionado com cuidado, projetado para inspirar curiosidade, aprofundar a compreensão emocional e abrir novas formas de ver o mundo.",
-        "about.spia-role": "Spia não apenas organiza conteúdo. Conecta significados.",
+        "about.spia-role": "<span style=\"font-family: 'Didot Elder Bold', serif; font-weight: bold;\">Spia</span> não apenas organiza conteúdo. Conecta significados.",
         "about.built": "Construído sobre três ideias centrais:",
         "about.feeling": "• <span style=\"color: #BADA55;\">Sentir</span>. Histórias que nos ajudam a entender nós mesmos e os outros",
-        "about.thinking": "• <span style=\"color: #BADA55;\">Pensar</span>. Ideias que desafiam, questionam e ampliam nossa perspectiva",
+        "about.thinking": "• <span style=\"color: #BADA55;\">Refletir</span>. Ideias que desafiam, questionam e ampliam nossa perspectiva",
         "about.growing": "• <span style=\"color: #BADA55;\">Crescer</span>. Ferramentas que apoiam a aprendizagem ao longo da vida, desde a primeira infância até a idade adulta",
-        "about.kidscorner.desc": "O primeiro ramo, KidsCorner, é dedicado a jovens leitores e aos adultos que os guiam. Foca em livros que nutrem inteligência emocional, consciência cultural e um genuíno amor pela leitura, sem sobrecarregar com escolhas.",
-        "about.expand": "Spia continuará a se expandir para novos domínios, sempre guiada pelo mesmo princípio:",
+        "about.kidscorner.desc": "O primeiro ramo, <span style=\"font-family: 'More Sugar', cursive; font-size: 1.2em; color: #E87528;\">KidsCorner</span>, é dedicado a jovens leitores e a quem cultiva sua imaginação. Foca em livros que nutrem inteligência emocional, consciência cultural e um genuíno amor pela leitura, sem sobrecarregar com escolhas.",
+        "about.expand": "seguirá se desdobrando em novos caminhos, sempre guiada pelo mesmo princípio:",
         "about.less-noise": "Menos barulho. Mais significado.",
         "footer.tagline": "Onde histórias ecoam.",
         "footer.explore": "Explorar",
