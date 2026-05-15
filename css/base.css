@@ -192,21 +192,23 @@ img {
 
 /* Mobile Nav */
 @media (max-width: 768px) {
-    .nav-links {
+    #nav-links {
         display: none;
         flex-direction: column;
         position: absolute;
         top: 80px;
-        left: 0;
+        left: 0 !important;
         width: 100%;
         background-color: var(--color-white);
         padding: var(--space-sm);
         box-shadow: var(--shadow-md);
         gap: var(--space-sm);
+        transform: none !important;
+        z-index: 1000;
     }
 
-    .nav-links.show {
-        display: flex;
+    #nav-links.show {
+        display: flex !important;
     }
 
     .nav-toggle {
