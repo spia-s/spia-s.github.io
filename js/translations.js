@@ -520,60 +520,71 @@ function initLanguageSwitcher() {
     const nav = document.querySelector('.nav');
     if (!nav) return;
 
-    let navRight = nav.querySelector('.nav-right');
-    if (!navRight) {
-        navRight = document.createElement('div');
-        navRight.className = 'nav-right';
-        nav.appendChild(navRight);
-    }
+    let switcher = nav.querySelector('.language-switcher');
+    
+    if (!switcher) {
+        let navRight = nav.querySelector('.nav-right');
+        if (!navRight) {
+            navRight = document.createElement('div');
+            navRight.className = 'nav-right';
+            nav.appendChild(navRight);
+        }
 
-    if (nav.querySelector('.language-switcher')) return;
-
-    const switcher = document.createElement('div');
-    switcher.className = 'language-switcher';
-    
-    const activeLang = languages.find(l => l.code === currentLanguage) || languages[0];
-    
-    let dropdownHTML = '<div class="lang-dropdown" id="lang-dropdown">';
-    for (let i = 0; i < languages.length; i++) {
-        const lang = languages[i];
-        const isActive = lang.code === currentLanguage ? 'active' : '';
-        dropdownHTML += `<button class="lang-option ${isActive}" data-lang="${lang.code}">`;
-        dropdownHTML += `<img src="${lang.flag}" alt="${lang.name}" class="flag-img">`;
-        dropdownHTML += '</button>';
+        switcher = document.createElement('div');
+        switcher.className = 'language-switcher';
+        
+        const activeLang = languages.find(l => l.code === currentLanguage) || languages[0];
+        
+        let dropdownHTML = '<div class="lang-dropdown" id="lang-dropdown">';
+        for (let i = 0; i < languages.length; i++) {
+            const lang = languages[i];
+            const isActive = lang.code === currentLanguage ? 'active' : '';
+            dropdownHTML += `<button class="lang-option ${isActive}" data-lang="${lang.code}">`;
+            dropdownHTML += `<img src="${lang.flag}" alt="${lang.name}" class="flag-img">`;
+            dropdownHTML += '</button>';
+        }
+        dropdownHTML += '</div>';
+        
+        switcher.innerHTML = `
+            <button class="lang-current" id="lang-toggle">
+                <img src="${activeLang.flag}" alt="${activeLang.name}" class="flag-img">
+            </button>
+            ${dropdownHTML}
+        `;
+        
+        navRight.appendChild(switcher);
     }
-    dropdownHTML += '</div>';
-    
-    switcher.innerHTML = `
-        <button class="lang-current" id="lang-toggle">
-            <img src="${activeLang.flag}" alt="${activeLang.name}" class="flag-img">
-        </button>
-        ${dropdownHTML}
-    `;
-    
-    navRight.appendChild(switcher);
 
     const toggle = switcher.querySelector('#lang-toggle');
     const dropdown = switcher.querySelector('#lang-dropdown');
 
-    toggle.addEventListener('click', (e) => {
-        e.stopPropagation();
-        dropdown.classList.toggle('show');
-    });
-
-    switcher.querySelectorAll('.lang-option').forEach(option => {
-        option.addEventListener('click', () => {
-            const lang = option.dataset.lang;
-            setLanguage(lang);
-            dropdown.classList.remove('show');
+    if (toggle && dropdown) {
+        // Remove existing listener to avoid duplicates if called multiple times
+        const newToggle = toggle.cloneNode(true);
+        toggle.parentNode.replaceChild(newToggle, toggle);
+        
+        newToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            dropdown.classList.toggle('show');
         });
-    });
 
-    document.addEventListener('click', (e) => {
-        if (!switcher.contains(e.target)) {
-            dropdown.classList.remove('show');
-        }
-    });
+        switcher.querySelectorAll('.lang-option').forEach(option => {
+            option.addEventListener('click', () => {
+                const lang = option.dataset.lang;
+                setLanguage(lang);
+                dropdown.classList.remove('show');
+            });
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!switcher.contains(e.target)) {
+                dropdown.classList.remove('show');
+            }
+        });
+    }
+    
+    // Ensure the selector matches the current language state
+    updateLanguageSelector();
 }
 
 function detectLanguage() {

@@ -11,8 +11,8 @@
       "prompts": [
         {
           "id": "prompt-1778882904124",
-          "title": "New Prompt",
-          "content": "",
+          "title": "New Prolanguage button adding to KCmpt",
+          "content": "replicate this button <div class=\"nav-right\"><div class=\"language-switcher\">\n        <button class=\"lang-current\" id=\"lang-toggle\"><img src=\"Reference%20(Spia)/CountryFlagsIcons/uk.png\" alt=\"English\" class=\"flag-img\"></button>\n        <div class=\"lang-dropdown\" id=\"lang-dropdown\"><button class=\"lang-option active\" data-lang=\"en\"><img src=\"Reference%20(Spia)/CountryFlagsIcons/uk.png\" alt=\"English\" class=\"flag-img\"></button><button class=\"lang-option \" data-lang=\"fr\"><img src=\"Reference%20(Spia)/CountryFlagsIcons/fr.png\" alt=\"Français\" class=\"flag-img\"></button><button class=\"lang-option \" data-lang=\"it\"><img src=\"Reference%20(Spia)/CountryFlagsIcons/it.png\" alt=\"Italiano\" class=\"flag-img\"></button><button class=\"lang-option\" data-lang=\"es\"><img src=\"Reference%20(Spia)/CountryFlagsIcons/es.png\" alt=\"Español\" class=\"flag-img\"></button><button class=\"lang-option \" data-lang=\"pt\"><img src=\"Reference%20(Spia)/CountryFlagsIcons/br.png\" alt=\"Português\" class=\"flag-img\"></button></div>\n    </div></div> in the KidsCorner page using the appropriate flags for each language",
           "references": [],
           "isCollapsed": false,
           "createdAt": 1778882904124
