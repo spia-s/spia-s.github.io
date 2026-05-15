@@ -18,7 +18,7 @@
   "platforms.stories": "Historias para jóvenes lectores y para quienes los guían,",
   "platforms.glance": "donde una simple mirada puede amplificar la empatía,",
   "platforms.perspective": "la perspectiva y el amor por la lectura.",
-  "about.welcome": "Bienvenido a un espacio digital pensado para quienes creen que las historias dan forma a quienes llegamos a ser.",
+  "about.welcome": "<span style=\"font-family: 'Didot Elder Bold', serif; font-weight: bold;\">Bienvenido</span> a un espacio digital pensado para quienes creen que las historias dan forma a quienes llegamos a ser.",
   "about.content": "En una era de contenido infinito, la intención importa más que el volumen. Cada libro, idea y recomendación que encuentras aquí está seleccionado con cuidado, diseñado para inspirar curiosidad, profundizar la comprensión emocional y abrir nuevas formas de ver el mundo.",
   "about.spia-role": "<span style=\"font-family: 'Didot Elder Bold', serif; font-weight: bold;\">Spia</span> no solo organiza contenido. Conecta significados.",
   "about.built": "Construido sobre tres ideas centrales:",

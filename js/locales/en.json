@@ -18,7 +18,7 @@
   "platforms.stories": "Stories for young readers and those guiding them,",
   "platforms.glance": "where a simple glance can magnify empathy,",
   "platforms.perspective": "perspective, and a love of reading.",
-  "about.welcome": "Welcome to a curated digital space built for those who believe stories form who we become.",
+  "about.welcome": "<span style=\"font-family: 'Didot Elder Bold', serif; font-weight: bold;\">Welcome</span> to a curated digital space built for those who believe stories form who we become.",
   "about.content": "In an age of endless content, intention matters more than volume. Every book, idea, and recommendation you find here is selected with care, designed to inspire curiosity, deepen emotional understanding, and open new ways of seeing the world.",
   "about.spia-role": "<strong>Spia</strong> doesn't just organize content. It connects meaning.",
   "about.built": "Built on three core ideas:",

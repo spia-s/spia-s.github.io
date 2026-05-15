@@ -3,24 +3,24 @@
   "detachedPrompts": [],
   "tasks": [
     {
-      "id": "task-1778873862291",
-      "title": "translating legal",
+      "id": "task-1778882899425",
+      "title": "New Task",
       "category": "other",
       "status": "todo",
       "acceptanceCriteria": [],
       "prompts": [
         {
-          "id": "prompt-1778873899621",
-          "title": "translate legal page in the 4 other languages",
-          "content": "in the legal page, translate the full content you have in english, keeping in mind that you already have the section titles translated for each, in each language, french, italian, spanish, portugues, ",
+          "id": "prompt-1778882904124",
+          "title": "New Prompt",
+          "content": "",
           "references": [],
           "isCollapsed": false,
-          "createdAt": 1778873899621
+          "createdAt": 1778882904124
         }
       ],
       "references": [],
       "isCollapsed": false,
-      "createdAt": 1778873862291
+      "createdAt": 1778882899425
     }
   ]
 }

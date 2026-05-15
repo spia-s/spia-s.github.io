@@ -4,16 +4,6 @@
   "keepHistory": false,
   "fullTest": false,
   "isQueueCollapsed": false,
-  "executionQueue": [
-    {
-      "id": "queue-1778874025981",
-      "type": "prompt",
-      "sourceId": "prompt-1778873899621",
-      "parentTaskId": "task-1778873862291",
-      "title": "translate legal page in the 4 other languages",
-      "payload": "# PromptManager Agent Execution Prompt\n\nYou are receiving a structured prompt from PromptManager.\nRun it as an agent action, then validate the result if task criteria are available.\n\n## Parent Task\nTask: translating legal\nTask Category: other\nAuto Next Enabled: NO\nFull Test Enabled: NO\nUse your normal internal validation judgment. Run targeted checks when they are useful.\n\n## STEP 1 — EXECUTE PROMPT\nPrompt Title: translate legal page in the 4 other languages\n\nin the legal page, translate the full content you have in english, keeping in mind that you already have the section titles translated for each, in each language, french, italian, spanish, portugues, \n\n## References\nNo references provided.\n\n## STEP 2 — VALIDATE AGAINST TASK ACCEPTANCE CRITERIA\nAfter executing the prompt, validate against these criteria:\nNo acceptance criteria were provided.\n\n## REQUIRED FINAL RESPONSE\n\nPROMPTMANAGER_IMPLEMENTATION_SUMMARY:\n- What changed\n- Files touched\n\nPROMPTMANAGER_ACCEPTANCE_RESULTS:\n- No acceptance criteria were provided.\n\nPROMPTMANAGER_FINAL_STATUS:\nDONE = all criteria passed\nIN_PROGRESS = more work is needed\nFAILED = blocked or criteria failed\n\nPROMPTMANAGER_NEXT_ACTION:\nDo not continue automatically. Stop after reporting status.\n\n## PromptManager State Update Protocol\n\nYour final response must end with a machine-readable PROMPTMANAGER_STATE_UPDATE_BLOCK.\nUse only these exact status values:\n- PROMPTMANAGER_PROMPT_STATE: TODO, IMPLEMENTED, VALIDATED, DONE, FAILED, BLOCKED\n- PROMPTMANAGER_ACCEPTANCE_STATE: PASS, FAIL, UNKNOWN, NONE\n- PROMPTMANAGER_QUEUE_STATE: QUEUED, ACTIVE, IMPLEMENTING, VALIDATING, DONE, FAILED, BLOCKED\n- PROMPTMANAGER_TASK_STATE: TODO, IMPLEMENTED, VALIDATING, DONE, IN_PROGRESS, FAILED, BLOCKED\n- PROMPTMANAGER_NEXT_ACTION: CONTINUE, STOP\n\nState rules:\n- DONE can only be used when every acceptance criterion is PASS.\n- Use PROMPTMANAGER_ACCEPTANCE_STATE: NONE when no acceptance criteria exist.\n- UNKNOWN prevents DONE.\n- If Auto Next is enabled and every acceptance criterion is PASS, set PROMPTMANAGER_NEXT_ACTION to CONTINUE.\n- If Auto Next is disabled, set PROMPTMANAGER_NEXT_ACTION to STOP.\n- If anything fails or is UNKNOWN, set PROMPTMANAGER_NEXT_ACTION to STOP.\n\nCopy the block below as the final section of your response and replace the statuses/explanations with the actual result.\n\nPROMPTMANAGER_STATE_UPDATE_BLOCK:\nPROMPTMANAGER_PROMPT_STATE: TODO\nPROMPTMANAGER_ACCEPTANCE_STATE: NONE\nPROMPTMANAGER_QUEUE_STATE: IMPLEMENTING\nPROMPTMANAGER_TASK_STATE: TODO\nPROMPTMANAGER_NEXT_ACTION: STOP",
-      "status": "queued"
-    }
-  ],
+  "executionQueue": [],
   "queueHistory": []
 }
