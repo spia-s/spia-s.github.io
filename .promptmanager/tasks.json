@@ -3,48 +3,8 @@
   "detachedPrompts": [],
   "tasks": [
     {
-      "id": "task-1778789103234",
-      "title": "FOOTER",
-      "category": "other",
-      "status": "todo",
-      "acceptanceCriteria": [],
-      "prompts": [
-        {
-          "id": "prompt-1778873342386",
-          "title": "Legal link",
-          "content": "in the footer of all pages - modify this element <h4 data-i18n=\"footer.legal\">Legal</h4> so as to make it a link sendint it to the legal page - this has to apply to Spia Root page, Legal, KidsCorner + in all 5 languages ",
-          "references": [],
-          "isCollapsed": false,
-          "createdAt": 1778873342386
-        }
-      ],
-      "references": [],
-      "isCollapsed": true,
-      "createdAt": 1778789103234
-    },
-    {
-      "id": "task-1778873588115",
-      "title": "Adding languages to Legal",
-      "category": "other",
-      "status": "todo",
-      "acceptanceCriteria": [],
-      "prompts": [
-        {
-          "id": "prompt-1778873629986",
-          "title": "language button in legal",
-          "content": "in the legal page, replicate the language button <div class=\"nav-right\"><div class=\"language-switcher\">\n        <button class=\"lang-current\" id=\"lang-toggle\">\n            <img src=\"Reference (Spia)/CountryFlagsIcons/uk.png\" alt=\"English\" class=\"flag-img\">\n        </button>\n        <div class=\"lang-dropdown\" id=\"lang-dropdown\"><button class=\"lang-option active\" data-lang=\"en\"><img src=\"Reference (Spia)/CountryFlagsIcons/uk.png\" alt=\"English\" class=\"flag-img\"></button><button class=\"lang-option \" data-lang=\"fr\"><img src=\"Reference (Spia)/CountryFlagsIcons/fr.png\" alt=\"Français\" class=\"flag-img\"></button><button class=\"lang-option \" data-lang=\"it\"><img src=\"Reference (Spia)/CountryFlagsIcons/it.png\" alt=\"Italiano\" class=\"flag-img\"></button><button class=\"lang-option \" data-lang=\"es\"><img src=\"Reference (Spia)/CountryFlagsIcons/es.png\" alt=\"Español\" class=\"flag-img\"></button><button class=\"lang-option \" data-lang=\"pt\"><img src=\"Reference (Spia)/CountryFlagsIcons/br.png\" alt=\"Português\" class=\"flag-img\"></button></div>\n    </div></div> for all 5 languages present ",
-          "references": [],
-          "isCollapsed": false,
-          "createdAt": 1778873629986
-        }
-      ],
-      "references": [],
-      "isCollapsed": false,
-      "createdAt": 1778873588115
-    },
-    {
       "id": "task-1778873862291",
-      "title": "translatin glegal",
+      "title": "translating legal",
       "category": "other",
       "status": "todo",
       "acceptanceCriteria": [],
