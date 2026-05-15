@@ -123,7 +123,7 @@ const translations = {
         "about.thinking": "• <span style=\"color: #BADA55;\">Réfléchir</span>. Des idées qui bousculent, interrogent et élargissent notre vision des choses",
         "about.growing": "• <span style=\"color: #BADA55;\">Grandir</span>. Des outils qui accompagnent l'apprentissage tout au long de la vie, de la petite enfance à l'âge adulte",
         "about.kidscorner.desc": "La première branche, <span style=\"font-family: 'More Sugar', cursive; font-size: 1.2em; color: #E87528;\">KidsCorner</span>, se consacre aux jeunes lecteurs et ceux qui nourrissent leur imaginaire. Elle se concentre sur les livres qui nourrissent l'intelligence émotionnelle, la conscience culturelle et un véritable amour de la lecture, sans submerger de choix.",
-        "about.expand": "continuera à s'ouvrir à de nouveaux domaines, toujours guidée par le même principe :",
+        "about.expand": "continuera à élargir son univers, toujours guidée par le même principe :",
         "about.less-noise": "Moins de bruit. Plus de sens.",
         "footer.tagline": "Au fil des histoires.",
         "footer.explore": "Explorer",
