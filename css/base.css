@@ -281,6 +281,15 @@ img {
     text-decoration: underline;
 }
 
+.footer-col h4 a[data-i18n="footer.legal"] {
+    text-decoration: none;
+    color: #FDFBF7;
+}
+
+.footer-col h4 a[data-i18n="footer.legal"]:hover {
+    color: #BADA55 !important;
+}
+
 .footer-bottom {
     margin-top: var(--space-md);
     padding-top: var(--space-sm);

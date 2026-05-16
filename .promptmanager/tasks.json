@@ -2,17 +2,9 @@
   "version": 1,
   "detachedPrompts": [
     {
-      "id": "detached-prompt-1778957555590",
-      "title": "BR slogan",
-      "content": "Modify the portuguese version of this sentence \"Onde histórias ecoam.\" to \"Viajem pelas histórias.\", in the portuguese translation, while updating the main translation file, and all pages, footers, involded and when it wil be used in the future",
-      "references": [],
-      "isCollapsed": false,
-      "createdAt": 1778957555590
-    },
-    {
       "id": "detached-prompt-1778957801821",
       "title": "legal footer link",
-      "content": "modify this element <a href=\"index.html\" data-i18n=\"footer.legal\">Legal</a> in all footers in all languages in all pages, by only removing the underlining while hovering upon it.",
+      "content": "modify only this element <a href=\"index.html\" data-i18n=\"footer.legal\">Legal</a> in all footers in all languages in all pages, by removing the underlining while hovering upon it. + switching the colours used when hovered upon and when not - so modify it so that when it is not hovered upon it is the same colour as the other headers of the groups next to it and when hovered upon it is this colour #BADA55 ",
       "references": [],
       "isCollapsed": false,
       "createdAt": 1778957801821

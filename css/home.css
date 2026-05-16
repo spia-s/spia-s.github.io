@@ -332,6 +332,15 @@ body {
     text-decoration: underline;
 }
 
+.footer-col h4 a[data-i18n="footer.legal"] {
+    text-decoration: none;
+    color: #FDFBF7 !important;
+}
+
+.footer-col h4 a[data-i18n="footer.legal"]:hover {
+    color: #BADA55 !important;
+}
+
 /* ── Nav Link Styles (Home Page) ─────────────────────────── */
 
 /* Home & About links */
