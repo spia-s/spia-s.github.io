@@ -31,7 +31,7 @@
 }
 
 .spia-text {
-    font-family: 'Didot Elder', 'Didot', serif;
+    font-family: 'Didot', serif;
     font-weight: 700;
     font-size: 1.1rem;
     color: var(--color-text-muted);
@@ -44,15 +44,16 @@
 }
 
 .nav-link {
-    font-weight: 700;
+    font-family: "Didot", serif;
+    font-weight: normal;
     color: var(--color-primary);
-    transition: color 0.3s ease, font-size 0.3s ease;
+    transition: color 0.3s ease, font-family 0.3s ease;
 }
 
 .nav-link:hover {
+    font-family: "Didot", serif;
+    font-weight: bold;
     color: #D96A20;
-    font-size: 1.1em;
-    font-weight: 800;
 }
 
 .logo-kc {

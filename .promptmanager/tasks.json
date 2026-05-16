@@ -2,22 +2,6 @@
   "version": 1,
   "detachedPrompts": [
     {
-      "id": "detached-prompt-1778957801821",
-      "title": "legal footer link",
-      "content": "modify only this element <a href=\"index.html\" data-i18n=\"footer.legal\">Legal</a> in all footers in all languages in all pages, by removing the underlining while hovering upon it. + switching the colours used when hovered upon and when not - so modify it so that when it is not hovered upon it is the same colour as the other headers of the groups next to it and when hovered upon it is this colour #BADA55 ",
-      "references": [],
-      "isCollapsed": false,
-      "createdAt": 1778957801821
-    },
-    {
-      "id": "detached-prompt-1778958609931",
-      "title": "Family font modification from TNR to Didot Elder in KC Menu",
-      "content": "modify the family fonts of this/these element(s) <ul class=\"nav-links\" id=\"nav-links\">\n                    <li><a href=\"#home\" class=\"nav-link active\">Home</a></li>\n                    <li><a href=\"#age-groups\" class=\"nav-link\">Age Groups</a></li>\n                    <li><a href=\"#languages\" class=\"nav-link\">Languages</a></li>\n                    <li><a href=\"#curators-picks\" class=\"nav-link\">Curator's Picks</a></li>\n                </ul> going from family font \"Times New Roman\" to family font \"Didot Elder\" and when hovered upon \"Didot Elder Bold\"",
-      "references": [],
-      "isCollapsed": false,
-      "createdAt": 1778958609931
-    },
-    {
       "id": "detached-prompt-1778958772163",
       "title": "KC hero translation FR",
       "content": "Translate this element/paragraph <div class=\"hero-content text-center\">\n                    <h1 class=\"hero-title\"><span class=\"word-red\">Small</span> <span class=\"word-blue\">Books</span><span class=\"word-yellow\">,</span> <span class=\"word-green-bright\">Wide</span> <span class=\"word-orange\">Worlds</span><span class=\"word-pink\">.</span></h1>\n                    <p class=\"hero-subtitle-kc-lead text-green-primary\">Children's literature, chosen to inspire curiosity and wonder.</p>\n                    <p class=\"hero-subtitle-kc text-green-primary\">\n                        <span class=\"brand-kidscorner\">KidsCorner</span> <strong>is a treasure trove of children's and tween books chosen for their richness, character, and meaningful storytelling. Stories that invite thought, imagination, and discovery.</strong>\n                    </p>\n                    <p class=\"hero-subtitle-kc-tagline text-green-primary\"><strong>Here, stories create new worlds and quietly open the way ahead.</strong></p>\n                </div> from Enlgish to French, being careful to know when to translate literally and when to adapt the words and sentences to the french culture, audience, online users, and market.  Keep the style, the colours, the bolds, the regular, the italic, the overall structure and uses of design in the paragraph/hero element. Nothing else must change. Update the local js french translation and main translation file to be able to visualise, save and push modifications, and keep them for the future.",
