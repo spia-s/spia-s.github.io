@@ -1,26 +1,62 @@
 {
   "version": 1,
-  "detachedPrompts": [],
-  "tasks": [
+  "detachedPrompts": [
     {
-      "id": "task-1778882899425",
-      "title": "language consistency throughout the website",
-      "category": "other",
-      "status": "todo",
-      "acceptanceCriteria": [],
-      "prompts": [
-        {
-          "id": "prompt-1778892451875",
-          "title": "language consistency",
-          "content": "when in one page you selected a language, the footer must also be in that selected language, and the following page you click on, for example \"legal\" @contextScopeItemMention or KidsCorner @contextScopeItemMention also must be in that selected language. So if you select italian in Spia root page, the header, the body, the footer must be in italian, and then if you  click to go to \"legal\" that page must automatically load in itlian, and if you click to go to KidsCorner it should also load in italian, unless you've selected another language by then, for example portuguese, then that page, the header, the body, the footer load in portuguese and when you've clicked on kidscorner that page will load in portuguese.",
-          "references": [],
-          "isCollapsed": false,
-          "createdAt": 1778892451875
-        }
-      ],
+      "id": "detached-prompt-1778957555590",
+      "title": "BR slogan",
+      "content": "Modify the portuguese version of this sentence \"Onde histórias ecoam.\" to \"Viajem pelas histórias.\", in the portuguese translation, while updating the main translation file, and all pages, footers, involded and when it wil be used in the future",
       "references": [],
       "isCollapsed": false,
-      "createdAt": 1778882899425
+      "createdAt": 1778957555590
+    },
+    {
+      "id": "detached-prompt-1778957801821",
+      "title": "legal footer link",
+      "content": "modify this element <a href=\"index.html\" data-i18n=\"footer.legal\">Legal</a> in all footers in all languages in all pages, by only removing the underlining while hovering upon it.",
+      "references": [],
+      "isCollapsed": false,
+      "createdAt": 1778957801821
+    },
+    {
+      "id": "detached-prompt-1778958609931",
+      "title": "Family font modification from TNR to Didot Elder in KC Menu",
+      "content": "modify the family fonts of this/these element(s) <ul class=\"nav-links\" id=\"nav-links\">\n                    <li><a href=\"#home\" class=\"nav-link active\">Home</a></li>\n                    <li><a href=\"#age-groups\" class=\"nav-link\">Age Groups</a></li>\n                    <li><a href=\"#languages\" class=\"nav-link\">Languages</a></li>\n                    <li><a href=\"#curators-picks\" class=\"nav-link\">Curator's Picks</a></li>\n                </ul> going from family font \"Times New Roman\" to family font \"Didot Elder\" and when hovered upon \"Didot Elder Bold\"",
+      "references": [],
+      "isCollapsed": false,
+      "createdAt": 1778958609931
+    },
+    {
+      "id": "detached-prompt-1778958772163",
+      "title": "KC hero translation FR",
+      "content": "Translate this element/paragraph <div class=\"hero-content text-center\">\n                    <h1 class=\"hero-title\"><span class=\"word-red\">Small</span> <span class=\"word-blue\">Books</span><span class=\"word-yellow\">,</span> <span class=\"word-green-bright\">Wide</span> <span class=\"word-orange\">Worlds</span><span class=\"word-pink\">.</span></h1>\n                    <p class=\"hero-subtitle-kc-lead text-green-primary\">Children's literature, chosen to inspire curiosity and wonder.</p>\n                    <p class=\"hero-subtitle-kc text-green-primary\">\n                        <span class=\"brand-kidscorner\">KidsCorner</span> <strong>is a treasure trove of children's and tween books chosen for their richness, character, and meaningful storytelling. Stories that invite thought, imagination, and discovery.</strong>\n                    </p>\n                    <p class=\"hero-subtitle-kc-tagline text-green-primary\"><strong>Here, stories create new worlds and quietly open the way ahead.</strong></p>\n                </div> from Enlgish to French, being careful to know when to translate literally and when to adapt the words and sentences to the french culture, audience, online users, and market.  Keep the style, the colours, the bolds, the regular, the italic, the overall structure and uses of design in the paragraph/hero element. Nothing else must change. Update the local js french translation and main translation file to be able to visualise, save and push modifications, and keep them for the future.",
+      "references": [],
+      "isCollapsed": false,
+      "createdAt": 1778958772163
+    },
+    {
+      "id": "detached-prompt-1778959180046",
+      "title": "KC hero translation ITA",
+      "content": "Translate this element/paragraph <div class=\"hero-content text-center\">\n                    <h1 class=\"hero-title\"><span class=\"word-red\">Small</span> <span class=\"word-blue\">Books</span><span class=\"word-yellow\">,</span> <span class=\"word-green-bright\">Wide</span> <span class=\"word-orange\">Worlds</span><span class=\"word-pink\">.</span></h1>\n                    <p class=\"hero-subtitle-kc-lead text-green-primary\">Children's literature, chosen to inspire curiosity and wonder.</p>\n                    <p class=\"hero-subtitle-kc text-green-primary\">\n                        <span class=\"brand-kidscorner\">KidsCorner</span> <strong>is a treasure trove of children's and tween books chosen for their richness, character, and meaningful storytelling. Stories that invite thought, imagination, and discovery.</strong>\n                    </p>\n                    <p class=\"hero-subtitle-kc-tagline text-green-primary\"><strong>Here, stories create new worlds and quietly open the way ahead.</strong></p>\n                </div> from Enlgish to Italian, being careful to know when to translate literally and when to adapt the words and sentences to the italian culture, audience, online users, and market, while comparing to the French translation as well and seing how the translation was adapted and done there.  Keep the style, the colours, the bolds, the regular, the italic, the overall structure and uses of design in the paragraph/hero element. Nothing else must change. Update the local js italian translation and main translation file to be able to visualise, save and push modifications, and keep them for the future.",
+      "references": [],
+      "isCollapsed": false,
+      "createdAt": 1778959180046
+    },
+    {
+      "id": "detached-prompt-1778959523503",
+      "title": "KC hero translation ES",
+      "content": "Translate this element/paragraph <div class=\"hero-content text-center\">\n                    <h1 class=\"hero-title\"><span class=\"word-red\">Small</span> <span class=\"word-blue\">Books</span><span class=\"word-yellow\">,</span> <span class=\"word-green-bright\">Wide</span> <span class=\"word-orange\">Worlds</span><span class=\"word-pink\">.</span></h1>\n                    <p class=\"hero-subtitle-kc-lead text-green-primary\">Children's literature, chosen to inspire curiosity and wonder.</p>\n                    <p class=\"hero-subtitle-kc text-green-primary\">\n                        <span class=\"brand-kidscorner\">KidsCorner</span> <strong>is a treasure trove of children's and tween books chosen for their richness, character, and meaningful storytelling. Stories that invite thought, imagination, and discovery.</strong>\n                    </p>\n                    <p class=\"hero-subtitle-kc-tagline text-green-primary\"><strong>Here, stories create new worlds and quietly open the way ahead.</strong></p>\n                </div> from Enlgish to Spanish (ES), being careful to know when to translate literally and when to adapt the words and sentences to the spanish culture, audience, online users, and market, while comparing to the French and italian translations as well and seing how the translation were adapted and done there.  Keep the style, the colours, the bolds, the regular, the italic, the overall structure and uses of design in the paragraph/hero element. Nothing else must change. Update the local js spanish translation and main translation file to be able to visualise, save and push modifications, and keep them for the future.",
+      "references": [],
+      "isCollapsed": false,
+      "createdAt": 1778959523503
+    },
+    {
+      "id": "detached-prompt-1778959628258",
+      "title": "KC hero translation BR",
+      "content": "Translate this element/paragraph <div class=\"hero-content text-center\">\n                    <h1 class=\"hero-title\"><span class=\"word-red\">Small</span> <span class=\"word-blue\">Books</span><span class=\"word-yellow\">,</span> <span class=\"word-green-bright\">Wide</span> <span class=\"word-orange\">Worlds</span><span class=\"word-pink\">.</span></h1>\n                    <p class=\"hero-subtitle-kc-lead text-green-primary\">Children's literature, chosen to inspire curiosity and wonder.</p>\n                    <p class=\"hero-subtitle-kc text-green-primary\">\n                        <span class=\"brand-kidscorner\">KidsCorner</span> <strong>is a treasure trove of children's and tween books chosen for their richness, character, and meaningful storytelling. Stories that invite thought, imagination, and discovery.</strong>\n                    </p>\n                    <p class=\"hero-subtitle-kc-tagline text-green-primary\"><strong>Here, stories create new worlds and quietly open the way ahead.</strong></p>\n                </div> from Enlgish to Portuguese (BR), being careful to know when to translate literally and when to adapt the words and sentences to the portuguese, brazilian culture, audience, online users, and market, while comparing to the French, Italian and Spanish translations as well and seing how the translation were adapted and done there.  Keep the style, the colours, the bolds, the regular, the italic, the overall structure and uses of design in the paragraph/hero element. Nothing else must change. Update the local js portuguese translation and main translation file to be able to visualise, save and push modifications, and keep them for the future.",
+      "references": [],
+      "isCollapsed": false,
+      "createdAt": 1778959628258
     }
-  ]
+  ],
+  "tasks": []
 }
