@@ -4,11 +4,20 @@
   "tasks": [
     {
       "id": "task-1778882899425",
-      "title": "New Task",
+      "title": "language consistency throughout the website",
       "category": "other",
       "status": "todo",
       "acceptanceCriteria": [],
-      "prompts": [],
+      "prompts": [
+        {
+          "id": "prompt-1778892451875",
+          "title": "language consistency",
+          "content": "when in one page you selected a language, the footer must also be in that selected language, and the following page you click on, for example \"legal\" @contextScopeItemMention or KidsCorner @contextScopeItemMention also must be in that selected language. So if you select italian in Spia root page, the header, the body, the footer must be in italian, and then if you  click to go to \"legal\" that page must automatically load in itlian, and if you click to go to KidsCorner it should also load in italian, unless you've selected another language by then, for example portuguese, then that page, the header, the body, the footer load in portuguese and when you've clicked on kidscorner that page will load in portuguese.",
+          "references": [],
+          "isCollapsed": false,
+          "createdAt": 1778892451875
+        }
+      ],
       "references": [],
       "isCollapsed": false,
       "createdAt": 1778882899425
