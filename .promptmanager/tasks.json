@@ -32,6 +32,14 @@
       "references": [],
       "isCollapsed": false,
       "createdAt": 1778959628258
+    },
+    {
+      "id": "detached-prompt-1778976113453",
+      "title": "Viajem pelas histórias. mod",
+      "content": "Replace \"Viajem pelas histórias.\" with \"Viagem pelas histórias.\"",
+      "references": [],
+      "isCollapsed": false,
+      "createdAt": 1778976113453
     }
   ],
   "tasks": []

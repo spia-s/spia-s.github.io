@@ -45,7 +45,7 @@
 
 .nav-link {
     font-family: "Didot", serif;
-    font-weight: normal;
+    font-weight: bold;
     color: var(--color-primary);
     transition: color 0.3s ease, font-family 0.3s ease;
 }
