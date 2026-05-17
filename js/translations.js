@@ -403,7 +403,7 @@ it: {
         "about.kidscorner.desc": "O primeiro ramo, <span style=\"font-family: 'More Sugar', cursive; font-size: 1.2em; color: #E87528;\">KidsCorner</span>, é dedicado a jovens leitores e a quem cultiva sua imaginação. Foca em livros que nutrem inteligência emocional, consciência cultural e um genuíno amor pela leitura, sem sobrecarregar com escolhas.",
         "about.expand": "seguirá se desdobrando em novos caminhos, sempre guiada pelo mesmo princípio:",
         "about.less-noise": "Menos barulho. Mais significado.",
-        "footer.tagline": "Viajem pelas histórias.",
+        "footer.tagline": "Viagem pelas histórias.",
         "footer.explore": "Explorar",
         "footer.kidscorner": "KidsCorner",
         "footer.platforms": "Plataformas",
