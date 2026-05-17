@@ -105,7 +105,7 @@
 .footer-links-three-cols {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: calc(1.5rem + 1cm);
+    gap: 1.5rem;
     text-align: center;
     width: max-content;
     margin: 0 auto;
