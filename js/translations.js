@@ -14,6 +14,7 @@ let currentLanguage = 'en';
 
 const translations = {
     en: {
+        "page.title": "Spia | Where Stories Lead.",
         "nav.home": "Home",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "About",
@@ -116,6 +117,7 @@ const translations = {
         "legal.terms.content": "<p class=\"last-updated\">Last updated: 11/05/2026</p><p>Welcome to <strong>Spia</strong> and its content sections, including <strong>KidsCorner</strong>. This website is independently operated under the brand name \"Spia.\" By accessing or using this website, you agree to be bound by these Terms & Conditions. If you do not agree with these terms, please do not use the website.</p><h3>Website Purpose</h3><p><strong>Spia</strong> publishes informational content, recommendations, curated collections, reviews, and creative editorial material across its platform sections, including <strong>KidsCorner</strong>. <strong>KidsCorner</strong> focuses on children’s literature, reading discovery, and related products intended for parents, guardians, educators, and adult readers. All content is provided for general informational and educational purposes only.</p><h3>No Professional Advice</h3><p>Content published through <strong>Spia</strong> does not constitute educational, medical, psychological, legal, financial, or professional advice.</p><h3>Intellectual Property</h3><p>All editorial content, curated selections, and original creative materials are the property of <strong>Spia</strong> unless otherwise stated.</p><h3>External Links & Third Parties</h3><p><strong>Spia</strong> provides links to external websites, including affiliate partners and retail platforms. We do not control or endorse the content, policies, or practices of these third-party websites.</p><h3>Limitation of Liability</h3><p><strong>Spia</strong> is not liable for any damages arising from the use of the website or reliance on its content.</p><h3>Governing Law</h3><p>These terms are governed by the laws of Canada.</p>"
     },
     fr: {
+        "page.title": "Spia | Au fil des histoires.",
         "nav.home": "Accueil",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "À propos",
@@ -218,6 +220,7 @@ const translations = {
         "legal.terms.content": "<p class=\"last-updated\">Dernière mise à jour : 11/05/2026</p><p>Bienvenue sur <strong>Spia</strong> et ses sections de contenu, y compris <strong>KidsCorner</strong>. Ce site web est exploité de manière indépendante sous la marque \"Spia\". En accédant à ce site web ou en l'utilisant, vous acceptez d'être lié par ces conditions générales. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser le site web.</p><h3>Objectif du site web</h3><p><strong>Spia</strong> publie du contenu informatif, des recommandations, des collections curatées, des critiques et du matériel éditorial créatif dans toutes les sections de sa plateforme, y compris <strong>KidsCorner</strong>. <strong>KidsCorner</strong> se concentre sur la littérature de jeunesse, la découverte de la lecture et les produits connexes destinés aux parents, aux tuteurs, aux éducateurs et aux lecteurs adultes. Tout le contenu est fourni uniquement à des fins d'information générale et d'éducation.</p><h3>Aucun conseil professionnel</h3><p>Le contenu publié sur <strong>Spia</strong> ne constitue pas un conseil pédagogique, médical, psychologique, juridique, financier ou professionnel.</p><h3>Propriété intellectuelle</h3><p>Tout le contenu éditorial, les sélections curatées et les supports créatifs originaux sont la propriété de <strong>Spia</strong>, sauf indication contraire.</p><h3>Liens externes et tiers</h3><p><strong>Spia</strong> fournit des liens vers des sites web externes, y compris des partenaires affiliés et des plateformes de vente au détail. Nous ne contrôlons ni n'approuvons le contenu, les politiques ou les pratiques de ces sites web tiers.</p><h3>Limitation de responsabilité</h3><p><strong>Spia</strong> n'est pas responsable des dommages résultant de l'utilisation du site web ou de la confiance accordée à son contenu.</p><h3>Droit applicable</h3><p>Ces conditions sont régies par les lois du Canada.</p>"
     },
     es: {
+        "page.title": "Spia | Ecos de historias.",
         "nav.home": "Inicio",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "Sobre",
@@ -320,6 +323,7 @@ const translations = {
         "legal.terms.content": "<p class=\"last-updated\">Última actualización: 11/05/2026</p><p>Bienvenido a <strong>Spia</strong> y sus secciones de contenido, incluyendo <strong>KidsCorner</strong>. Este sitio web es operado de forma independiente bajo la marca \"Spia\". Al acceder o utilizar este sitio web, usted acepta estar sujeto a estos Términos y Condiciones. Si no está de acuerdo con estos términos, no utilice el sitio web.</p><h3>Propósito del sitio web</h3><p><strong>Spia</strong> publica contenido informativo, recomendaciones, colecciones seleccionadas, reseñas y material editorial creativo en todas las secciones de su plataforma, incluyendo <strong>KidsCorner</strong>. <strong>KidsCorner</strong> se centra en la literatura infantil, el descubrimiento de la lectura y productos relacionados destinados a padres, tutores, educadores y lectores adultos. Todo el contenido se proporciona únicamente con fines informativos y educativos generales.</p><h3>Sin asesoramiento profesional</h3><p>El contenido publicado a través de <strong>Spia</strong> no constituye asesoramiento educativo, médico, psicológico, legal, financiero o profesional.</p><h3>Propiedad intelectual</h3><p>Todo el contenido editorial, las selecciones curadas y los materiales creativos originales son propiedad de <strong>Spia</strong> a menos que se indique lo contrario.</p><h3>Enlaces externos y terceros</h3><p><strong>Spia</strong> proporciona enlaces a sitios web externos, incluidos socios afiliados y plataformas minoristas. No controlamos ni respaldamos el contenido, las políticas o las prácticas de estos sitios web de terceros.</p><h3>Limitación de responsabilidad</h3><p><strong>Spia</strong> no es responsable de ningún daño que surja del uso del sitio web o de la confianza en su contenido.</p><h3>Ley aplicable</h3><p>Estos términos se rigen por las leyes de Canadá.</p>"
     },
 it: {
+        "page.title": "Spias | Tra le storie.",
         "nav.home": "Home",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "A proposito",
@@ -422,6 +426,7 @@ it: {
         "legal.terms.content": "<p class=\"last-updated\">Ultimo aggiornamento: 11/05/2026</p><p>Benvenuti su <strong>Spia</strong> e sulle sue sezioni di contenuto, tra cui <strong>KidsCorner</strong>. Questo sito web è gestito indipendentemente con il marchio \"Spia\". Accedendo o utilizzando questo sito web, l'utente accetta di essere vincolato dai presenti Termini e Condizioni. Se non accettate questi termini, vi preghiamo di non utilizzare il sito web.</p><h3>Scopo del sito web</h3><p><strong>Spia</strong> pubblica contenuti informativi, raccomandazioni, collezioni curate, recensioni e materiale editoriale creativo in tutte le sezioni della sua piattaforma, incluso <strong>KidsCorner</strong>. <strong>KidsCorner</strong> si concentra sulla letteratura per l'infanzia, sulla scoperta della lettura e sui prodotti correlati destinati a genitori, tutori, educatori e lettori adulti. Tutti i contenuti sono forniti solo a scopo informativo ed educativo generale.</p><h3>Nessuna consulenza professionale</h3><p>I contenuti pubblicati tramite <strong>Spia</strong> non costituiscono consulenza educativa, medica, psicologica, legale, finanziaria o professionale.</p><h3>Proprietà intellettuale</h3><p>Tutti i contenuti editoriali, le selezioni curate e i materiali creativi originali sono di proprietà di <strong>Spia</strong>, se non diversamente specificato.</p><h3>Link esterni e terze parti</h3><p><strong>Spia</strong> fornisce link a siti web esterni, inclusi partner affiliati e piattaforme di vendita al dettaglio. Non controlliamo né approviamo il contenuto, le politiche o le pratiche di questi siti web di terze parti.</p><h3>Limitazione di responsabilità</h3><p><strong>Spia</strong> non è responsabile per eventuali danni derivanti dall'uso del sito web o dall'affidamento ai suoi contenuti.</p><h3>Legge applicabile</h3><p>Questi termini sono regolati dalle leggi del Canada.</p>"
     },
     pt: {
+        "page.title": "Spia | Viagem pelas histórias.",
         "nav.home": "Início",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "Sobre",
@@ -541,6 +546,10 @@ function getTranslation(key) {
 }
 
 function applyTranslations() {
+    const pageTitle = getTranslation('page.title');
+    if (pageTitle) {
+        document.title = pageTitle;
+    }
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
         let text = getTranslation(key);
