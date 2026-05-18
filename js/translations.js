@@ -15,6 +15,7 @@ let currentLanguage = 'en';
 const translations = {
     en: {
         "page.title": "Spia | Where Stories Lead.",
+        "page.title.legal": "Spia | Legal",
         "nav.home": "Home",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "About",
@@ -118,6 +119,7 @@ const translations = {
     },
     fr: {
         "page.title": "Spia | Au fil des histoires.",
+        "page.title.legal": "Spia | Mentions légales",
         "nav.home": "Accueil",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "À propos",
@@ -221,6 +223,7 @@ const translations = {
     },
     es: {
         "page.title": "Spia | Ecos de historias.",
+        "page.title.legal": "Spia | Aviso legal",
         "nav.home": "Inicio",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "Sobre",
@@ -324,6 +327,7 @@ const translations = {
     },
 it: {
         "page.title": "Spias | Tra le storie.",
+        "page.title.legal": "Spia | Note legali",
         "nav.home": "Home",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "A proposito",
@@ -427,6 +431,7 @@ it: {
     },
     pt: {
         "page.title": "Spia | Viagem pelas histórias.",
+        "page.title.legal": "Spia | Aviso legal",
         "nav.home": "Início",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "Sobre",
@@ -546,7 +551,9 @@ function getTranslation(key) {
 }
 
 function applyTranslations() {
-    const pageTitle = getTranslation('page.title');
+    const isLegalPage = window.location.pathname.includes('legal');
+    const titleKey = isLegalPage ? 'page.title.legal' : 'page.title';
+    const pageTitle = getTranslation(titleKey);
     if (pageTitle) {
         document.title = pageTitle;
     }
