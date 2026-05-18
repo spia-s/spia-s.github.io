@@ -16,6 +16,7 @@ const translations = {
     en: {
         "page.title": "Spia | Where Stories Lead.",
         "page.title.legal": "Spia | Legal",
+        "page.title.kc": "KC | Growing Curious Minds.",
         "nav.home": "Home",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "About",
@@ -120,6 +121,7 @@ const translations = {
     fr: {
         "page.title": "Spia | Au fil des histoires.",
         "page.title.legal": "Spia | Mentions légales",
+        "page.title.kc": "KC | Pour les curieux.",
         "nav.home": "Accueil",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "À propos",
@@ -224,6 +226,7 @@ const translations = {
     es: {
         "page.title": "Spia | Ecos de historias.",
         "page.title.legal": "Spia | Aviso legal",
+        "page.title.kc": "KC | Crecen mentes curiosas.",
         "nav.home": "Inicio",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "Sobre",
@@ -328,6 +331,7 @@ const translations = {
 it: {
         "page.title": "Spias | Tra le storie.",
         "page.title.legal": "Spia | Note legali",
+        "page.title.kc": "KC | Alla scoperta del mondo.",
         "nav.home": "Home",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "A proposito",
@@ -432,6 +436,7 @@ it: {
     pt: {
         "page.title": "Spia | Viagem pelas histórias.",
         "page.title.legal": "Spia | Aviso legal",
+        "page.title.kc": "KC | Exploradores por natureza.",
         "nav.home": "Início",
         "nav.kidscorner": "KidsCorner",
         "nav.about": "Sobre",
@@ -551,8 +556,12 @@ function getTranslation(key) {
 }
 
 function applyTranslations() {
-    const isLegalPage = window.location.pathname.includes('legal');
-    const titleKey = isLegalPage ? 'page.title.legal' : 'page.title';
+    const path = window.location.pathname;
+    const isLegalPage = path.includes('legal');
+    const isKcPage = path.includes('kidscorner');
+    let titleKey = 'page.title';
+    if (isLegalPage) titleKey = 'page.title.legal';
+    else if (isKcPage) titleKey = 'page.title.kc';
     const pageTitle = getTranslation(titleKey);
     if (pageTitle) {
         document.title = pageTitle;
