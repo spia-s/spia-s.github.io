@@ -464,7 +464,7 @@ it: {
         "about.thinking": "• <span style=\"color: #BADA55;\">Refletir</span>. Ideias que desafiam, questionam e ampliam nossa perspectiva",
         "about.growing": "• <span style=\"color: #BADA55;\">Crescer</span>. Ferramentas que apoiam a aprendizagem ao longo da vida, desde a primeira infância até a idade adulta",
         "about.kidscorner.desc": "O primeiro ramo, <span style=\"font-family: 'More Sugar', cursive; font-size: 1.2em; color: #E87528;\">KidsCorner</span>, é dedicado a jovens leitores e a quem cultiva sua imaginação. Foca em livros que nutrem inteligência emocional, consciência cultural e um genuíno amor pela leitura, sem sobrecarregar com escolhas.",
-        "about.expand": "seguirá se desdobrando em novos caminhos, sempre guiada pelo mesmo princípio:",
+        "about.expand": "seguirá desbravando novos caminhos, sempre guiada pelo mesmo princípio:",
         "about.less-noise": "Menos barulho. Mais significado.",
         "footer.tagline": "Viagem pelas histórias.",
         "footer.explore": "Explorar",
