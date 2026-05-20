@@ -22,7 +22,7 @@ const translations = {
         "nav.about": "About",
         "hero.title": "Beneath the noise,",
         "hero.subtitle": "follow the whisper.",
-        "hero.description": "In a world of infinite noise, Spia focuses on the signals that matter, the stories that make us feel, think, and grow. Discover carefully curated books, ideas, and perspectives designed to spark wonder across every stage of life.",
+        "hero.description": "In a world of infinite noise, <span style=\"font-family: 'Didot Elder Bold', serif; font-weight: bold;\">Spia</span> focuses on the signals that matter, the stories that make us feel, think, and grow. Discover carefully curated books, ideas, and perspectives designed to spark wonder across every stage of life.",
         "hero.explore": "Explore",
         "hero.explore-kids": "KidsCorner",
         "hero.refine": "Search",
