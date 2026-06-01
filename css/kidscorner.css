@@ -306,8 +306,7 @@
     justify-content: center;
     overflow: hidden;
     position: relative;
-    border: 4px solid transparent;
-    box-shadow: var(--shadow-sm);
+    box-shadow: var(--shadow-sm), 0 0 0 4px transparent;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -318,7 +317,7 @@
     height: 100%;
     object-fit: cover;
     opacity: 0.35;
-    transform: scale(1.15);
+    transform: scale(1.35);
     transition: all 0.4s ease;
 }
 
@@ -361,14 +360,13 @@
 
 .category-card-circular:hover .category-circle {
     transform: translateY(-10px);
-    box-shadow: var(--shadow-md);
-    border-color: var(--color-secondary);
+    box-shadow: var(--shadow-md), 0 0 0 4px var(--color-secondary);
 }
 
 .category-card-circular:hover .category-circle img,
 .category-card-circular:hover .category-circle .flag-svg {
     opacity: 1;
-    transform: scale(1.15);
+    transform: scale(1.35);
 }
 
 /* Hover: swap flag and category images */
@@ -395,13 +393,13 @@
 a[href="#age-groups"] .category-circle img,
 a[href="#values"] .category-circle img,
 a[href="#experience"] .category-circle img {
-    transform: scale(1.3);
+    transform: scale(1.5);
 }
 
 a[href="#age-groups"]:hover .category-circle img,
 a[href="#values"]:hover .category-circle img,
 a[href="#experience"]:hover .category-circle img {
-    transform: scale(1.3);
+    transform: scale(1.5);
 }
 
 /* KidsCorner Hero */
