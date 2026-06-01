@@ -2,7 +2,7 @@
 
 .kidscorner-theme {
     /* Dim/Evening Palette */
-    --color-primary: #1b3b2b; /* Desaturated forest green */
+    --color-primary: #073015; /* Dark Green */
     --color-secondary: #C15828;
     --color-bg: #d0ceba; /* Darker cream to bridge Spia's dark theme */
     --color-bg-alt: #d0ceba;
@@ -75,6 +75,7 @@
 .footer {
     padding-top: 1.25rem !important;
     padding-bottom: 0.75rem !important;
+    background-color: #1E3D2D;
 }
 
 /* Footer main row: logo anchored left, columns truly centered */
@@ -230,7 +231,7 @@
 .kidscorner-theme .experience,
 .kidscorner-theme .languages,
 .kidscorner-theme .curators-picks {
-    border-top: 1px solid rgba(27, 59, 43, 0.15);
+    border-top: 1px solid rgba(7, 48, 21, 0.15);
 }
 
 /* Spia Spotlight - no layout changes, keeps original styling */
