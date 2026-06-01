@@ -218,47 +218,61 @@ img {
     font-size: 1.5rem;
 }
 
-/* Mobile Nav */
-@media (max-width: 768px) {
-    #nav-links {
+.nav-menu {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* Mobile & Tablet Nav */
+@media (max-width: 1024px) {
+    .nav-menu {
         display: none;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
         position: absolute;
         top: 80px;
         left: 0 !important;
         width: 100%;
-        background-color: var(--color-white);
-        padding: var(--space-sm);
+        background-color: #1A221C;
+        padding: 1.5rem;
         box-shadow: var(--shadow-md);
-        gap: var(--space-sm);
+        gap: 1.5rem;
         transform: none !important;
         z-index: 1000;
+        align-items: flex-start;
     }
 
-    #nav-links.show {
+    .nav-menu .nav-link {
+        color: var(--color-white);
+    }
+    .nav-menu .nav-link:hover, .nav-menu .nav-link.active {
+        color: var(--color-secondary);
+    }
+    .nav-menu .lang-current {
+        color: var(--color-white);
+        border-color: var(--color-white);
+    }
+
+    .nav-menu.show {
         display: flex !important;
+    }
+    
+    .nav-links {
+        position: static;
+        transform: none;
+        flex-direction: column;
+        width: auto;
+        gap: var(--space-sm);
     }
 
     .nav-toggle {
         display: block;
-    }
-}
-
-/* Tablet & Small Desktop */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .nav {
-        position: relative;
-    }
-
-    .nav-links {
         position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        transform: none;
-        background-color: var(--color-white);
-        z-index: 1000;
-        padding: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        color: var(--color-primary);
     }
 }
 
@@ -496,16 +510,22 @@ a, button, .circular-platform {
 .nav-right {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .language-switcher {
         margin-left: 0;
-        margin-bottom: var(--space-sm);
+        margin-bottom: 0;
+        width: auto;
     }
     
     .nav-right {
+        margin-left: auto;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-end;
+        width: auto;
+        padding-top: 0;
+        border-top: none;
     }
 }

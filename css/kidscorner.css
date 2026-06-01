@@ -217,6 +217,27 @@
     border-color: #073015;
 }
 
+@media (max-width: 1024px) {
+    .kidscorner-theme .nav-toggle {
+        position: static;
+        transform: none;
+    }
+    .kidscorner-theme .nav-menu {
+        background-color: #DFDCC6 !important;
+    }
+    .kidscorner-theme .nav-menu .nav-link {
+        color: #073015 !important;
+    }
+    .kidscorner-theme .nav-menu .nav-link:hover, 
+    .kidscorner-theme .nav-menu .nav-link.active {
+        color: #C15828 !important;
+    }
+    .kidscorner-theme .nav-menu .lang-current {
+        color: #073015 !important;
+        border-color: #073015 !important;
+    }
+}
+
 /* Singular Background override for all sections */
 .kidscorner-theme .bg-alt {
     background-color: var(--color-bg) !important;

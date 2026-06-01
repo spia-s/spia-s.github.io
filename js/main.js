@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     const navToggle = document.getElementById('nav-toggle');
-    const navLinks = document.getElementById('nav-links');
+    const navMenu = document.getElementById('nav-menu') || document.getElementById('nav-links');
     const navLinksList = document.querySelectorAll('.nav-link');
 
     // Toggle Mobile Nav
-    if (navToggle && navLinks) {
+    if (navToggle && navMenu) {
         navToggle.addEventListener('click', () => {
-            navLinks.classList.toggle('show');
+            navMenu.classList.toggle('show');
             const icon = navToggle.querySelector('.icon-menu');
             if (icon) {
-                icon.textContent = navLinks.classList.contains('show') ? '✕' : '☰';
+                icon.textContent = navMenu.classList.contains('show') ? '✕' : '☰';
             }
         });
     }
@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Close Mobile Nav on link click
     navLinksList.forEach(link => {
         link.addEventListener('click', () => {
-            if (navLinks.classList.contains('show')) {
-                navLinks.classList.remove('show');
+            if (navMenu.classList.contains('show')) {
+                navMenu.classList.remove('show');
                 const icon = navToggle.querySelector('.icon-menu');
                 if (icon) icon.textContent = '☰';
             }
