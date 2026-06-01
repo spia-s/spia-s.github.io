@@ -27,14 +27,14 @@
 }
 
 .back-arrow {
-    color: var(--color-text-muted);
+    color: #073015;
 }
 
 .spia-text {
     font-family: 'Didot', serif;
     font-weight: 700;
     font-size: 1.1rem;
-    color: var(--color-text-muted);
+    color: #073015;
     letter-spacing: 0.02em;
 }
 
@@ -46,7 +46,7 @@
 .nav-link {
     font-family: "Didot", serif;
     font-weight: bold;
-    color: var(--color-primary);
+    color: #073015;
     transition: color 0.3s ease, font-family 0.3s ease;
 }
 
@@ -61,7 +61,7 @@
     font-family: 'More Sugar', cursive;
     font-size: 1.8rem;
     font-weight: 700; /* Bold */
-    color: var(--color-primary);
+    color: #073015;
     text-decoration: none;
     line-height: 1;
     transition: color 0.3s ease;
@@ -205,6 +205,15 @@
 /* Header Overrides */
 .kidscorner-theme .header {
     background-color: #e0ddc6; /* New soft earthy cream for header to complement background and green text */
+}
+
+.kidscorner-theme .nav-toggle {
+    color: #073015;
+}
+
+.kidscorner-theme .lang-current {
+    color: #073015;
+    border-color: #073015;
 }
 
 /* Singular Background override for all sections */
