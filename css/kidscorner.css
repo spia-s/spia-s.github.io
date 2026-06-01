@@ -50,10 +50,11 @@
     transition: color 0.3s ease, font-family 0.3s ease;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link.active {
     font-family: "Didot", serif;
     font-weight: bold;
-    color: #D96A20;
+    color: #C15828;
 }
 
 .logo-kc {
