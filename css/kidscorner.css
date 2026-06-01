@@ -3,7 +3,7 @@
 .kidscorner-theme {
     /* Dim/Evening Palette */
     --color-primary: #1b3b2b; /* Desaturated forest green */
-    --color-secondary: #E87528;
+    --color-secondary: #C15828;
     --color-bg: #d0ceba; /* Darker cream to bridge Spia's dark theme */
     --color-bg-alt: #d0ceba;
     --color-text: #2a2a2a;
@@ -67,7 +67,7 @@
 }
 
 .logo-kc:hover {
-    color: #E87528;
+    color: #C15828;
 }
 
 /* Footer Layout — mirrors home.css */

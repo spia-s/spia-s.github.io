@@ -314,7 +314,7 @@ body {
 .word-yellow { color: #E2E246; }
 .word-lime { color: #BADA55; }
 .word-green-bright { color: #52CC27; }
-.word-orange { color: #E87528; }
+.word-orange { color: #C15828; }
 .word-pink { color: #E547CF; }
 
 /* Footer Overrides for Home Page Dark Mode */
@@ -364,7 +364,7 @@ body {
 }
 
 .nav-link-kidscorner:hover {
-    color: #E87528 !important;   /* KidsCorner orange */
+    color: #C15828 !important;   /* KidsCorner orange */
     transform: scale(1.15);
 }
 
