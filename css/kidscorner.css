@@ -224,7 +224,7 @@
     border-top: 1px solid rgba(27, 59, 43, 0.15);
 }
 
-/* Curator's Picks - no layout changes, keeps original styling */
+/* Spia Spotlight - no layout changes, keeps original styling */
 
 /* Grain Overlay */
 .kidscorner-theme::before {
@@ -433,13 +433,13 @@ a[href="#experience"]:hover .category-circle img {
     font-style: italic;
 }
 
-/* Curator's Picks / General Category Grid override */
+/* Spia Spotlight / General Category Grid override */
 .kidscorner-theme .category-grid {
     gap: 1.25rem;
     margin-top: 1.5rem;
 }
 
-/* Book Cards (Specific to KidsCorner Curator's Picks) */
+/* Book Cards (Specific to KidsCorner Spia Spotlight) */
 .book-card {
     display: flex;
     flex-direction: column;
