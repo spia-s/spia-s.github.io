@@ -242,6 +242,7 @@ img {
         transform: none !important;
         z-index: 1000;
         align-items: flex-start;
+        border-radius: var(--radius-sm);
     }
 
     .nav-menu .nav-link {
