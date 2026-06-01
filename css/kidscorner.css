@@ -376,7 +376,9 @@
 
 .languages .category-card-circular:hover .category-circle .category-img {
     opacity: 1;
+    transform: scale(1.22) translateY(5%);
 }
+
 
 .category-card-circular:hover .category-circle .category-icon {
     opacity: 0;
