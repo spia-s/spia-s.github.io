@@ -148,7 +148,7 @@ const translations = {
         "about.feeling": "• <span style=\"color: #BADA55;\">Ressentir</span>. Des histoires qui nous aident à nous comprendre et à comprendre les autres",
         "about.thinking": "• <span style=\"color: #BADA55;\">Réfléchir</span>. Des idées qui bousculent, interrogent et élargissent notre vision des choses",
         "about.growing": "• <span style=\"color: #BADA55;\">Grandir</span>. Des outils qui accompagnent l'apprentissage tout au long de la vie, de la petite enfance à l'âge adulte",
-        "about.kidscorner.desc": "La première branche, <span style=\"font-family: 'More Sugar', cursive; font-size: 1.2em; color: #C15828;\">KidsCorner</span>, se consacre aux jeunes lecteurs et ceux qui nourrissent leur imaginaire. Elle se concentre sur les livres qui nourrissent l'intelligence émotionnelle, la conscience culturelle et un véritable amour de la lecture, sans submerger de choix.",
+        "about.kidscorner.desc": "La première branche, <kc>KidsCorner</kc>, se consacre aux jeunes lecteurs et ceux qui nourrissent leur imaginaire. Elle se concentre sur les livres qui nourrissent l'intelligence émotionnelle, la conscience culturelle et un véritable amour de la lecture, sans submerger de choix.",
         "about.expand": "continuera à élargir son univers, toujours guidée par le même principe :",
         "about.less-noise": "Moins de bruit. Plus de sens.",
         "footer.tagline": "Au fil des histoires.",
@@ -253,7 +253,7 @@ const translations = {
         "about.feeling": "• <span style=\"color: #BADA55;\">Sentir</span>. Historias que nos ayudan a entendernos a nosotros mismos y a los demás",
         "about.thinking": "• <span style=\"color: #BADA55;\">Reflexionar</span>. Ideas que desafían, cuestionan y amplían nuestra perspectiva",
         "about.growing": "• <span style=\"color: #BADA55;\">Crecer</span>. Herramientas que acompañan el aprendizaje a lo largo de la vida, desde la infancia hasta la edad adulta.",
-        "about.kidscorner.desc": "La primera rama, <span style=\"font-family: 'More Sugar', cursive; font-size: 1.2em; color: #C15828;\">KidsCorner</span>, está dedicada a jóvenes lectores y a quienes cultivan su imaginación. Se enfoca en libros que nutren la inteligencia emocional, la conciencia cultural y un genuino amor por la lectura, sin abrumar con opciones.",
+        "about.kidscorner.desc": "La primera rama, <kc>KidsCorner</kc>, está dedicada a jóvenes lectores y a quienes cultivan su imaginación. Se enfoca en libros que nutren la inteligencia emocional, la conciencia cultural y un genuino amor por la lectura, sin abrumar con opciones.",
         "about.expand": "seguirá abriéndose a nuevos horizontes, siempre guiado por el mismo principio:",
         "about.less-noise": "Menos ruido. Más significado.",
         "footer.tagline": "Ecos de historias.",
@@ -358,7 +358,7 @@ it: {
         "about.feeling": "• <span style=\"color: #BADA55;\">Sentire</span>. Storie che ci aiutano a comprendere noi stessi e gli altri",
         "about.thinking": "• <span style=\"color: #BADA55;\">Riflettere</span>. Idee che sfidano, interrogano e ampliano il nostro orizzonte",
         "about.growing": "• <span style=\"color: #BADA55;\">Crescere</span>. Strumenti che accompagnano l'apprendimento per tutta la vita, dall'infanzia all'età adulta",
-        "about.kidscorner.desc": "Il primo ramo, <span style=\"font-family: 'More Sugar', cursive; font-size: 1.2em; color: #C15828;\">KidsCorner</span>, si dedica ai giovani lettori e a chi ne alimenta l'immaginazione. Si concentra su libri che nutrono l'intelligenza emotiva, la consapevolezza culturale e un genuino amore per la lettura, senza sopraffare con le scelte.",
+        "about.kidscorner.desc": "Il primo ramo, <kc>KidsCorner</kc>, si dedica ai giovani lettori e a chi ne alimenta l'immaginazione. Si concentra su libri che nutrono l'intelligenza emotiva, la consapevolezza culturale e un genuino amore per la lettura, senza sopraffare con le scelte.",
         "about.expand": "continuerà ad aprirsi a nuovi ambiti, sempre guidata dallo stesso principio:",
         "about.less-noise": "Meno rumore. Più significato.",
         "footer.tagline": "Tra le storie.",
@@ -463,7 +463,7 @@ it: {
         "about.feeling": "• <span style=\"color: #BADA55;\">Sentir</span>. Histórias que nos ajudam a entender nós mesmos e os outros",
         "about.thinking": "• <span style=\"color: #BADA55;\">Refletir</span>. Ideias que desafiam, questionam e ampliam nossa perspectiva",
         "about.growing": "• <span style=\"color: #BADA55;\">Crescer</span>. Ferramentas que apoiam a aprendizagem ao longo da vida, desde a primeira infância até a idade adulta",
-        "about.kidscorner.desc": "O primeiro ramo, <span style=\"font-family: 'More Sugar', cursive; font-size: 1.2em; color: #C15828;\">KidsCorner</span>, é dedicado a jovens leitores e a quem cultiva sua imaginação. Foca em livros que nutrem inteligência emocional, consciência cultural e um genuíno amor pela leitura, sem sobrecarregar com escolhas.",
+        "about.kidscorner.desc": "O primeiro ramo, <kc>KidsCorner</kc>, é dedicado a jovens leitores e a quem cultiva sua imaginação. Foca em livros que nutrem inteligência emocional, consciência cultural e um genuíno amor pela leitura, sem sobrecarregar com escolhas.",
         "about.expand": "seguirá desbravando novos caminhos, sempre guiada pelo mesmo princípio:",
         "about.less-noise": "Menos barulho. Mais significado.",
         "footer.tagline": "Viagem pelas histórias.",
@@ -570,7 +570,7 @@ function applyTranslations() {
         const key = el.getAttribute('data-i18n');
         let text = getTranslation(key);
         if (text) {
-            text = text.replace(/<kc>(.*?)<\/kc>/g, '<span style="font-family: \'More Sugar\', cursive; font-size: 1.5rem; color: #C15828;">$1</span>');
+            text = text.replace(/<kc>(.*?)<\/kc>/g, '<a href="kidscorner/index.html" style="text-decoration: none; color: inherit;"><span style="font-family: \'More Sugar\', cursive; font-size: 1.5rem; color: #C15828;">$1</span></a>');
             el.innerHTML = text;
         }
     });
