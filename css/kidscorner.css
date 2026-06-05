@@ -317,7 +317,7 @@
     height: 100%;
     object-fit: cover;
     opacity: 0.35;
-    transform: scale(1.35);
+    transform: scale(1.1);
     transition: all 0.4s ease;
 }
 
@@ -340,13 +340,13 @@
 /* Default: flag visible (faded), category hidden */
 .languages .category-circle .flag-img {
     opacity: 0.35;
-    transform: scale(1.15);
+    transform: scale(1.1);
     z-index: 0;
 }
 
 .languages .category-circle .category-img {
     opacity: 0;
-    transform: scale(1.15);
+    transform: scale(1.1);
     z-index: 1;
 }
 
@@ -366,7 +366,7 @@
 .category-card-circular:hover .category-circle img,
 .category-card-circular:hover .category-circle .flag-svg {
     opacity: 1;
-    transform: scale(1.35);
+    transform: scale(1.15);
 }
 
 /* Hover: swap flag and category images */
@@ -376,7 +376,7 @@
 
 .languages .category-card-circular:hover .category-circle .category-img {
     opacity: 1;
-    transform: scale(1.22) translateY(5%);
+    transform: scale(1.15);
 }
 
 
@@ -394,14 +394,14 @@
 /* Higher scale for specific category images with thicker white borders */
 a[href="#age-groups"] .category-circle img,
 a[href="#values"] .category-circle img,
-a[href="#experience"] .category-circle img {
-    transform: scale(1.5);
+a[href="#styles"] .category-circle img {
+    transform: scale(1.15);
 }
 
 a[href="#age-groups"]:hover .category-circle img,
 a[href="#values"]:hover .category-circle img,
-a[href="#experience"]:hover .category-circle img {
-    transform: scale(1.5);
+a[href="#styles"]:hover .category-circle img {
+    transform: scale(1.2);
 }
 
 /* KidsCorner Hero */
