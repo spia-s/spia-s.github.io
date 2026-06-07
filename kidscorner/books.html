@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page.title.kc">KC | Growing Curious Minds.</title>
+    <meta name="description"
+        content="Discover curated small press children's books. Search and filter by language, age, styles, genres, values, and more.">
+    <link rel="icon" type="image/png" href="../Reference%20(Spia)/sparks%20zoom.png">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/kidscorner.css">
+    <link rel="stylesheet" href="../css/filter-page.css">
+</head>
+
+<body class="kidscorner-theme">
+    <header class="header" id="main-header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <a href="../index.html" class="nav-back">
+                        <svg class="back-arrow" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 5H1M1 5L5 1M1 5L5 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span class="spia-text">Spia</span>
+                    </a>
+                    <a href="index.html" class="logo-kc">KidsCorner</a>
+                </div>
+
+                <button class="nav-toggle" aria-label="Toggle navigation" id="nav-toggle">
+                    <span class="icon-menu">☰</span>
+                </button>
+
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-links">
+                        <li><a href="index.html#home" class="nav-link" data-i18n="kc.nav.home">Home</a></li>
+                        <li><a href="index.html#age-groups" class="nav-link" data-i18n="kc.nav.age-groups">Age Groups</a></li>
+                        <li><a href="index.html#languages" class="nav-link" data-i18n="kc.nav.languages">Languages</a></li>
+                        <li><a href="index.html#curators-picks" class="nav-link" data-i18n="kc.nav.curators">Spia Spotlight</a></li>
+                    </ul>
+    
+                    <div class="nav-right">
+                        <!-- Language switcher will be injected here automatically by Translations.js -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section-padding">
+        <div class="filter-page-layout">
+            <!-- Sidebar with collapsible filter accordions -->
+            <aside class="filter-sidebar">
+                <div class="sidebar-title">
+                    <span data-i18n="kc.filter.title">Filter Books</span>
+                    <button id="clear-all-filters" class="btn-clear-all" data-i18n="kc.filter.clear" style="display: none;">Clear All Filters</button>
+                </div>
+
+                <!-- Languages Accordion -->
+                <div class="filter-group">
+                    <div class="filter-group-header">
+                        <h3 class="filter-group-title" data-i18n="kc.filter.languages">Languages</h3>
+                        <span class="filter-group-arrow">▼</span>
+                    </div>
+                    <div class="filter-group-content">
+                        <div class="filter-options-list">
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-lang-en" data-filter-group="lang" value="en">
+                                <span data-i18n="kc.filter.lang.en">English</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-lang-fr" data-filter-group="lang" value="fr">
+                                <span data-i18n="kc.filter.lang.fr">Français</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-lang-it" data-filter-group="lang" value="it">
+                                <span data-i18n="kc.filter.lang.it">Italiano</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-lang-es" data-filter-group="lang" value="es">
+                                <span data-i18n="kc.filter.lang.es">Español</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-lang-pt" data-filter-group="lang" value="pt">
+                                <span data-i18n="kc.filter.lang.pt">Português</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-lang-bilingual" data-filter-group="lang" value="bilingual">
+                                <span data-i18n="kc.filter.lang.bilingual">Bilingual</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- By Age Accordion -->
+                <div class="filter-group">
+                    <div class="filter-group-header">
+                        <h3 class="filter-group-title" data-i18n="kc.filter.age_groups">By age</h3>
+                        <span class="filter-group-arrow">▼</span>
+                    </div>
+                    <div class="filter-group-content">
+                        <div class="filter-options-list">
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-age-0-3" data-filter-group="age" value="0-3">
+                                <span data-i18n="kc.filter.age.0-3">0-3</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-age-4-6" data-filter-group="age" value="4-6">
+                                <span data-i18n="kc.filter.age.4-6">4-6</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-age-7-9" data-filter-group="age" value="7-9">
+                                <span data-i18n="kc.filter.age.7-9">7-9</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-age-9-12" data-filter-group="age" value="9-12">
+                                <span data-i18n="kc.filter.age.9-12">9-12</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-age-12plus" data-filter-group="age" value="12+">
+                                <span data-i18n="kc.filter.age.12+">12+</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Styles Accordion -->
+                <div class="filter-group collapsed">
+                    <div class="filter-group-header">
+                        <h3 class="filter-group-title" data-i18n="kc.filter.styles">Styles</h3>
+                        <span class="filter-group-arrow">▼</span>
+                    </div>
+                    <div class="filter-group-content">
+                        <!-- Subgroup Format -->
+                        <div class="filter-subgroup">
+                            <h4 class="filter-subgroup-title" data-i18n="kc.filter.format">Format</h4>
+                            <div class="filter-options-list">
+                                <label class="filter-checkbox-label">
+                                    <input type="checkbox" class="filter-checkbox" id="filter-format-chapter" data-filter-group="format" value="chapter-books">
+                                    <span data-i18n="kc.filter.format.chapter">Chapter books</span>
+                                </label>
+                                <label class="filter-checkbox-label">
+                                    <input type="checkbox" class="filter-checkbox" id="filter-format-comics" data-filter-group="format" value="comics">
+                                    <span data-i18n="kc.filter.format.comics">Comics</span>
+                                </label>
+                                <label class="filter-checkbox-label">
+                                    <input type="checkbox" class="filter-checkbox" id="filter-format-interactive" data-filter-group="format" value="interactive">
+                                    <span data-i18n="kc.filter.format.interactive">Interactive</span>
+                                </label>
+                                <label class="filter-checkbox-label">
+                                    <input type="checkbox" class="filter-checkbox" id="filter-format-picture" data-filter-group="format" value="picture-books">
+                                    <span data-i18n="kc.filter.format.picture">Picture books</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Subgroup Narrative -->
+                        <div class="filter-subgroup">
+                            <h4 class="filter-subgroup-title" data-i18n="kc.filter.narrative">Narrative</h4>
+                            <div class="filter-options-list">
+                                <label class="filter-checkbox-label">
+                                    <input type="checkbox" class="filter-checkbox" id="filter-narrative-narrative" data-filter-group="narrative" value="narrative">
+                                    <span data-i18n="kc.filter.narrative.narrative">Narrative</span>
+                                </label>
+                                <label class="filter-checkbox-label">
+                                    <input type="checkbox" class="filter-checkbox" id="filter-narrative-interiority" data-filter-group="narrative" value="interiority">
+                                    <span data-i18n="kc.filter.narrative.interiority">Interiority</span>
+                                </label>
+                                <label class="filter-checkbox-label">
+                                    <input type="checkbox" class="filter-checkbox" id="filter-narrative-dialogue" data-filter-group="narrative" value="dialogue">
+                                    <span data-i18n="kc.filter.narrative.dialogue">Dialogue</span>
+                                </label>
+                                <label class="filter-checkbox-label">
+                                    <input type="checkbox" class="filter-checkbox" id="filter-narrative-moral" data-filter-group="narrative" value="moral">
+                                    <span data-i18n="kc.filter.narrative.moral">Moral</span>
+                                </label>
+                                <label class="filter-checkbox-label">
+                                    <input type="checkbox" class="filter-checkbox" id="filter-narrative-reflective" data-filter-group="narrative" value="reflective">
+                                    <span data-i18n="kc.filter.narrative.reflective">Reflective</span>
+                                </label>
+                                <label class="filter-checkbox-label">
+                                    <input type="checkbox" class="filter-checkbox" id="filter-narrative-quest" data-filter-group="narrative" value="quest">
+                                    <span data-i18n="kc.filter.narrative.quest">Quest</span>
+                                </label>
+                                <label class="filter-checkbox-label">
+                                    <input type="checkbox" class="filter-checkbox" id="filter-narrative-poetic" data-filter-group="narrative" value="poetic">
+                                    <span data-i18n="kc.filter.narrative.poetic">Poetic</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Genres Accordion -->
+                <div class="filter-group collapsed">
+                    <div class="filter-group-header">
+                        <h3 class="filter-group-title" data-i18n="kc.filter.genres">Genres</h3>
+                        <span class="filter-group-arrow">▼</span>
+                    </div>
+                    <div class="filter-group-content">
+                        <div class="filter-options-list">
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-genre-adventure" data-filter-group="genre" value="adventure">
+                                <span data-i18n="kc.filter.genre.adventure">Adventure</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-genre-fairytales" data-filter-group="genre" value="fairy-tales">
+                                <span data-i18n="kc.filter.genre.fairytales">Fairy Tales</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-genre-fantasy" data-filter-group="genre" value="fantasy">
+                                <span data-i18n="kc.filter.genre.fantasy">Fantasy</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-genre-history" data-filter-group="genre" value="history">
+                                <span data-i18n="kc.filter.genre.history">History</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-genre-contemporary" data-filter-group="genre" value="contemporary">
+                                <span data-i18n="kc.filter.genre.contemporary">Contemporary</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-genre-mythology" data-filter-group="genre" value="mythology">
+                                <span data-i18n="kc.filter.genre.mythology">Mythology</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-genre-drama" data-filter-group="genre" value="drama">
+                                <span data-i18n="kc.filter.genre.drama">Drama</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-genre-folklore" data-filter-group="genre" value="folklore">
+                                <span data-i18n="kc.filter.genre.folklore">Folklore</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-genre-poetry" data-filter-group="genre" value="poetry">
+                                <span data-i18n="kc.filter.genre.poetry">Poetry</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visuals Accordion -->
+                <div class="filter-group collapsed">
+                    <div class="filter-group-header">
+                        <h3 class="filter-group-title" data-i18n="kc.filter.visuals">Visuals</h3>
+                        <span class="filter-group-arrow">▼</span>
+                    </div>
+                    <div class="filter-group-content">
+                        <div class="filter-options-list">
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-visual-graphic" data-filter-group="visual" value="graphic">
+                                <span data-i18n="kc.filter.visual.graphic">Graphic</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-visual-realism" data-filter-group="visual" value="realism">
+                                <span data-i18n="kc.filter.visual.realism">Realism</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-visual-minimalism" data-filter-group="visual" value="minimalism">
+                                <span data-i18n="kc.filter.visual.minimalism">Minimalism</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-visual-vintage" data-filter-group="visual" value="vintage">
+                                <span data-i18n="kc.filter.visual.vintage">Vintage</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-visual-watercolour" data-filter-group="visual" value="watercolour">
+                                <span data-i18n="kc.filter.visual.watercolour">Watercolour</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-visual-whimsical" data-filter-group="visual" value="whimsical">
+                                <span data-i18n="kc.filter.visual.whimsical">Whimsical</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Values Accordion -->
+                <div class="filter-group collapsed">
+                    <div class="filter-group-header">
+                        <h3 class="filter-group-title" data-i18n="kc.filter.values">Values</h3>
+                        <span class="filter-group-arrow">▼</span>
+                    </div>
+                    <div class="filter-group-content">
+                        <div class="filter-options-list">
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-value-bravery" data-filter-group="value" value="bravery">
+                                <span data-i18n="kc.filter.value.bravery">Bravery</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-value-creativity" data-filter-group="value" value="creativity">
+                                <span data-i18n="kc.filter.value.creativity">Creativity</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-value-curiosity" data-filter-group="value" value="curiosity">
+                                <span data-i18n="kc.filter.value.curiosity">Curiosity</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-value-emotions" data-filter-group="value" value="emotions">
+                                <span data-i18n="kc.filter.value.emotions">Emotions</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-value-family" data-filter-group="value" value="family">
+                                <span data-i18n="kc.filter.value.family">Family</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-value-heroines" data-filter-group="value" value="heroines">
+                                <span data-i18n="kc.filter.value.heroines">Heroines</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-value-heroes" data-filter-group="value" value="heroes">
+                                <span data-i18n="kc.filter.value.heroes">Heroes</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-value-intercultural" data-filter-group="value" value="intercultural">
+                                <span data-i18n="kc.filter.value.intercultural">Intercultural</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-value-respect" data-filter-group="value" value="respect">
+                                <span data-i18n="kc.filter.value.respect">Respect (Kindness)</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-value-nature" data-filter-group="value" value="nature">
+                                <span data-i18n="kc.filter.value.nature">Nature</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-value-reasoning" data-filter-group="value" value="reasoning">
+                                <span data-i18n="kc.filter.value.reasoning">Reasoning</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-value-stem" data-filter-group="value" value="stem">
+                                <span data-i18n="kc.filter.value.stem">STEM</span>
+                            </label>
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-value-wisdom" data-filter-group="value" value="wisdom">
+                                <span data-i18n="kc.filter.value.wisdom">Wisdom</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spotlights Accordion -->
+                <div class="filter-group collapsed">
+                    <div class="filter-group-header">
+                        <h3 class="filter-group-title" data-i18n="kc.filter.spotlights">Spia Spotlights</h3>
+                        <span class="filter-group-arrow">▼</span>
+                    </div>
+                    <div class="filter-group-content">
+                        <div class="filter-options-list">
+                            <label class="filter-checkbox-label">
+                                <input type="checkbox" class="filter-checkbox" id="filter-spotlight-spia" data-filter-group="spotlight" value="spia">
+                                <span data-i18n="kc.filter.spotlight.spia">Spia Spotlights</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Results Content Area with Placeholder cards -->
+            <section class="filter-results">
+                <!-- Search bar -->
+                <div class="search-container">
+                    <input type="text" id="filter-search" class="filter-search-input" placeholder="Search books..." data-i18n-placeholder="kc.filter.search_placeholder">
+                </div>
+
+                <!-- Active Filter Pills list -->
+                <div class="active-filters-row" id="active-filters-pills">
+                    <!-- Pills injected dynamically here -->
+                    <button id="clear-all-filters" class="btn-clear-all" data-i18n="kc.filter.clear" style="display: none;">Clear All Filters</button>
+                </div>
+
+                <!-- Books display container -->
+                <div class="books-placeholder-container">
+                    <div class="placeholder-header">
+                        <h2 class="placeholder-title" data-i18n="kc.filter.books_placeholder_title">Book Catalogue</h2>
+                        <p class="placeholder-desc" data-i18n="kc.filter.books_placeholder_desc">The book cards will be loaded here from the database in the future.</p>
+                    </div>
+
+                    <!-- Placeholder skeleton grid -->
+                    <div class="placeholder-grid">
+                        <div class="skeleton-card">
+                            <div class="skeleton-image">📖</div>
+                            <div class="skeleton-title"></div>
+                            <div class="skeleton-author"></div>
+                            <div class="skeleton-badge-row">
+                                <div class="skeleton-badge"></div>
+                                <div class="skeleton-badge"></div>
+                            </div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-image">📖</div>
+                            <div class="skeleton-title"></div>
+                            <div class="skeleton-author"></div>
+                            <div class="skeleton-badge-row">
+                                <div class="skeleton-badge"></div>
+                                <div class="skeleton-badge"></div>
+                            </div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-image">📖</div>
+                            <div class="skeleton-title"></div>
+                            <div class="skeleton-author"></div>
+                            <div class="skeleton-badge-row">
+                                <div class="skeleton-badge"></div>
+                                <div class="skeleton-badge"></div>
+                            </div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-image">📖</div>
+                            <div class="skeleton-title"></div>
+                            <div class="skeleton-author"></div>
+                            <div class="skeleton-badge-row">
+                                <div class="skeleton-badge"></div>
+                                <div class="skeleton-badge"></div>
+                            </div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-image">📖</div>
+                            <div class="skeleton-title"></div>
+                            <div class="skeleton-author"></div>
+                            <div class="skeleton-badge-row">
+                                <div class="skeleton-badge"></div>
+                                <div class="skeleton-badge"></div>
+                            </div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-image">📖</div>
+                            <div class="skeleton-title"></div>
+                            <div class="skeleton-author"></div>
+                            <div class="skeleton-badge-row">
+                                <div class="skeleton-badge"></div>
+                                <div class="skeleton-badge"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-reveal">
+            <div class="footer-main">
+                <div class="footer-info-centered">
+                    <h3 class="footer-logo brand-kidscorner">KidsCorner</h3>
+                    <p data-i18n="kc.footer.tagline">Growing Curious Minds.</p>
+                </div>
+
+                <div class="footer-links-three-cols">
+                    <div class="footer-col">
+                        <h4 data-i18n="footer.explore">Explore</h4>
+                        <ul>
+                            <li><a href="index.html#browse" data-i18n="kc.footer.explore">Collections</a></li>
+                            <li><a href="index.html#curators-picks" data-i18n="kc.footer.curators">Spia Spotlight</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4><a href="../legal/index.html" data-i18n="footer.legal">Legal</a></h4>
+                        <ul>
+                            <li><a href="../legal/index.html#disclaimer" data-i18n="footer.disclaimer">Disclaimer</a></li>
+                            <li><a href="../legal/index.html#privacy" data-i18n="footer.privacy">Privacy Policy</a></li>
+                            <li><a href="../legal/index.html#affiliate" data-i18n="footer.affiliate">Affiliate Disclosure</a></li>
+                            <li><a href="../legal/index.html#terms" data-i18n="footer.terms">Terms &amp; Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4 data-i18n="footer.about">Spia</h4>
+                        <ul>
+                            <li><a href="../index.html" data-i18n="kc.footer.home">Home</a></li>
+                            <li><a href="../index.html#about" data-i18n="kc.footer.about">About Spia</a></li>
+                        </ul>
+                        <img src="../Reference (Spia)/sparks 3.png" alt="Spia Logo" class="footer-spark-mobile">
+                    </div>
+                </div>
+                <img src="../Reference (Spia)/sparks 3.png" alt="Spia Logo" class="footer-spark-desktop">
+            </div>
+
+            <div class="footer-bottom" style="position: relative;">
+                <p>&copy; 2026 <span class="brand-spia">Spia</span> | <span class="brand-kidscorner">KidsCorner</span>. <span data-i18n="footer.copyright">All rights reserved.</span></p>
+                <a href="mailto:spiaskidscorner@hotmail.com">spiaskidscorner@hotmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/translations.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/filter-page.js"></script>
+</body>
+
+</html>
