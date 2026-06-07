@@ -187,8 +187,20 @@
 }
 
 /* Page-level Scaling Overrides */
-.kidscorner-theme .section-title {
-    font-size: 2.1rem; /* Scaled down from 2.5rem */
+.kidscorner-theme a.section-title {
+    font-family: 'More Sugar Thin', cursive;
+    font-size: 36px;
+    font-weight: normal;
+    transition: font-family 0.3s ease;
+    cursor: pointer;
+    color: var(--color-primary);
+}
+
+.kidscorner-theme a.section-title:hover {
+    font-family: 'More Sugar Regular', cursive;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--color-primary);
 }
 
 .kidscorner-theme .section-padding {
