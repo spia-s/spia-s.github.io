@@ -484,3 +484,48 @@
         font-size: 0.7rem;
     }
 }
+
+/* Loading, Error, and Empty States */
+.loading-state,
+.error-state,
+.empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: var(--color-white);
+    border-radius: var(--radius-sm);
+    border: 1px solid rgba(7, 48, 21, 0.1);
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 1rem;
+    border: 3px solid var(--color-bg);
+    border-top-color: var(--color-secondary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.loading-state p,
+.error-state p,
+.empty-state p {
+    color: var(--color-text-muted);
+    font-size: 1.1rem;
+}
+
+.error-state p {
+    color: #DC2626;
+}
+
+.empty-state p {
+    color: var(--color-text);
+}
+
+.book-card-link {
+    text-decoration: none;
+    display: contents;
+}

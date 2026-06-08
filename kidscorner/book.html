@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Book Details | KidsCorner</title>
+    <meta name="description" id="page-description" content="Discover this book. Read a summary, explore themes, age recommendations, developmental benefits, and the best edition available.">
+    <link rel="icon" type="image/png" href="../Reference%20(Spia)/sparks%20zoom.png">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/kidscorner.css">
+    <link rel="stylesheet" href="../css/book-detail.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+
+<body class="kidscorner-theme">
+    <header class="header" id="main-header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <a href="../index.html" class="nav-back">
+                        <svg class="back-arrow" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 5H1M1 5L5 1M1 5L5 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span class="spia-text">Spia</span>
+                    </a>
+                    <a href="index.html" class="logo-kc">KidsCorner</a>
+                </div>
+
+                <button class="nav-toggle" aria-label="Toggle navigation" id="nav-toggle">
+                    <span class="icon-menu">☰</span>
+                </button>
+
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-links">
+                        <li><a href="index.html#home" class="nav-link" data-i18n="kc.nav.home">Home</a></li>
+                        <li><a href="index.html#age-groups" class="nav-link" data-i18n="kc.nav.age-groups">Age Groups</a></li>
+                        <li><a href="index.html#languages" class="nav-link" data-i18n="kc.nav.languages">Languages</a></li>
+                        <li><a href="index.html#curators-picks" class="nav-link" data-i18n="kc.nav.curators">Spia Spotlight</a></li>
+                        <li><a href="books.html" class="nav-link">Browse Books</a></li>
+                    </ul>
+    
+                    <div class="nav-right">
+                        <!-- Language switcher will be injected here automatically by Translations.js -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section-padding">
+        <!-- Loading State -->
+        <div id="loading-state" class="loading-state">
+            <div class="loading-spinner"></div>
+            <p>Loading book details...</p>
+        </div>
+
+        <!-- Error State -->
+        <div id="error-state" class="error-state" style="display: none;">
+            <h2>Book Not Found</h2>
+            <p>We couldn't find the book you're looking for.</p>
+            <a href="books.html" class="btn-primary">Browse All Books</a>
+        </div>
+
+        <!-- Book Detail Content -->
+        <div id="book-content" style="display: none;">
+            <!-- Book Header -->
+            <section class="book-header">
+                <div class="book-cover-container">
+                    <img id="book-cover" src="" alt="Book Cover" class="book-cover-image">
+                </div>
+                <div class="book-header-info">
+                    <h1 id="book-title" class="book-title"></h1>
+                    <p id="book-author" class="book-author"></p>
+                    <div class="book-metadata">
+                        <span class="metadata-badge" id="metadata-language"></span>
+                        <span class="metadata-badge" id="metadata-published"></span>
+                        <span class="metadata-badge" id="metadata-age"></span>
+                        <span class="metadata-badge" id="metadata-category"></span>
+                        <span class="metadata-badge" id="metadata-reading-type"></span>
+                    </div>
+                    <div class="languages-available" id="languages-available"></div>
+                    <div class="kc-rating">
+                        <span class="rating-label">KidsCorner Recommendation</span>
+                        <span class="rating-stars" id="kc-rating-stars"></span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick Overview -->
+            <section class="section-block">
+                <h2 class="section-title">Why Read This Book?</h2>
+                <p id="why-read" class="section-text"></p>
+            </section>
+
+            <!-- Book Summary -->
+            <section class="section-block">
+                <h2 class="section-title">Book Summary</h2>
+                <div class="summary-container">
+                    <p id="short-summary" class="short-summary"></p>
+                    <div id="full-summary-container" class="full-summary-container">
+                        <p id="full-summary" class="full-summary"></p>
+                        <button id="toggle-summary" class="btn-text">Read More</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Best Edition -->
+            <section class="section-block edition-panel">
+                <h2 class="section-title">Best Edition</h2>
+                <div id="edition-content" class="edition-content">
+                    <!-- Edition details will be injected here -->
+                </div>
+            </section>
+
+            <!-- Developmental Benefits -->
+            <section class="section-block">
+                <h2 class="section-title">What Children Can Learn</h2>
+                <div id="developmental-benefits" class="benefits-grid">
+                    <!-- Benefits will be injected here -->
+                </div>
+            </section>
+
+            <!-- Themes -->
+            <section class="section-block">
+                <h2 class="section-title">Themes</h2>
+                <div id="themes" class="themes-cloud">
+                    <!-- Themes will be injected here -->
+                </div>
+            </section>
+
+            <!-- Educational Value -->
+            <section class="section-block">
+                <h2 class="section-title">Educational Value</h2>
+                <div id="educational-value" class="section-text"></div>
+            </section>
+
+            <!-- Why This Book Matters -->
+            <section class="section-block">
+                <h2 class="section-title">Why This Book Matters</h2>
+                <div id="why-it-matters" class="section-text"></div>
+            </section>
+
+            <!-- Review Consensus -->
+            <section class="section-block">
+                <h2 class="section-title">Review Consensus</h2>
+                <div class="review-consensus">
+                    <div class="review-positives">
+                        <h3>What Readers Like</h3>
+                        <ul id="review-positives-list"></ul>
+                    </div>
+                    <div class="review-criticisms">
+                        <h3>Common Criticisms</h3>
+                        <ul id="review-criticisms-list"></ul>
+                    </div>
+                </div>
+                <p id="review-consensus-text" class="consensus-text"></p>
+            </section>
+
+            <!-- Awards & Recognition -->
+            <section class="section-block">
+                <h2 class="section-title">Awards & Recognition</h2>
+                <ul id="awards-list" class="awards-list"></ul>
+            </section>
+
+            <!-- About the Author -->
+            <section class="section-block">
+                <h2 class="section-title">About the Author</h2>
+                <div id="author-content" class="author-content">
+                    <!-- Author details will be injected here -->
+                </div>
+            </section>
+
+            <!-- Who This Book Is For -->
+            <section class="section-block">
+                <h2 class="section-title">Who This Book Is For</h2>
+                <div id="who-its-for" class="who-its-for">
+                    <!-- Content will be injected here -->
+                </div>
+            </section>
+
+            <!-- Similar Books -->
+            <section class="section-block">
+                <h2 class="section-title">Similar Books</h2>
+                <div id="similar-books" class="similar-books-grid">
+                    <!-- Similar books will be injected here -->
+                </div>
+            </section>
+
+            <!-- KidsCorner Assessment -->
+            <section class="section-block assessment-panel">
+                <h2 class="section-title">KidsCorner Assessment</h2>
+                <div class="assessment-intro">
+                    <p>Alignment With KidsCorner Values</p>
+                </div>
+                <div id="kc-assessment" class="assessment-grid">
+                    <!-- Assessment ratings will be injected here -->
+                </div>
+            </section>
+
+            <!-- Book Data Table -->
+            <section class="section-block">
+                <h2 class="section-title">Book Data</h2>
+                <table class="book-data-table">
+                    <tbody id="book-data-table-body">
+                        <!-- Book data will be injected here -->
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Internal Linking -->
+            <section class="section-block">
+                <h2 class="section-title">Explore More</h2>
+                <div id="internal-links" class="internal-links">
+                    <!-- Links will be injected here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-reveal">
+            <div class="footer-main">
+                <div class="footer-info-centered">
+                    <h3 class="footer-logo brand-kidscorner">KidsCorner</h3>
+                    <p data-i18n="kc.footer.tagline">Growing Curious Minds.</p>
+                </div>
+
+                <div class="footer-links-three-cols">
+                    <div class="footer-col">
+                        <h4 data-i18n="footer.explore">Explore</h4>
+                        <ul>
+                            <li><a href="books.html">Browse Books</a></li>
+                            <li><a href="index.html#curators-picks" data-i18n="kc.footer.curators">Spia Spotlight</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4><a href="../legal/index.html" data-i18n="footer.legal">Legal</a></h4>
+                        <ul>
+                            <li><a href="../legal/index.html#disclaimer" data-i18n="footer.disclaimer">Disclaimer</a></li>
+                            <li><a href="../legal/index.html#privacy" data-i18n="footer.privacy">Privacy Policy</a></li>
+                            <li><a href="../legal/index.html#affiliate" data-i18n="footer.affiliate">Affiliate Disclosure</a></li>
+                            <li><a href="../legal/index.html#terms" data-i18n="footer.terms">Terms &amp; Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4 data-i18n="footer.about">Spia</h4>
+                        <ul>
+                            <li><a href="../index.html" data-i18n="kc.footer.home">Home</a></li>
+                            <li><a href="../index.html#about" data-i18n="kc.footer.about">About Spia</a></li>
+                        </ul>
+                        <img src="../Reference (Spia)/sparks 3.png" alt="Spia Logo" class="footer-spark-mobile">
+                    </div>
+                </div>
+                <img src="../Reference (Spia)/sparks 3.png" alt="Spia Logo" class="footer-spark-desktop">
+            </div>
+
+            <div class="footer-bottom" style="position: relative;">
+                <p>&copy; 2026 <span class="brand-spia">Spia</span> | <span class="brand-kidscorner">KidsCorner</span>. <span data-i18n="footer.copyright">All rights reserved.</span></p>
+                <a href="mailto:spiaskidscorner@hotmail.com">spiaskidscorner@hotmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/translations.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/supabase-client.js"></script>
+    <script src="../js/book-detail.js"></script>
+</body>
+
+</html>
