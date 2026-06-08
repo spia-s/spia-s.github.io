@@ -47,7 +47,8 @@
     font-family: "Didot", serif;
     font-weight: bold;
     color: #073015;
-    transition: color 0.3s ease, font-family 0.3s ease;
+    display: inline-block;
+    transition: color 0.3s ease, font-family 0.3s ease, transform 0.25s ease;
 }
 
 .nav-link:hover,
@@ -55,6 +56,7 @@
     font-family: "Didot", serif;
     font-weight: bold;
     color: #C15828;
+    transform: scale(1.15);
 }
 
 .logo-kc {
