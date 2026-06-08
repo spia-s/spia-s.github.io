@@ -370,68 +370,9 @@
                 </div>
 
                 <!-- Books display container -->
-                <div class="books-placeholder-container">
-                    <div class="placeholder-header">
-                        <h2 class="placeholder-title" data-i18n="kc.filter.books_placeholder_title">Book Catalogue</h2>
-                        <p class="placeholder-desc" data-i18n="kc.filter.books_placeholder_desc">The book cards will be loaded here from the database in the future.</p>
-                    </div>
-
-                    <!-- Placeholder skeleton grid -->
-                    <div class="placeholder-grid">
-                        <div class="skeleton-card">
-                            <div class="skeleton-image">📖</div>
-                            <div class="skeleton-title"></div>
-                            <div class="skeleton-author"></div>
-                            <div class="skeleton-badge-row">
-                                <div class="skeleton-badge"></div>
-                                <div class="skeleton-badge"></div>
-                            </div>
-                        </div>
-                        <div class="skeleton-card">
-                            <div class="skeleton-image">📖</div>
-                            <div class="skeleton-title"></div>
-                            <div class="skeleton-author"></div>
-                            <div class="skeleton-badge-row">
-                                <div class="skeleton-badge"></div>
-                                <div class="skeleton-badge"></div>
-                            </div>
-                        </div>
-                        <div class="skeleton-card">
-                            <div class="skeleton-image">📖</div>
-                            <div class="skeleton-title"></div>
-                            <div class="skeleton-author"></div>
-                            <div class="skeleton-badge-row">
-                                <div class="skeleton-badge"></div>
-                                <div class="skeleton-badge"></div>
-                            </div>
-                        </div>
-                        <div class="skeleton-card">
-                            <div class="skeleton-image">📖</div>
-                            <div class="skeleton-title"></div>
-                            <div class="skeleton-author"></div>
-                            <div class="skeleton-badge-row">
-                                <div class="skeleton-badge"></div>
-                                <div class="skeleton-badge"></div>
-                            </div>
-                        </div>
-                        <div class="skeleton-card">
-                            <div class="skeleton-image">📖</div>
-                            <div class="skeleton-title"></div>
-                            <div class="skeleton-author"></div>
-                            <div class="skeleton-badge-row">
-                                <div class="skeleton-badge"></div>
-                                <div class="skeleton-badge"></div>
-                            </div>
-                        </div>
-                        <div class="skeleton-card">
-                            <div class="skeleton-image">📖</div>
-                            <div class="skeleton-title"></div>
-                            <div class="skeleton-author"></div>
-                            <div class="skeleton-badge-row">
-                                <div class="skeleton-badge"></div>
-                                <div class="skeleton-badge"></div>
-                            </div>
-                        </div>
+                <div class="books-grid-container">
+                    <div class="books-grid" id="books-grid">
+                        <!-- Book cards will be rendered here by books-grid.js -->
                     </div>
                 </div>
             </section>
@@ -485,6 +426,7 @@
     <script src="../js/translations.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/filter-page.js"></script>
+    <script src="../js/books-grid.js"></script>
 </body>
 
 </html>
