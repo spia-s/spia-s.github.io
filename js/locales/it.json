@@ -116,7 +116,6 @@
   "kc.filter.genres": "Generi",
   "kc.filter.visuals": "Immagini",
   "kc.filter.values": "Valori",
-  "kc.filter.spotlights": "Stelline",
   "kc.filter.lang.en": "English",
   "kc.filter.lang.fr": "Français",
   "kc.filter.lang.it": "Italiano",
@@ -166,6 +165,5 @@
   "kc.filter.value.nature": "Natura",
   "kc.filter.value.reasoning": "Ragionamento",
   "kc.filter.value.stem": "STEM",
-  "kc.filter.value.wisdom": "Saggezza",
-  "kc.filter.spotlight.spia": "Stelline"
+  "kc.filter.value.wisdom": "Saggezza"
 }

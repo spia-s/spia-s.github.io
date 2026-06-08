@@ -116,7 +116,6 @@
   "kc.filter.genres": "Géneros",
   "kc.filter.visuals": "Imágenes",
   "kc.filter.values": "Valores",
-  "kc.filter.spotlights": "Joyas",
   "kc.filter.lang.en": "English",
   "kc.filter.lang.fr": "Français",
   "kc.filter.lang.it": "Italiano",
@@ -166,6 +165,5 @@
   "kc.filter.value.nature": "Naturaleza",
   "kc.filter.value.reasoning": "Reflexión",
   "kc.filter.value.stem": "STEM",
-  "kc.filter.value.wisdom": "Sabiduría",
-  "kc.filter.spotlight.spia": "Joyas"
+  "kc.filter.value.wisdom": "Sabiduría"
 }

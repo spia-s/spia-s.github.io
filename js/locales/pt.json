@@ -116,7 +116,6 @@
   "kc.filter.genres": "Gêneros",
   "kc.filter.visuals": "Imagens",
   "kc.filter.values": "Valores",
-  "kc.filter.spotlights": "Queridinhos",
   "kc.filter.lang.en": "English",
   "kc.filter.lang.fr": "Français",
   "kc.filter.lang.it": "Italiano",
@@ -166,6 +165,5 @@
   "kc.filter.value.nature": "Natureza",
   "kc.filter.value.reasoning": "Reflexão",
   "kc.filter.value.stem": "STEM",
-  "kc.filter.value.wisdom": "Sabedoria",
-  "kc.filter.spotlight.spia": "Queridinhos"
+  "kc.filter.value.wisdom": "Sabedoria"
 }

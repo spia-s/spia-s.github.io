@@ -116,7 +116,6 @@
   "kc.filter.genres": "Genres",
   "kc.filter.visuals": "Visuals",
   "kc.filter.values": "Values",
-  "kc.filter.spotlights": "Spia Spotlights",
   "kc.filter.lang.en": "English",
   "kc.filter.lang.fr": "Français",
   "kc.filter.lang.it": "Italiano",
@@ -166,6 +165,5 @@
   "kc.filter.value.nature": "Nature",
   "kc.filter.value.reasoning": "Reasoning",
   "kc.filter.value.stem": "STEM",
-  "kc.filter.value.wisdom": "Wisdom",
-  "kc.filter.spotlight.spia": "Spia Spotlights"
+  "kc.filter.value.wisdom": "Wisdom"
 }

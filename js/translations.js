@@ -131,7 +131,6 @@ const translations = {
         "kc.filter.genres": "Genres",
         "kc.filter.visuals": "Visuals",
         "kc.filter.values": "Values",
-        "kc.filter.spotlights": "Spia Spotlights",
         "kc.filter.lang.en": "English",
         "kc.filter.lang.fr": "Français",
         "kc.filter.lang.it": "Italiano",
@@ -181,8 +180,7 @@ const translations = {
         "kc.filter.value.nature": "Nature",
         "kc.filter.value.reasoning": "Reasoning",
         "kc.filter.value.stem": "STEM",
-        "kc.filter.value.wisdom": "Wisdom",
-        "kc.filter.spotlight.spia": "Spia Spotlights"
+        "kc.filter.value.wisdom": "Wisdom"
     },
     fr: {
         "page.title": "Spia | Au fil des histoires.",
@@ -302,7 +300,6 @@ const translations = {
         "kc.filter.genres": "Genres",
         "kc.filter.visuals": "Visuels",
         "kc.filter.values": "Valeurs",
-        "kc.filter.spotlights": "Coups de coeur",
         "kc.filter.lang.en": "English",
         "kc.filter.lang.fr": "Français",
         "kc.filter.lang.it": "Italiano",
@@ -352,8 +349,7 @@ const translations = {
         "kc.filter.value.nature": "Nature",
         "kc.filter.value.reasoning": "Réflexion",
         "kc.filter.value.stem": "STEM",
-        "kc.filter.value.wisdom": "Sagesse",
-        "kc.filter.spotlight.spia": "Coups de coeur"
+        "kc.filter.value.wisdom": "Sagesse"
     },
     it: {
         "page.title": "Spias | Tra le storie.",
@@ -473,7 +469,6 @@ const translations = {
         "kc.filter.genres": "Generi",
         "kc.filter.visuals": "Immagini",
         "kc.filter.values": "Valori",
-        "kc.filter.spotlights": "Stelline",
         "kc.filter.lang.en": "English",
         "kc.filter.lang.fr": "Français",
         "kc.filter.lang.it": "Italiano",
@@ -523,8 +518,7 @@ const translations = {
         "kc.filter.value.nature": "Natura",
         "kc.filter.value.reasoning": "Ragionamento",
         "kc.filter.value.stem": "STEM",
-        "kc.filter.value.wisdom": "Saggezza",
-        "kc.filter.spotlight.spia": "Stelline"
+        "kc.filter.value.wisdom": "Saggezza"
     },
     es: {
         "page.title": "Spia | Ecos de historias.",
@@ -644,7 +638,6 @@ const translations = {
         "kc.filter.genres": "Géneros",
         "kc.filter.visuals": "Imágenes",
         "kc.filter.values": "Valores",
-        "kc.filter.spotlights": "Joyas",
         "kc.filter.lang.en": "English",
         "kc.filter.lang.fr": "Français",
         "kc.filter.lang.it": "Italiano",
@@ -694,8 +687,7 @@ const translations = {
         "kc.filter.value.nature": "Naturaleza",
         "kc.filter.value.reasoning": "Reflexión",
         "kc.filter.value.stem": "STEM",
-        "kc.filter.value.wisdom": "Sabiduría",
-        "kc.filter.spotlight.spia": "Joyas"
+        "kc.filter.value.wisdom": "Sabiduría"
     },
     pt: {
         "page.title": "Spia | Viagem pelas histórias.",
@@ -815,7 +807,6 @@ const translations = {
         "kc.filter.genres": "Gêneros",
         "kc.filter.visuals": "Imagens",
         "kc.filter.values": "Valores",
-        "kc.filter.spotlights": "Queridinhos",
         "kc.filter.lang.en": "English",
         "kc.filter.lang.fr": "Français",
         "kc.filter.lang.it": "Italiano",
@@ -865,8 +856,7 @@ const translations = {
         "kc.filter.value.nature": "Natureza",
         "kc.filter.value.reasoning": "Reflexão",
         "kc.filter.value.stem": "STEM",
-        "kc.filter.value.wisdom": "Sabedoria",
-        "kc.filter.spotlight.spia": "Queridinhos"
+        "kc.filter.value.wisdom": "Sabedoria"
     }
 };
 
