@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16sdtfl="http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16sdtfl w16du wp14"><w:body><w:p w14:paraId="61CB927C" w14:textId="48DB7E05" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r><w:rPr><w:b/><w:bCs/></w:rPr>
+English
+</w:r></w:p><w:p w14:paraId="23EA2CDB" w14:textId="77777777" w:rsidR="004B204F" w:rsidRPr="00024880" w:rsidRDefault="004B204F" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr></w:p><w:p w14:paraId="7BC278A3" w14:textId="77777777" w:rsidR="00024880" w:rsidRPr="004B204F" w:rsidRDefault="00024880" w:rsidP="00024880"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="48"/></w:rPr></w:pPr><w:r w:rsidRPr="004B204F"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="48"/></w:rPr><w:t xml:space="preserve">Languages 
+</w:r></w:p><w:p w14:paraId="6E9AF082" w14:textId="77777777" w:rsidR="00024880" w:rsidRPr="00024880" w:rsidRDefault="00024880" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr><w:rPr><w:szCs w:val="32"/></w:rPr></w:pPr><w:r w:rsidRPr="00024880"><w:rPr><w:szCs w:val="32"/></w:rPr>
+English
+</w:r></w:p><w:p w14:paraId="4909AFA0" w14:textId="77777777" w:rsidR="00024880" w:rsidRPr="00024880" w:rsidRDefault="00024880" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr><w:rPr><w:szCs w:val="32"/></w:rPr></w:pPr><w:r w:rsidRPr="00024880"><w:rPr><w:szCs w:val="32"/></w:rPr>
+Francais
+</w:r></w:p><w:p w14:paraId="13A36578" w14:textId="77777777" w:rsidR="00024880" w:rsidRPr="00024880" w:rsidRDefault="00024880" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr><w:rPr><w:szCs w:val="32"/></w:rPr></w:pPr><w:r w:rsidRPr="00024880"><w:rPr><w:szCs w:val="32"/></w:rPr>
+Italiano
+</w:r></w:p><w:p w14:paraId="7E7865FC" w14:textId="77777777" w:rsidR="00024880" w:rsidRPr="00024880" w:rsidRDefault="00024880" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr><w:rPr><w:szCs w:val="32"/></w:rPr></w:pPr><w:r w:rsidRPr="00024880"><w:rPr><w:szCs w:val="32"/></w:rPr>
+Espanol
+</w:r></w:p><w:p w14:paraId="40B6D0FF" w14:textId="103C588C" w:rsidR="00024880" w:rsidRDefault="00024880" w:rsidP="00764F58"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr><w:rPr><w:szCs w:val="32"/></w:rPr></w:pPr><w:r w:rsidRPr="00024880"><w:rPr><w:szCs w:val="32"/></w:rPr>
+Portugues
+</w:r></w:p><w:p w14:paraId="316DEE94" w14:textId="792F6A07" w:rsidR="00024880" w:rsidRPr="00024880" w:rsidRDefault="00024880" w:rsidP="00764F58"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr><w:rPr><w:szCs w:val="32"/></w:rPr></w:pPr><w:r><w:rPr><w:szCs w:val="32"/></w:rPr>
+Bilingual
+</w:r></w:p><w:p w14:paraId="073AF480" w14:textId="77777777" w:rsidR="00024880" w:rsidRPr="00024880" w:rsidRDefault="00024880" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr></w:p><w:p w14:paraId="2623E2A4" w14:textId="407C9A5F" w:rsidR="004B204F" w:rsidRDefault="004B204F" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+By age
+</w:r></w:p><w:p w14:paraId="1185A118" w14:textId="2865C816" w:rsidR="004B204F" w:rsidRPr="004B204F" w:rsidRDefault="004B204F" w:rsidP="004B204F"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr><w:rPr><w:szCs w:val="32"/></w:rPr></w:pPr><w:r w:rsidRPr="004B204F"><w:rPr><w:szCs w:val="32"/></w:rPr>
+0-3
+</w:r></w:p><w:p w14:paraId="316AC489" w14:textId="63B9AEBC" w:rsidR="004B204F" w:rsidRPr="004B204F" w:rsidRDefault="004B204F" w:rsidP="004B204F"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr><w:rPr><w:szCs w:val="32"/></w:rPr></w:pPr><w:r w:rsidRPr="004B204F"><w:rPr><w:szCs w:val="32"/></w:rPr>
+4-6
+</w:r></w:p><w:p w14:paraId="49D89F0F" w14:textId="4672C17D" w:rsidR="004B204F" w:rsidRPr="004B204F" w:rsidRDefault="004B204F" w:rsidP="004B204F"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr><w:rPr><w:szCs w:val="32"/></w:rPr></w:pPr><w:r w:rsidRPr="004B204F"><w:rPr><w:szCs w:val="32"/></w:rPr>
+7-9
+</w:r></w:p><w:p w14:paraId="39D1BD0E" w14:textId="2B38EA76" w:rsidR="004B204F" w:rsidRPr="004B204F" w:rsidRDefault="004B204F" w:rsidP="004B204F"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr><w:rPr><w:szCs w:val="32"/></w:rPr></w:pPr><w:r w:rsidRPr="004B204F"><w:rPr><w:szCs w:val="32"/></w:rPr>
+9-12
+</w:r></w:p><w:p w14:paraId="71214BDE" w14:textId="053AB1F3" w:rsidR="004B204F" w:rsidRPr="004B204F" w:rsidRDefault="004B204F" w:rsidP="004B204F"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr><w:rPr><w:szCs w:val="32"/></w:rPr></w:pPr><w:r w:rsidRPr="004B204F"><w:rPr><w:szCs w:val="32"/></w:rPr>
+12+
+</w:r></w:p><w:p w14:paraId="15002B94" w14:textId="77777777" w:rsidR="004B204F" w:rsidRPr="00024880" w:rsidRDefault="004B204F" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr></w:p><w:p w14:paraId="4D815136" w14:textId="4294772D" w:rsidR="00764F58" w:rsidRPr="0088180B" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="0088180B"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Styles
+</w:r></w:p><w:p w14:paraId="7515608D" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Format 
+</w:r></w:p><w:p w14:paraId="5025FC8E" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Chapter 
+</w:r><w:r>
+books
+</w:r></w:p><w:p w14:paraId="5C56ACD3" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Comics 
+</w:r></w:p><w:p w14:paraId="0431014F" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Interactive 
+</w:r></w:p><w:p w14:paraId="670BE154" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Picture 
+</w:r><w:r>
+books
+</w:r></w:p><w:p w14:paraId="327B5D35" w14:textId="2B3FF4BC" w:rsidR="002829C4" w:rsidRPr="00016A47" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r>
+Narrative
+</w:r></w:p><w:p w14:paraId="4DD0451B" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Narrative 
+</w:r></w:p><w:p w14:paraId="49F804BC" w14:textId="51DD587B" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r>
+Interiority
+</w:r></w:p><w:p w14:paraId="4ADA77AA" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Dialogue 
+</w:r></w:p><w:p w14:paraId="3A2D86A8" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Moral 
+</w:r></w:p><w:p w14:paraId="7F93A2F5" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Reflective 
+</w:r></w:p><w:p w14:paraId="5DDF9F97" w14:textId="03552ED1" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r>
+Quest
+</w:r></w:p><w:p w14:paraId="66FA572B" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Poetic 
+</w:r></w:p><w:p w14:paraId="2CEEFB5E" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r>
+Genres
+</w:r></w:p><w:p w14:paraId="672E0A74" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Adventure 
+</w:r></w:p><w:p w14:paraId="6C540504" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Fairy 
+</w:r><w:r>
+Tales
+</w:r></w:p><w:p w14:paraId="6E515479" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Fantasy 
+</w:r></w:p><w:p w14:paraId="4122A70F" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">History 
+</w:r></w:p><w:p w14:paraId="2AA3DEEE" w14:textId="337FE2A0" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Contemporary 
+</w:r></w:p><w:p w14:paraId="3CB11655" w14:textId="5036C1B1" w:rsidR="002829C4" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r>
+Mythology
+</w:r></w:p><w:p w14:paraId="36B8E426" w14:textId="7154CF4A" w:rsidR="002829C4" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r>
+Drama
+</w:r></w:p><w:p w14:paraId="0CB001AE" w14:textId="78826041" w:rsidR="002829C4" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r>
+Folklore
+</w:r></w:p><w:p w14:paraId="4EA0D05E" w14:textId="14A5EE50" w:rsidR="002829C4" w:rsidRPr="00016A47" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r>
+Poetry
+</w:r></w:p><w:p w14:paraId="7F9C1E9F" w14:textId="277E5159" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47">
+Visuals
+</w:r></w:p><w:p w14:paraId="5D4D3078" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Graphic 
+</w:r></w:p><w:p w14:paraId="42EEDDE0" w14:textId="5995A7A4" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Realism 
+</w:r></w:p><w:p w14:paraId="60C2BF14" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47">
+Minimal
+</w:r><w:r>
+ism
+</w:r></w:p><w:p w14:paraId="2A2940E7" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">Vintage 
+</w:r></w:p><w:p w14:paraId="0BABA135" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00016A47" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47">
+Watercolo
+</w:r><w:r>
+u
+</w:r><w:r w:rsidRPr="00016A47"><w:t xml:space="preserve">r 
+</w:r></w:p><w:p w14:paraId="52542613" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="1"/></w:numPr></w:pPr><w:r w:rsidRPr="00016A47">
+Whimsical
+</w:r></w:p><w:p w14:paraId="01458D1C" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"/><w:p w14:paraId="50EEC6F6" w14:textId="619B2185" w:rsidR="004B204F" w:rsidRPr="00024880" w:rsidRDefault="00024880" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="00024880"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr><w:t xml:space="preserve">Values 
+</w:r></w:p><w:p w14:paraId="692F885B" w14:textId="2D040421" w:rsidR="004B204F" w:rsidRDefault="00EF7BB8" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r><w:lastRenderedPageBreak/>
+Bravery
+</w:r></w:p><w:p w14:paraId="5B237043" w14:textId="007C3342" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Creativity
+</w:r></w:p><w:p w14:paraId="5F4A930C" w14:textId="5A338E59" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Curiosity
+</w:r></w:p><w:p w14:paraId="6DCE0F77" w14:textId="25A0D30B" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Emotions
+</w:r></w:p><w:p w14:paraId="2F5FC59C" w14:textId="5AE54C20" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Family
+</w:r></w:p><w:p w14:paraId="4A26D39D" w14:textId="7405812D" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Heroines
+</w:r></w:p><w:p w14:paraId="46B26650" w14:textId="16A087ED" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Heroes
+</w:r></w:p><w:p w14:paraId="24F5EE08" w14:textId="58491C93" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Intercultural
+</w:r></w:p><w:p w14:paraId="5399B0ED" w14:textId="6245A2AA" w:rsidR="00EF7BB8" w:rsidRDefault="00411DCF" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Respect (Kindness)
+</w:r></w:p><w:p w14:paraId="1544AB15" w14:textId="7F70EE41" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Nature
+</w:r></w:p><w:p w14:paraId="54A6E19E" w14:textId="510B975A" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Reasoning
+</w:r></w:p><w:p w14:paraId="3727B9A4" w14:textId="2DC64C93" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+STEM
+</w:r></w:p><w:p w14:paraId="2F0F6408" w14:textId="7F4463E4" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00024880"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Wisdom
+</w:r></w:p><w:p w14:paraId="0D765D9A" w14:textId="77777777" w:rsidR="004B204F" w:rsidRDefault="004B204F" w:rsidP="00764F58"/><w:p w14:paraId="1F0787DB" w14:textId="163DAE4E" w:rsidR="004B204F" w:rsidRPr="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="00EF7BB8"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Spia Spotlight
+</w:r><w:r w:rsidR="00BE6407"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+s
+</w:r></w:p><w:p w14:paraId="01589A40" w14:textId="77777777" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00764F58"/><w:p w14:paraId="194F63B1" w14:textId="77777777" w:rsidR="004B204F" w:rsidRDefault="004B204F" w:rsidP="00764F58"/><w:p w14:paraId="6443155B" w14:textId="5C61E9E0" w:rsidR="00764F58" w:rsidRPr="00EF7BB8" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="00EF7BB8"><w:rPr><w:b/><w:bCs/></w:rPr>
+F
+</w:r><w:r w:rsidR="00EF7BB8" w:rsidRPr="00EF7BB8"><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve">rench 
+</w:r></w:p><w:p w14:paraId="62B1963C" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"/><w:p w14:paraId="18F44BD4" w14:textId="3CD99FBE" w:rsidR="00EF7BB8" w:rsidRPr="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="00EF7BB8"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Langues
+</w:r></w:p><w:p w14:paraId="7B289B3F" w14:textId="4BFD829D" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+English
+</w:r></w:p><w:p w14:paraId="2D73E304" w14:textId="30A8547B" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Fran
+</w:r><w:r w:rsidR="00765547">
+Ã§
+</w:r><w:r>
+a
+</w:r><w:r w:rsidR="00765547">
+i
+</w:r><w:r>
+s
+</w:r></w:p><w:p w14:paraId="02564735" w14:textId="7E5099F7" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Italiano
+</w:r></w:p><w:p w14:paraId="3CAC2A59" w14:textId="3DCF7FB5" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Espa
+</w:r><w:r w:rsidR="00765547">
+Ã±
+</w:r><w:r>
+ol
+</w:r></w:p><w:p w14:paraId="1EFB0CB4" w14:textId="6371CC30" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Portugu
+</w:r><w:r w:rsidR="00765547">
+Ãª
+</w:r><w:r>
+s
+</w:r></w:p><w:p w14:paraId="2DD14EA1" w14:textId="77777777" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00764F58"/><w:p w14:paraId="0B539624" w14:textId="0F2D0725" w:rsidR="00EF7BB8" w:rsidRPr="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="00EF7BB8"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr><w:t xml:space="preserve">Par age 
+</w:r></w:p><w:p w14:paraId="278C15C4" w14:textId="27106C87" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+0-3 ans
+</w:r></w:p><w:p w14:paraId="3AF4AC01" w14:textId="540A41DE" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+4-6 ans
+</w:r></w:p><w:p w14:paraId="0C246DD4" w14:textId="1D12F532" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+7-9 ans
+</w:r></w:p><w:p w14:paraId="134FF808" w14:textId="31C99492" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+9-12 ans
+</w:r></w:p><w:p w14:paraId="707BF73D" w14:textId="57BDF0D8" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+12+ ans
+</w:r></w:p><w:p w14:paraId="0B19450D" w14:textId="77777777" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00764F58"/><w:p w14:paraId="4DE6EC3B" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="0088180B" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="0088180B"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Styles
+</w:r></w:p><w:p w14:paraId="2F017810" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr>
+Format
+</w:r></w:p><w:p w14:paraId="6667D57A" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="2"/></w:numPr></w:pPr><w:r>
+Premiers romans
+</w:r></w:p><w:p w14:paraId="38759717" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="2"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Bandes dessinÃ©es 
+</w:r></w:p><w:p w14:paraId="12322B2B" w14:textId="037A466E" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="2"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01">
+Interactif
+</w:r><w:r w:rsidR="0088180B">
+s
+</w:r><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve"> 
+</w:r></w:p><w:p w14:paraId="29AED3FC" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="2"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Livres illustrÃ©s 
+</w:r></w:p><w:p w14:paraId="4418E1D9" w14:textId="6A52581C" w:rsidR="002829C4" w:rsidRPr="008B2B01" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="2"/></w:numPr></w:pPr><w:r>
+Narratifs
+</w:r></w:p><w:p w14:paraId="33072957" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr>
+Narratif
+</w:r></w:p><w:p w14:paraId="34C9AA53" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="3"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">IntÃ©rioritÃ© 
+</w:r></w:p><w:p w14:paraId="37980313" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="3"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Dialogue 
+</w:r></w:p><w:p w14:paraId="5DBAD055" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="3"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Morale 
+</w:r></w:p><w:p w14:paraId="62D74450" w14:textId="405F159E" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="3"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01">
+RÃ©flexi
+</w:r><w:r><w:t xml:space="preserve">on 
+</w:r></w:p><w:p w14:paraId="77649F6E" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="3"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">QuÃªte 
+</w:r></w:p><w:p w14:paraId="6A452E27" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="3"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">PoÃ©tique 
+</w:r></w:p><w:p w14:paraId="7B087D49" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr>
+Genres
+</w:r></w:p><w:p w14:paraId="0FBB41AC" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Aventure 
+</w:r></w:p><w:p w14:paraId="1DD3298B" w14:textId="25D6299D" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Contes 
+</w:r></w:p><w:p w14:paraId="48ED8CF7" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Fantastique 
+</w:r></w:p><w:p w14:paraId="5C45C6E8" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Histoire 
+</w:r></w:p><w:p w14:paraId="7BEC90B0" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Contemporain 
+</w:r></w:p><w:p w14:paraId="78E4CE68" w14:textId="642BC06D" w:rsidR="002829C4" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr></w:pPr><w:r>
+Mythologie
+</w:r></w:p><w:p w14:paraId="7EF91444" w14:textId="6E445859" w:rsidR="002829C4" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr></w:pPr><w:r><w:lastRenderedPageBreak/>
+Drame
+</w:r></w:p><w:p w14:paraId="0B8541A0" w14:textId="02BAF8C3" w:rsidR="002829C4" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr></w:pPr><w:r>
+Folklore
+</w:r></w:p><w:p w14:paraId="660462D5" w14:textId="29585786" w:rsidR="002829C4" w:rsidRPr="008B2B01" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr></w:pPr><w:r w:rsidRPr="002829C4">
+PoÃ©sie
+</w:r></w:p><w:p w14:paraId="3D77AB0C" w14:textId="7766DDD2" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr>
+Visuels
+</w:r><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve"> 
+</w:r></w:p><w:p w14:paraId="32E9AF9F" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="5"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Graphique 
+</w:r></w:p><w:p w14:paraId="4A032C72" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="5"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">RÃ©alisme 
+</w:r></w:p><w:p w14:paraId="76CCE867" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="5"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Minimalisme 
+</w:r></w:p><w:p w14:paraId="2DFCB333" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="5"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Vintage 
+</w:r></w:p><w:p w14:paraId="52738810" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="5"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Aquarelle 
+</w:r></w:p><w:p w14:paraId="3537B42A" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="5"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Fantaisiste 
+</w:r></w:p><w:p w14:paraId="308AC148" w14:textId="77777777" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"/><w:p w14:paraId="012A8B28" w14:textId="4E6C44B3" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="00EF7BB8"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Valeurs
+</w:r></w:p><w:p w14:paraId="34611102" w14:textId="13A901E2" w:rsidR="00EF7BB8" w:rsidRDefault="00C57F03" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Respect (
+</w:r><w:r w:rsidR="00EF7BB8">
+Bienveillance
+</w:r><w:r>
+</w:r></w:p><w:p w14:paraId="19BC71AB" w14:textId="569BDC58" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Courage 
+</w:r></w:p><w:p w14:paraId="00FFCBDA" w14:textId="550E952C" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Cr
+</w:r><w:r w:rsidR="00BE6407">
+Ã©
+</w:r><w:r>
+ativit
+</w:r><w:r w:rsidR="00765547">
+Ã©
+</w:r></w:p><w:p w14:paraId="6CE7A458" w14:textId="2DD036CE" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r w:rsidRPr="00AB75E0">
+CuriositÃ©
+</w:r></w:p><w:p w14:paraId="2FF39D4F" w14:textId="0403F855" w:rsidR="00EF7BB8" w:rsidRDefault="00BE6407" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Ã‰
+</w:r><w:r w:rsidR="00EF7BB8">
+motions
+</w:r></w:p><w:p w14:paraId="6D8C4C3D" w14:textId="45C95BFE" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Famille
+</w:r></w:p><w:p w14:paraId="27115C41" w14:textId="1DA99FF0" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+H
+</w:r><w:r w:rsidR="00BE6407">
+Ã©
+</w:r><w:r>
+ro
+</w:r><w:r w:rsidR="00BE6407">
+Ã¯
+</w:r><w:r>
+nes
+</w:r></w:p><w:p w14:paraId="153D6BF5" w14:textId="5A5EC767" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+H
+</w:r><w:r w:rsidR="00BE6407">
+Ã©
+</w:r><w:r>
+ros
+</w:r></w:p><w:p w14:paraId="22A0C351" w14:textId="102BFB43" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Interculturalit
+</w:r><w:r w:rsidR="00BE6407">
+Ã©
+</w:r></w:p><w:p w14:paraId="0B31485E" w14:textId="011F9047" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Nature
+</w:r></w:p><w:p w14:paraId="090F6E2F" w14:textId="40DB5C0B" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+R
+</w:r><w:r w:rsidR="00BE6407">
+Ã©
+</w:r><w:r>
+flexion
+</w:r></w:p><w:p w14:paraId="09F657BF" w14:textId="74912E79" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Sagesse
+</w:r></w:p><w:p w14:paraId="19AC824D" w14:textId="5DD1CAC4" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+STEM
+</w:r></w:p><w:p w14:paraId="03DF36B1" w14:textId="77777777" w:rsidR="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"/><w:p w14:paraId="2A9507BB" w14:textId="3A66D672" w:rsidR="00EF7BB8" w:rsidRPr="00EF7BB8" w:rsidRDefault="00EF7BB8" w:rsidP="00EF7BB8"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="00EF7BB8"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Coup
+</w:r><w:r w:rsidR="00BE6407"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+s
+</w:r><w:r w:rsidRPr="00EF7BB8"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr><w:t xml:space="preserve"> de coeur
+</w:r></w:p><w:p w14:paraId="35078DBE" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00000000" w:rsidP="00764F58"><w:r><w:pict w14:anchorId="3C687CF2"><v:rect id="_x0000_i1025" style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" fillcolor="#a0a0a0" stroked="f"/></w:pict></w:r></w:p><w:p w14:paraId="270ED159" w14:textId="77777777" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="00764F58"><w:pPr><w:rPr><w:rFonts w:ascii="Segoe UI Emoji" w:hAnsi="Segoe UI Emoji" w:cs="Segoe UI Emoji"/><w:b/><w:bCs/></w:rPr></w:pPr></w:p><w:p w14:paraId="7DD58DBB" w14:textId="42573812" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:rFonts w:ascii="Segoe UI Emoji" w:hAnsi="Segoe UI Emoji" w:cs="Segoe UI Emoji"/><w:b/><w:bCs/></w:rPr>
+ðŸ‡®ðŸ‡¹
+</w:r><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve"> Italian (IT)
+</w:r></w:p><w:p w14:paraId="5EA369CE" w14:textId="77777777" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr></w:p><w:p w14:paraId="426CF909" w14:textId="5E14E6F7" w:rsidR="0029559D" w:rsidRPr="0029559D" w:rsidRDefault="0029559D" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="0029559D"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Lingue
+</w:r></w:p><w:p w14:paraId="6CF0CEB0" w14:textId="1829CC88" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+English
+</w:r></w:p><w:p w14:paraId="6B1EB72A" w14:textId="503933EA" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Fran
+</w:r><w:r w:rsidR="00F05167">
+Ã§
+</w:r><w:r>
+ais
+</w:r></w:p><w:p w14:paraId="7D66F6B4" w14:textId="6F286F51" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Italiano
+</w:r></w:p><w:p w14:paraId="1C1A3F0E" w14:textId="5F8D84B9" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Espa
+</w:r><w:r w:rsidR="00F05167">
+Ã±
+</w:r><w:r>
+ol
+</w:r></w:p><w:p w14:paraId="1B1E9BED" w14:textId="7D9B8D18" w:rsidR="0029559D" w:rsidRPr="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Portugu
+</w:r><w:r w:rsidR="00F05167">
+Ãª
+</w:r><w:r>
+s
+</w:r></w:p><w:p w14:paraId="4B3E7AF3" w14:textId="77777777" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr></w:p><w:p w14:paraId="1D6D492F" w14:textId="0EC5EAB6" w:rsidR="0029559D" w:rsidRPr="0029559D" w:rsidRDefault="0029559D" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="0029559D"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Per et
+</w:r><w:r w:rsidR="00F05167"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Ã 
+</w:r></w:p><w:p w14:paraId="2243523B" w14:textId="3DC95339" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+0-3 anni
+</w:r></w:p><w:p w14:paraId="331514A4" w14:textId="51ABA51B" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+4-6 anni
+</w:r></w:p><w:p w14:paraId="6688E837" w14:textId="517D40A9" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+7-9 anni
+</w:r></w:p><w:p w14:paraId="56F16031" w14:textId="078C4CD8" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+9-12 anni
+</w:r></w:p><w:p w14:paraId="5F0F5D75" w14:textId="524CC5F7" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+12+ anni
+</w:r></w:p><w:p w14:paraId="29A8EA01" w14:textId="77777777" w:rsidR="0029559D" w:rsidRPr="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"/><w:p w14:paraId="04AB4BBA" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="0088180B" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="0088180B"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Stili
+</w:r></w:p><w:p w14:paraId="3A84DDBC" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr>
+Formato
+</w:r></w:p><w:p w14:paraId="163B53DC" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="6"/></w:numPr></w:pPr><w:r>
+Primi romanzi
+</w:r></w:p><w:p w14:paraId="7D0CDB3C" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="6"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Fumetti 
+</w:r></w:p><w:p w14:paraId="71439577" w14:textId="5B509951" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="6"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01">
+Interattiv
+</w:r><w:r w:rsidR="0088180B">
+i
+</w:r></w:p><w:p w14:paraId="48C9DC0F" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="6"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Albi illustrati 
+</w:r></w:p><w:p w14:paraId="73D07FF8" w14:textId="0542B2D0" w:rsidR="002829C4" w:rsidRPr="008B2B01" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="6"/></w:numPr></w:pPr><w:r>
+Narrative
+</w:r></w:p><w:p w14:paraId="030BFF99" w14:textId="396A171C" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr>
+Narrativ
+</w:r><w:r w:rsidR="002829C4"><w:rPr><w:b/><w:bCs/></w:rPr>
+a
+</w:r></w:p><w:p w14:paraId="7E594361" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">InterioritÃ  
+</w:r></w:p><w:p w14:paraId="417AE64A" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:lastRenderedPageBreak/><w:t xml:space="preserve">Dialogo 
+</w:r></w:p><w:p w14:paraId="22E16DA4" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Morale 
+</w:r></w:p><w:p w14:paraId="3D37EE5E" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Riflessione 
+</w:r></w:p><w:p w14:paraId="25C0520F" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr></w:pPr><w:r>
+Cammino
+</w:r></w:p><w:p w14:paraId="5E18CEFB" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Poetico 
+</w:r></w:p><w:p w14:paraId="78C96299" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr>
+Generi
+</w:r></w:p><w:p w14:paraId="60D88B9B" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="8"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Avventura 
+</w:r></w:p><w:p w14:paraId="6E70953E" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="8"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Fiabe 
+</w:r></w:p><w:p w14:paraId="701A66DA" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="8"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Fantasia 
+</w:r></w:p><w:p w14:paraId="3FE8B8CC" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="8"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Storico 
+</w:r></w:p><w:p w14:paraId="5E0650D6" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="8"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Contemporaneo 
+</w:r></w:p><w:p w14:paraId="70DD26AB" w14:textId="382E6F5F" w:rsidR="002829C4" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="8"/></w:numPr></w:pPr><w:r>
+Mitologia
+</w:r></w:p><w:p w14:paraId="2A9861AB" w14:textId="16452F36" w:rsidR="002829C4" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="8"/></w:numPr></w:pPr><w:r>
+Dramma
+</w:r></w:p><w:p w14:paraId="2AA7FAAA" w14:textId="34BD5894" w:rsidR="002829C4" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="8"/></w:numPr></w:pPr><w:r>
+Folclore
+</w:r></w:p><w:p w14:paraId="703A94F6" w14:textId="56B6D3AD" w:rsidR="002829C4" w:rsidRPr="008B2B01" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="8"/></w:numPr></w:pPr><w:r>
+Poesia
+</w:r></w:p><w:p w14:paraId="3357FCB5" w14:textId="6BBE3B72" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve">Immagini 
+</w:r></w:p><w:p w14:paraId="518672DC" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="9"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Grafico 
+</w:r></w:p><w:p w14:paraId="2DF14A39" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="9"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Realismo 
+</w:r></w:p><w:p w14:paraId="1CB9408E" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="9"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Minimalismo 
+</w:r></w:p><w:p w14:paraId="09EE44E2" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="9"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Vintage 
+</w:r></w:p><w:p w14:paraId="14D5358C" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="9"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Acquerello 
+</w:r></w:p><w:p w14:paraId="5273EC1D" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="9"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Fantastico 
+</w:r></w:p><w:p w14:paraId="3EE13CF8" w14:textId="77777777" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"/><w:p w14:paraId="568FC2DF" w14:textId="6DDF01AD" w:rsidR="0029559D" w:rsidRPr="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="0029559D"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Valori
+</w:r></w:p><w:p w14:paraId="65F66950" w14:textId="2FF91D57" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Coraggio
+</w:r></w:p><w:p w14:paraId="03D07C3C" w14:textId="34B1A8CC" w:rsidR="0029559D" w:rsidRDefault="0029559D" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Creativit
+</w:r><w:r w:rsidR="00F05167">
+Ã 
+</w:r></w:p><w:p w14:paraId="661D41FA" w14:textId="691E00C9" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r w:rsidRPr="00AB75E0">
+CuriositÃ 
+</w:r></w:p><w:p w14:paraId="064BBB4D" w14:textId="38E884E4" w:rsidR="0029559D" w:rsidRDefault="00E54D7A" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Emozioni
+</w:r></w:p><w:p w14:paraId="0986BD54" w14:textId="024023FE" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Famiglia
+</w:r></w:p><w:p w14:paraId="42F707DF" w14:textId="7935116C" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Eroine
+</w:r></w:p><w:p w14:paraId="51A6BDE6" w14:textId="0E53DFE4" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Eroi
+</w:r></w:p><w:p w14:paraId="4863BA7A" w14:textId="25707848" w:rsidR="00E54D7A" w:rsidRDefault="00C57F03" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Rispetto (
+</w:r><w:r w:rsidR="00E54D7A">
+Gentilezza
+</w:r><w:r>
+</w:r></w:p><w:p w14:paraId="6020540A" w14:textId="42B53A96" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Interculturalite
+</w:r></w:p><w:p w14:paraId="09A357D9" w14:textId="2A2F2344" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Natura
+</w:r></w:p><w:p w14:paraId="7BED42D5" w14:textId="0475C8AD" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Ragionamento
+</w:r></w:p><w:p w14:paraId="667127B1" w14:textId="64EE1A38" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Sagezza
+</w:r></w:p><w:p w14:paraId="0CBE2C37" w14:textId="2E5ADEB4" w:rsidR="00E54D7A" w:rsidRPr="008B2B01" w:rsidRDefault="00E54D7A" w:rsidP="0029559D"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+STEM
+</w:r></w:p><w:p w14:paraId="4435ED7A" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00000000" w:rsidP="00764F58"><w:r><w:pict w14:anchorId="0F8E342C"><v:rect id="_x0000_i1026" style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" fillcolor="#a0a0a0" stroked="f"/></w:pict></w:r></w:p><w:p w14:paraId="63E42C19" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:rFonts w:ascii="Segoe UI Emoji" w:hAnsi="Segoe UI Emoji" w:cs="Segoe UI Emoji"/><w:b/><w:bCs/></w:rPr>
+ðŸ‡ªðŸ‡¸
+</w:r><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve"> Spanish (ES)
+</w:r></w:p><w:p w14:paraId="294CA7FD" w14:textId="77777777" w:rsidR="00E54D7A" w:rsidRPr="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00764F58"/><w:p w14:paraId="227F7381" w14:textId="13F74E94" w:rsidR="00E54D7A" w:rsidRPr="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="00E54D7A"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Idiomas
+</w:r></w:p><w:p w14:paraId="321E8BB1" w14:textId="77777777" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00764F58"/><w:p w14:paraId="1879D0BB" w14:textId="34218372" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00E54D7A"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+English
+</w:r></w:p><w:p w14:paraId="7EC79CA3" w14:textId="4ADFB426" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00E54D7A"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Fran
+</w:r><w:r w:rsidR="00F05167">
+Ã§
+</w:r><w:r>
+ais
+</w:r></w:p><w:p w14:paraId="7AA0682C" w14:textId="028420CF" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00E54D7A"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Italiano
+</w:r></w:p><w:p w14:paraId="74466D4A" w14:textId="70A1AC60" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00E54D7A"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Espa
+</w:r><w:r w:rsidR="00F05167">
+Ã±
+</w:r><w:r>
+ol
+</w:r></w:p><w:p w14:paraId="7929E4A2" w14:textId="22B8157E" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00E54D7A"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Portugu
+</w:r><w:r w:rsidR="00F05167">
+Ãª
+</w:r><w:r>
+s
+</w:r></w:p><w:p w14:paraId="5E1E69F3" w14:textId="77777777" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00764F58"/><w:p w14:paraId="0E37FFF0" w14:textId="3AE2C36A" w:rsidR="00E54D7A" w:rsidRPr="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="00E54D7A"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Por Edad
+</w:r></w:p><w:p w14:paraId="77A92029" w14:textId="7E5D3CE3" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00E54D7A"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+0-3 a
+</w:r><w:r w:rsidR="00F05167">
+Ã±
+</w:r><w:r>
+os
+</w:r></w:p><w:p w14:paraId="20F480DB" w14:textId="46C31CE6" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00E54D7A"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+4-6 a
+</w:r><w:r w:rsidR="00F05167">
+Ã±
+</w:r><w:r>
+os
+</w:r></w:p><w:p w14:paraId="2F86FC9D" w14:textId="011DF2A2" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00E54D7A"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+7-9 a
+</w:r><w:r w:rsidR="00F05167">
+Ã±
+</w:r><w:r>
+os
+</w:r></w:p><w:p w14:paraId="6AA08BBD" w14:textId="7F3B9766" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00E54D7A"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+9-12 a
+</w:r><w:r w:rsidR="00F05167">
+Ã±
+</w:r><w:r>
+os
+</w:r></w:p><w:p w14:paraId="1A8F9903" w14:textId="364974C6" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00764F58"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+12+ a
+</w:r><w:r w:rsidR="00F05167">
+Ã±
+</w:r><w:r>
+os
+</w:r></w:p><w:p w14:paraId="6AB6FF06" w14:textId="77777777" w:rsidR="00E54D7A" w:rsidRPr="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00764F58"/><w:p w14:paraId="437C9F90" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="0088180B" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="0088180B"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Estilos
+</w:r></w:p><w:p w14:paraId="1F02210B" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr>
+Formato
+</w:r></w:p><w:p w14:paraId="2FBA72A5" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="10"/></w:numPr></w:pPr><w:r w:rsidRPr="005A7197">
+Primeros lectores
+</w:r></w:p><w:p w14:paraId="1ECD0101" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="10"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01">
+CÃ³mic
+</w:r></w:p><w:p w14:paraId="39AC4DC5" w14:textId="3E1695B6" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="10"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01">
+Interactivo
+</w:r><w:r w:rsidR="0088180B">
+s
+</w:r><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve"> 
+</w:r></w:p><w:p w14:paraId="22304035" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="10"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Ãlbumes ilustrados 
+</w:r></w:p><w:p w14:paraId="2A72AFB6" w14:textId="58D0CE37" w:rsidR="002829C4" w:rsidRPr="008B2B01" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="10"/></w:numPr></w:pPr><w:r>
+Narrativas
+</w:r></w:p><w:p w14:paraId="301BE93A" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr>
+Narrativa
+</w:r></w:p><w:p w14:paraId="39CF23D9" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="11"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Interioridad 
+</w:r></w:p><w:p w14:paraId="5A9F0423" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="11"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">DiÃ¡logo 
+</w:r></w:p><w:p w14:paraId="216E976C" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="11"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Moral 
+</w:r></w:p><w:p w14:paraId="2AB3C282" w14:textId="04A5A042" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="11"/></w:numPr></w:pPr><w:r w:rsidRPr="005A7197">
+ReflexiÃ³n
+</w:r><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve"> 
+</w:r></w:p><w:p w14:paraId="4D39B883" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="11"/></w:numPr></w:pPr><w:r>
+Viaje
+</w:r></w:p><w:p w14:paraId="3A6857C6" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="11"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">PoÃ©tico 
+</w:r></w:p><w:p w14:paraId="4FFC2D22" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr>
+GÃ©neros
+</w:r></w:p><w:p w14:paraId="185C41E7" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="12"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Aventura 
+</w:r></w:p><w:p w14:paraId="2658F883" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="12"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Cuentos de hadas 
+</w:r></w:p><w:p w14:paraId="3E4278E8" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="12"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">FantasÃ­a 
+</w:r></w:p><w:p w14:paraId="1725226B" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="12"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Historia 
+</w:r></w:p><w:p w14:paraId="06A616F3" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="12"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">ContemporÃ¡neo 
+</w:r></w:p><w:p w14:paraId="022E0A25" w14:textId="5C75AB92" w:rsidR="002829C4" w:rsidRDefault="00AB75E0" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="12"/></w:numPr></w:pPr><w:r w:rsidRPr="00AB75E0">
+MitologÃ­a
+</w:r></w:p><w:p w14:paraId="2A55468F" w14:textId="0843D57E" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="12"/></w:numPr></w:pPr><w:r>
+Drama
+</w:r></w:p><w:p w14:paraId="20E915AB" w14:textId="0E0883BB" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="12"/></w:numPr></w:pPr><w:r>
+Folclore
+</w:r></w:p><w:p w14:paraId="125B746F" w14:textId="44F26492" w:rsidR="00AB75E0" w:rsidRPr="008B2B01" w:rsidRDefault="00AB75E0" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="12"/></w:numPr></w:pPr><w:r w:rsidRPr="00AB75E0">
+PoesÃ­a
+</w:r></w:p><w:p w14:paraId="2CCB24F9" w14:textId="1C4353A8" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="007679EC"><w:rPr><w:b/><w:bCs/></w:rPr>
+ImÃ¡genes
+</w:r><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve"> 
+</w:r></w:p><w:p w14:paraId="08561CE2" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="13"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">GrÃ¡fico 
+</w:r></w:p><w:p w14:paraId="6A9EB4F5" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="13"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Realismo 
+</w:r></w:p><w:p w14:paraId="6591174F" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="13"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Minimalismo 
+</w:r></w:p><w:p w14:paraId="0A3818A8" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="13"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Vintage 
+</w:r></w:p><w:p w14:paraId="2516882D" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="13"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Acuarela 
+</w:r></w:p><w:p w14:paraId="6C72E117" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="13"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Fantasioso 
+</w:r></w:p><w:p w14:paraId="52789A23" w14:textId="77777777" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00E54D7A"/><w:p w14:paraId="53F1F55D" w14:textId="503CFAA6" w:rsidR="00E54D7A" w:rsidRDefault="00E54D7A" w:rsidP="00E54D7A"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="00E54D7A"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Valores
+</w:r></w:p><w:p w14:paraId="3C9DD767" w14:textId="0D98252F" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Amabilidad
+</w:r></w:p><w:p w14:paraId="1A0C2DAE" w14:textId="01C9FA8E" w:rsidR="00E54D7A" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Creatividad
+</w:r></w:p><w:p w14:paraId="41C75D87" w14:textId="6029CC75" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Curiosidad
+</w:r></w:p><w:p w14:paraId="47AAE2C2" w14:textId="5E0EA670" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Emociones
+</w:r></w:p><w:p w14:paraId="084AC593" w14:textId="639CAA50" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Familia
+</w:r></w:p><w:p w14:paraId="6077CBC5" w14:textId="075C16C1" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Hero
+</w:r><w:r w:rsidR="00F05167">
+Ã­
+</w:r><w:r>
+nas
+</w:r></w:p><w:p w14:paraId="095E150F" w14:textId="1766698E" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+H
+</w:r><w:r w:rsidR="00F05167">
+Ã©
+</w:r><w:r>
+roes
+</w:r></w:p><w:p w14:paraId="1076CBAA" w14:textId="636D3D0A" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Interculturidad
+</w:r></w:p><w:p w14:paraId="32C61172" w14:textId="43DAFC4B" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Naturaleza
+</w:r></w:p><w:p w14:paraId="7E27C9CC" w14:textId="6B0D2C51" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Reflexi
+</w:r><w:r w:rsidR="00F05167">
+Ã³
+</w:r><w:r>
+n
+</w:r></w:p><w:p w14:paraId="1A3ECB67" w14:textId="46BFBE0E" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Sabidur
+</w:r><w:r w:rsidR="00F05167">
+Ã­
+</w:r><w:r>
+a
+</w:r></w:p><w:p w14:paraId="6FF8D1A8" w14:textId="1C40C49C" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+STEM
+</w:r></w:p><w:p w14:paraId="270698A4" w14:textId="7D4469E6" w:rsidR="00F05167" w:rsidRPr="00E54D7A" w:rsidRDefault="00C57F03" w:rsidP="00F05167"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Respeto (
+</w:r><w:r w:rsidR="00F05167">
+ValentÃ­a
+</w:r><w:r>
+</w:r></w:p><w:p w14:paraId="0E3218C8" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00000000" w:rsidP="00764F58"><w:r><w:pict w14:anchorId="5D7430CF"><v:rect id="_x0000_i1027" style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" fillcolor="#a0a0a0" stroked="f"/></w:pict></w:r></w:p><w:p w14:paraId="32ED7A03" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:rFonts w:ascii="Segoe UI Emoji" w:hAnsi="Segoe UI Emoji" w:cs="Segoe UI Emoji"/><w:b/><w:bCs/></w:rPr>
+ðŸ‡§ðŸ‡·
+</w:r><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve"> Portuguese (BR)
+</w:r></w:p><w:p w14:paraId="4E4FDFFA" w14:textId="77777777" w:rsidR="00555FBF" w:rsidRPr="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00764F58"/><w:p w14:paraId="4A0DC769" w14:textId="1B96A4A7" w:rsidR="00555FBF" w:rsidRPr="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="00555FBF"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Idiomas
+</w:r></w:p><w:p w14:paraId="7D212D32" w14:textId="59497382" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r><w:lastRenderedPageBreak/>
+English
+</w:r></w:p><w:p w14:paraId="640FC912" w14:textId="554BC3D3" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Fran
+</w:r><w:r w:rsidR="00F05167">
+Ã§
+</w:r><w:r>
+ais
+</w:r></w:p><w:p w14:paraId="52D67FC5" w14:textId="0C382652" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Italiano
+</w:r></w:p><w:p w14:paraId="0D41B3DF" w14:textId="7C55FABB" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Espa
+</w:r><w:r w:rsidR="00F05167">
+Ã±
+</w:r><w:r>
+ol
+</w:r></w:p><w:p w14:paraId="0FD1E7BE" w14:textId="2D191DAC" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00555FBF"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Portugu
+</w:r><w:r w:rsidR="00F05167">
+Ãª
+</w:r><w:r>
+s
+</w:r></w:p><w:p w14:paraId="4F41C1A7" w14:textId="77777777" w:rsidR="00555FBF" w:rsidRDefault="00555FBF" w:rsidP="00764F58"/><w:p w14:paraId="751ADDC1" w14:textId="48C8D4EC" w:rsidR="00555FBF" w:rsidRPr="00B80FB6" w:rsidRDefault="00555FBF" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="00B80FB6"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr><w:t xml:space="preserve">Por 
+</w:r><w:r w:rsidR="00F05167"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+I
+</w:r><w:r w:rsidRPr="00B80FB6"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+dade
+</w:r></w:p><w:p w14:paraId="58550785" w14:textId="11E1087F" w:rsidR="00555FBF" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+0-3 anos
+</w:r></w:p><w:p w14:paraId="50242E49" w14:textId="2B6BBC59" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+4-6 anos
+</w:r></w:p><w:p w14:paraId="3C33547E" w14:textId="63603576" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+7-9 anos
+</w:r></w:p><w:p w14:paraId="19939E71" w14:textId="4527A24F" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+9-12 anos
+</w:r></w:p><w:p w14:paraId="0A8FBAB2" w14:textId="36EE86F2" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+12+ anos
+</w:r></w:p><w:p w14:paraId="329A15CE" w14:textId="77777777" w:rsidR="00B80FB6" w:rsidRPr="00555FBF" w:rsidRDefault="00B80FB6" w:rsidP="00764F58"/><w:p w14:paraId="5B6E9842" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="00555FBF" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="00555FBF"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Estilos
+</w:r></w:p><w:p w14:paraId="3CD40DA5" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr>
+Formato
+</w:r></w:p><w:p w14:paraId="2E1C3B79" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="14"/></w:numPr></w:pPr><w:r>
+Primeiros leitores
+</w:r></w:p><w:p w14:paraId="0C226435" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="14"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Quadrinhos 
+</w:r></w:p><w:p w14:paraId="1E6AF12A" w14:textId="04EC9F3D" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="14"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01">
+Interativo
+</w:r><w:r w:rsidR="0088180B">
+s
+</w:r><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve"> 
+</w:r></w:p><w:p w14:paraId="07B29CAC" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="14"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Livros ilustrados 
+</w:r></w:p><w:p w14:paraId="29D15CC1" w14:textId="00E4E7EF" w:rsidR="002829C4" w:rsidRPr="008B2B01" w:rsidRDefault="002829C4" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="14"/></w:numPr></w:pPr><w:r>
+Narrativas
+</w:r></w:p><w:p w14:paraId="6A311FBD" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr>
+Narrativa
+</w:r></w:p><w:p w14:paraId="799B8AC5" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="15"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Interioridade 
+</w:r></w:p><w:p w14:paraId="5F27A418" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="15"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">DiÃ¡logo 
+</w:r></w:p><w:p w14:paraId="0ECF28BA" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="15"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Moral 
+</w:r></w:p><w:p w14:paraId="3C5A32A6" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="15"/></w:numPr></w:pPr><w:r w:rsidRPr="000B134B">
+ReflexÃ£o
+</w:r><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve"> 
+</w:r></w:p><w:p w14:paraId="6B55E44B" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="15"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Jornada 
+</w:r></w:p><w:p w14:paraId="5923F0DA" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="15"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">PoÃ©tico 
+</w:r></w:p><w:p w14:paraId="52DBD2B5" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:rPr><w:b/><w:bCs/></w:rPr>
+GÃªneros
+</w:r></w:p><w:p w14:paraId="562F38BA" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="16"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Aventura 
+</w:r></w:p><w:p w14:paraId="6CA022A4" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="16"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Contos de fadas 
+</w:r></w:p><w:p w14:paraId="565DDD12" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="16"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Fantasia 
+</w:r></w:p><w:p w14:paraId="69F6E02A" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="16"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">HistÃ³ria 
+</w:r></w:p><w:p w14:paraId="3F02A94A" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="16"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">ContemporÃ¢neo 
+</w:r></w:p><w:p w14:paraId="53302105" w14:textId="0F496CB9" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="16"/></w:numPr></w:pPr><w:r>
+Mitologia
+</w:r></w:p><w:p w14:paraId="433FE7BC" w14:textId="498F7F15" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="16"/></w:numPr></w:pPr><w:r>
+Drama
+</w:r></w:p><w:p w14:paraId="434D263B" w14:textId="0BEE135C" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="16"/></w:numPr></w:pPr><w:r>
+Folclore
+</w:r></w:p><w:p w14:paraId="2FBD30A7" w14:textId="15E2DE4D" w:rsidR="00AB75E0" w:rsidRPr="008B2B01" w:rsidRDefault="00AB75E0" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="16"/></w:numPr></w:pPr><w:r>
+Poesia
+</w:r></w:p><w:p w14:paraId="6425434A" w14:textId="628DE2A5" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:rPr><w:b/><w:bCs/></w:rPr></w:pPr><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve">Imagens 
+</w:r></w:p><w:p w14:paraId="04934BB2" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="17"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">GrÃ¡fico 
+</w:r></w:p><w:p w14:paraId="21CBAF07" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="17"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Realismo 
+</w:r></w:p><w:p w14:paraId="1E065E56" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="17"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Minimalismo 
+</w:r></w:p><w:p w14:paraId="755DC4F5" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="17"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Vintage 
+</w:r></w:p><w:p w14:paraId="2959E24B" w14:textId="77777777" w:rsidR="00764F58" w:rsidRPr="008B2B01" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="17"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Aquarela 
+</w:r></w:p><w:p w14:paraId="784B1150" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58" w:rsidP="00764F58"><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="17"/></w:numPr></w:pPr><w:r w:rsidRPr="008B2B01"><w:t xml:space="preserve">Fantasioso 
+</w:r></w:p><w:p w14:paraId="78D8300D" w14:textId="77777777" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"/><w:p w14:paraId="74B2301A" w14:textId="38383EA3" w:rsidR="00B80FB6" w:rsidRPr="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr></w:pPr><w:r w:rsidRPr="00B80FB6"><w:rPr><w:b/><w:bCs/><w:sz w:val="48"/><w:szCs w:val="36"/></w:rPr>
+Valores
+</w:r></w:p><w:p w14:paraId="7B81A761" w14:textId="2DCB0D16" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Coragem
+</w:r></w:p><w:p w14:paraId="652CA772" w14:textId="501214A6" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Criatividade
+</w:r></w:p><w:p w14:paraId="5B98E3C4" w14:textId="6DE32772" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Curiosidade
+</w:r></w:p><w:p w14:paraId="6D4E9588" w14:textId="74159853" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Emo
+</w:r><w:r w:rsidRPr="00B80FB6">
+Ã§Ãµes
+</w:r></w:p><w:p w14:paraId="7EAE3214" w14:textId="27ED3BDC" w:rsidR="00AB75E0" w:rsidRDefault="00AB75E0" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r w:rsidRPr="00AB75E0">
+FamÃ­lia
+</w:r></w:p><w:p w14:paraId="6467903E" w14:textId="1881F17F" w:rsidR="00B80FB6" w:rsidRDefault="00C57F03" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Respeito (
+</w:r><w:r w:rsidR="00B80FB6">
+Gentileza
+</w:r><w:r>
+</w:r></w:p><w:p w14:paraId="55969414" w14:textId="7184AE1E" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r w:rsidRPr="00B80FB6"><w:lastRenderedPageBreak/>
+HeroÃ­nas
+</w:r></w:p><w:p w14:paraId="6E2B17BF" w14:textId="001B9771" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r w:rsidRPr="00B80FB6">
+HerÃ³is
+</w:r></w:p><w:p w14:paraId="78F2CBC1" w14:textId="2A48818E" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Interculturidade
+</w:r></w:p><w:p w14:paraId="7C54DE27" w14:textId="42C91C59" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Natureza
+</w:r></w:p><w:p w14:paraId="246F33FA" w14:textId="63D743E9" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r w:rsidRPr="00B80FB6">
+ReflexÃ£o
+</w:r></w:p><w:p w14:paraId="62707A2C" w14:textId="4FFB5301" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+Sabedoria
+</w:r></w:p><w:p w14:paraId="22A804B8" w14:textId="26A83017" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"><w:pPr><w:pStyle w:val="ListParagraph"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr></w:pPr><w:r>
+STEM
+</w:r></w:p><w:p w14:paraId="679BA340" w14:textId="77777777" w:rsidR="00B80FB6" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"/><w:p w14:paraId="6C151BB6" w14:textId="77777777" w:rsidR="00B80FB6" w:rsidRPr="008B2B01" w:rsidRDefault="00B80FB6" w:rsidP="00B80FB6"/><w:p w14:paraId="470B0B97" w14:textId="77777777" w:rsidR="00764F58" w:rsidRDefault="00764F58"><w:pPr><w:sectPr w:rsidR="00764F58" w:rsidSect="00764F58"><w:pgSz w:w="12240" w:h="15840"/><w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="708" w:footer="708" w:gutter="0"/><w:cols w:num="2" w:space="708"/><w:docGrid w:linePitch="360"/></w:sectPr></w:pPr></w:p><w:p w14:paraId="02742614" w14:textId="77777777" w:rsidR="00C92F4A" w:rsidRDefault="00C92F4A"/><w:sectPr w:rsidR="00C92F4A" w:rsidSect="00764F58"><w:type w:val="continuous"/><w:pgSz w:w="12240" w:h="15840"/><w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="708" w:footer="708" w:gutter="0"/><w:cols w:space="708"/><w:docGrid w:linePitch="360"/></w:sectPr></w:body></w:document>
