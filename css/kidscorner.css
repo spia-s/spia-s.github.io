@@ -538,17 +538,19 @@ a[href="#styles"]:hover .category-circle img {
 
 /* Bilingual hover effect using CSS */
 .bilingual-default {
-    display: block;
+    opacity: 0.35 !important;
+    transform: scale(1.1) !important;
 }
 
 .bilingual-hover {
-    display: none;
+    opacity: 0 !important;
 }
 
 .category-card-circular:hover .bilingual-default {
-    display: none;
+    opacity: 0 !important;
 }
 
 .category-card-circular:hover .bilingual-hover {
-    display: block;
+    opacity: 1 !important;
+    transform: scale(1.15) !important;
 }
