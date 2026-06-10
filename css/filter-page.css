@@ -5,16 +5,18 @@
     gap: 2.5rem;
     margin-top: 2rem;
     align-items: flex-start;
+    width: 100%;
 }
 
 /* Sidebar Styles */
 .filter-sidebar {
     width: 280px;
+    min-width: 250px;
     background-color: var(--color-white);
     border: 1px solid rgba(7, 48, 21, 0.15);
     border-radius: var(--radius-sm);
     padding: 1.5rem;
-    flex-shrink: 0;
+    flex-shrink: 1;
     box-shadow: var(--shadow-sm);
     position: sticky;
     top: 100px;
@@ -168,6 +170,8 @@
 /* Results Content Area */
 .filter-results {
     flex-grow: 1;
+    width: 100%;
+    min-width: 0;
 }
 
 /* Search bar */
@@ -322,7 +326,7 @@
 }
 
 /* Mobile responsive styling */
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
     .filter-page-layout {
         flex-direction: column;
         gap: 1.5rem;
@@ -335,17 +339,99 @@
     }
 }
 
+@media (max-width: 768px) {
+    .filter-page-layout {
+        gap: 1rem;
+    }
+    
+    .filter-sidebar {
+        padding: 1rem;
+    }
+    
+    .sidebar-title {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    
+    .filter-group {
+        padding-bottom: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .filter-group-title {
+        font-size: 1rem;
+    }
+    
+    .filter-checkbox-label {
+        font-size: 0.9rem;
+    }
+    
+    .books-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter-page-layout {
+        gap: 0.75rem;
+        margin-top: 1rem;
+    }
+    
+    .filter-sidebar {
+        padding: 0.75rem;
+    }
+    
+    .sidebar-title {
+        font-size: 1.1rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .filter-group {
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .filter-group-title {
+        font-size: 0.95rem;
+    }
+    
+    .filter-checkbox-label {
+        font-size: 0.85rem;
+        gap: 0.4rem;
+    }
+    
+    .filter-checkbox {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .books-grid {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        gap: 0.5rem;
+    }
+    
+    .book-title-overlay {
+        font-size: 0.75rem;
+    }
+    
+    .book-author-overlay {
+        font-size: 0.65rem;
+    }
+}
+
 /* ============================================
    BOOK DISPLAY GRID — Premium Bookstore Style
    ============================================ */
 
 .books-grid-container {
     margin-top: 1.5rem;
+    width: 100%;
 }
 
 .books-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 1rem;
 }
 
@@ -422,6 +508,7 @@
     margin-bottom: 0.5rem;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -470,7 +557,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .books-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 0.75rem;
@@ -482,6 +569,21 @@
 
     .book-author-overlay {
         font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .books-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
+    .book-title-overlay {
+        font-size: 0.75rem;
+    }
+
+    .book-author-overlay {
+        font-size: 0.65rem;
     }
 }
 

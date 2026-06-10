@@ -211,6 +211,15 @@
 
 .kidscorner-theme .container {
     max-width: 1000px; /* Narrower than global 1200px */
+    width: 100%;
+    padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+    .kidscorner-theme .container {
+        max-width: 100%;
+        padding: 0 0.75rem;
+    }
 }
 
 .kidscorner-theme .footer .container {
