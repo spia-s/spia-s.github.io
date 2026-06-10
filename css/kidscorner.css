@@ -535,3 +535,20 @@ a[href="#styles"]:hover .category-circle img {
 .hero-content {
     animation: fadeInUp 0.8s ease-out;
 }
+
+/* Bilingual hover effect using CSS */
+.bilingual-default {
+    display: block;
+}
+
+.bilingual-hover {
+    display: none;
+}
+
+.category-card-circular:hover .bilingual-default {
+    display: none;
+}
+
+.category-card-circular:hover .bilingual-hover {
+    display: block;
+}
