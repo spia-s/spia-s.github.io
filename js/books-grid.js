@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     try {
-        // Fetch books from Supabase with author data
+        // Fetch books from Supabase with author data and filters
         const { data: books, error } = await window.supabaseClient
             .from('books')
             .select(`
@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 cover_url,
                 age_label,
                 primary_category,
+                filters,
                 authors (name)
             `)
             .order('created_at', { ascending: false });
@@ -62,8 +63,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
 
+        // Sort books by language hierarchy
+        const sortedBooks = sortBooksByLanguage(books);
+
         // Render books
-        renderBooks(books);
+        renderBooks(sortedBooks);
 
     } catch (error) {
         console.error('Error:', error);
@@ -71,16 +75,46 @@ document.addEventListener('DOMContentLoaded', async () => {
         renderStaticBooks();
     }
 
+    function sortBooksByLanguage(books) {
+        const languageOrder = ['en', 'fr', 'it', 'es', 'pt', 'bilingual'];
+        
+        return books.sort((a, b) => {
+            const langA = a.filters?.language || 'en';
+            const langB = b.filters?.language || 'en';
+            
+            const indexA = languageOrder.indexOf(langA);
+            const indexB = languageOrder.indexOf(langB);
+            
+            // If languages are different, sort by language hierarchy
+            if (indexA !== indexB) {
+                return indexA - indexB;
+            }
+            
+            // If languages are the same, prioritize "The Little Prince" for English
+            if (langA === 'en') {
+                const isLittlePrinceA = a.title.toLowerCase().includes('little prince');
+                const isLittlePrinceB = b.title.toLowerCase().includes('little prince');
+                
+                if (isLittlePrinceA && !isLittlePrinceB) return -1;
+                if (!isLittlePrinceA && isLittlePrinceB) return 1;
+            }
+            
+            return 0;
+        });
+    }
+
     function renderStaticBooks() {
-        renderBooks(staticBooks.map(book => ({
+        const sortedStaticBooks = sortBooksByLanguage(staticBooks.map(book => ({
             id: book.id,
             slug: book.slug,
             title: book.title,
             cover_url: book.cover,
             age_label: book.age,
             primary_category: null,
+            filters: { language: book.lang },
             authors: { name: book.author }
         })));
+        renderBooks(sortedStaticBooks);
     }
 
     function createBookCard(book) {
