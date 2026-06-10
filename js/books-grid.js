@@ -47,9 +47,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                 age_label,
                 primary_category,
                 filters,
+                language_order,
                 authors (name)
             `)
-            .order('created_at', { ascending: false });
+            .order('language_order', { ascending: true });
 
         if (error) {
             console.error('Error fetching books:', error);
@@ -63,11 +64,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
 
-        // Sort books by language hierarchy
-        const sortedBooks = sortBooksByLanguage(books);
-
-        // Render books
-        renderBooks(sortedBooks);
+        // Render books (already sorted by language_order from database)
+        renderBooks(books);
 
     } catch (error) {
         console.error('Error:', error);
@@ -75,45 +73,23 @@ document.addEventListener('DOMContentLoaded', async () => {
         renderStaticBooks();
     }
 
-    function sortBooksByLanguage(books) {
-        const languageOrder = ['en', 'fr', 'it', 'es', 'pt', 'bilingual'];
-        
-        return books.sort((a, b) => {
-            const langA = a.filters?.language || 'en';
-            const langB = b.filters?.language || 'en';
-            
-            const indexA = languageOrder.indexOf(langA);
-            const indexB = languageOrder.indexOf(langB);
-            
-            // If languages are different, sort by language hierarchy
-            if (indexA !== indexB) {
-                return indexA - indexB;
-            }
-            
-            // If languages are the same, prioritize "The Little Prince" for English
-            if (langA === 'en') {
-                const isLittlePrinceA = a.title.toLowerCase().includes('little prince');
-                const isLittlePrinceB = b.title.toLowerCase().includes('little prince');
-                
-                if (isLittlePrinceA && !isLittlePrinceB) return -1;
-                if (!isLittlePrinceA && isLittlePrinceB) return 1;
-            }
-            
-            return 0;
-        });
-    }
-
     function renderStaticBooks() {
-        const sortedStaticBooks = sortBooksByLanguage(staticBooks.map(book => ({
+        const languageOrder = ['en', 'fr', 'it', 'es', 'pt', 'bilingual'];
+        const sortedStaticBooks = staticBooks.map(book => ({
             id: book.id,
             slug: book.slug,
             title: book.title,
             cover_url: book.cover,
             age_label: book.age,
             primary_category: null,
-            filters: { language: book.lang },
             authors: { name: book.author }
-        })));
+        })).sort((a, b) => {
+            const langA = staticBooks.find(s => s.id === a.id)?.lang || 'en';
+            const langB = staticBooks.find(s => s.id === b.id)?.lang || 'en';
+            const indexA = languageOrder.indexOf(langA);
+            const indexB = languageOrder.indexOf(langB);
+            return indexA - indexB;
+        });
         renderBooks(sortedStaticBooks);
     }
 
