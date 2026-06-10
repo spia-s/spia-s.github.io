@@ -367,6 +367,13 @@
     z-index: 0;
 }
 
+/* Zoom out 10% for specific flags (UK, Spanish, Brazil) */
+.languages .category-circle .flag-img[alt="UK Flag"],
+.languages .category-circle .flag-img[alt="Spanish Flag"],
+.languages .category-circle .flag-img[alt="Brazil Flag"] {
+    transform: scale(0.99);
+}
+
 .languages .category-circle .category-img {
     opacity: 0;
     transform: scale(1.1);
