@@ -434,6 +434,15 @@ a[href="#styles"]:hover .category-circle img {
     transform: scale(1.2);
 }
 
+/* Languages image: balance between hiding white background and showing brown border */
+a[href="books.html?filter=languages"] .category-circle img {
+    transform: scale(1.05);
+}
+
+a[href="books.html?filter=languages"]:hover .category-circle img {
+    transform: scale(1.1);
+}
+
 /* KidsCorner Hero */
 .kidscorner-hero {
     min-height: 80vh;
