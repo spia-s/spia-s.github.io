@@ -117,8 +117,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             toggleBtn.textContent = isExpanded ? 'Read Less' : 'Read More';
         });
         
-        // Best Edition
-        renderEdition(book.editions);
+        // All Editions
+        renderAllEditions(book.editions);
         
         // Developmental Benefits
         renderDevelopmentalBenefits(book.developmental_benefits);
@@ -157,24 +157,56 @@ document.addEventListener('DOMContentLoaded', async () => {
         renderInternalLinks(book);
     }
     
-    function renderEdition(editions) {
-        const container = document.getElementById('edition-content');
+    function renderAllEditions(editions) {
+        const container = document.getElementById('editions-content');
         if (!editions || editions.length === 0) {
             container.innerHTML = '<p>No edition information available.</p>';
             return;
         }
         
-        const recommended = editions.find(e => e.is_recommended) || editions[0];
-        container.innerHTML = `
-            <div class="edition-details">
-                <p><strong>Publisher:</strong> ${recommended.publisher || 'Information not reliably available'}</p>
-                <p><strong>Publication Year:</strong> ${recommended.publication_year || 'Information not reliably available'}</p>
-                <p><strong>Format:</strong> ${recommended.format || 'Information not reliably available'}</p>
-                <p><strong>ISBN:</strong> ${recommended.isbn || 'Information not reliably available'}</p>
-                <p class="edition-reason"><strong>Why This Edition?</strong> ${recommended.why_this_edition || 'Information not reliably available'}</p>
-                ${recommended.affiliate_url ? `<a href="${recommended.affiliate_url}" class="btn-primary" target="_blank" rel="noopener noreferrer">Buy This Edition</a>` : ''}
-            </div>
-        `;
+        // Group editions by format type
+        const grouped = {};
+        editions.forEach(edition => {
+            const format = edition.format || 'Unknown';
+            if (!grouped[format]) {
+                grouped[format] = [];
+            }
+            grouped[format].push(edition);
+        });
+        
+        let html = '';
+        Object.keys(grouped).sort().forEach(format => {
+            html += `<div class="format-group">
+                <h3 class="format-title">${format}</h3>
+                <div class="editions-grid">`;
+            
+            grouped[format].forEach(edition => {
+                const marketplaces = [];
+                if (edition.amazon_fr) marketplaces.push('FR');
+                if (edition.amazon_de) marketplaces.push('DE');
+                if (edition.amazon_it) marketplaces.push('IT');
+                if (edition.amazon_es) marketplaces.push('ES');
+                if (edition.amazon_pt) marketplaces.push('PT');
+                if (edition.amazon_br) marketplaces.push('BR');
+                if (edition.amazon_mx) marketplaces.push('MX');
+                
+                html += `
+                    <div class="edition-card ${edition.is_recommended ? 'recommended' : ''}">
+                        ${edition.is_recommended ? '<span class="recommended-badge">Recommended</span>' : ''}
+                        <h4 class="edition-name">${edition.edition_name || 'Standard Edition'}</h4>
+                        <p class="edition-publisher"><strong>Publisher:</strong> ${edition.publisher || 'N/A'}</p>
+                        ${edition.isbn ? `<p class="edition-isbn"><strong>ISBN:</strong> ${edition.isbn}</p>` : ''}
+                        <p class="edition-marketplaces"><strong>Available on Amazon:</strong> ${marketplaces.length > 0 ? marketplaces.join(', ') : 'N/A'}</p>
+                        ${edition.why_this_edition ? `<p class="edition-reason">${edition.why_this_edition}</p>` : ''}
+                        ${edition.affiliate_url ? `<a href="${edition.affiliate_url}" class="btn-primary btn-small" target="_blank" rel="noopener noreferrer">Buy This Edition</a>` : ''}
+                    </div>
+                `;
+            });
+            
+            html += `</div></div>`;
+        });
+        
+        container.innerHTML = html;
     }
     
     function renderDevelopmentalBenefits(benefits) {

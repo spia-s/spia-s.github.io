@@ -197,20 +197,97 @@
     border-left: 4px solid var(--color-secondary);
 }
 
-.edition-content {
+.editions-content {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 2rem;
 }
 
-.edition-content p {
-    margin: 0;
+.format-group {
+    margin-bottom: 1.5rem;
+}
+
+.format-title {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(7, 48, 21, 0.15);
+}
+
+.editions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.edition-card {
+    background-color: var(--color-white);
+    padding: 1.25rem;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid rgba(7, 48, 21, 0.1);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edition-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+.edition-card.recommended {
+    border: 2px solid var(--color-secondary);
+    background-color: rgba(158, 74, 32, 0.05);
+}
+
+.recommended-badge {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.edition-name {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    color: var(--color-primary);
+    margin: 0 0 0.75rem 0;
+    padding-right: 2rem;
+}
+
+.edition-publisher,
+.edition-isbn,
+.edition-marketplaces {
+    font-size: 0.9rem;
+    color: var(--color-text);
+    margin: 0.5rem 0;
+}
+
+.edition-publisher strong,
+.edition-isbn strong,
+.edition-marketplaces strong {
+    color: var(--color-primary);
 }
 
 .edition-reason {
-    margin-top: 1rem !important;
+    font-size: 0.85rem;
     font-style: italic;
     color: var(--color-text-muted);
+    margin: 0.75rem 0;
+    line-height: 1.5;
+}
+
+.btn-small {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    margin-top: 0.75rem;
 }
 
 /* Benefits Grid */
