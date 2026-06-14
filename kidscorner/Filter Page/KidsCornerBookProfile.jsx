@@ -170,7 +170,8 @@ Return ONLY a valid JSON object (no markdown fences, no preamble) with this exac
     "ageRange": "Ages",
     "series": "Series or N/A",
     "awards": ["award"],
-    "formats": ["Hardcover","Paperback"],
+    "format": "chapter books / comics / interactive / picture books / illustrated / text-heavy / read-aloud",
+    "physicalFormats": ["Hardcover","Paperback","Board Book"],
     "languagesAvailable": ["language"]
   },
   "internalLinks": {
@@ -483,8 +484,12 @@ function DataTab({ d }) {
                 <td style={styles.tdVal}>{(bookData.languagesAvailable || []).join(", ")}</td>
               </tr>
               <tr>
-                <td style={styles.tdKey}>Formats</td>
-                <td style={styles.tdVal}>{(bookData.formats || []).join(", ")}</td>
+                <td style={styles.tdKey}>Format</td>
+                <td style={styles.tdVal}>{bookData.format || "Information not reliably available"}</td>
+              </tr>
+              <tr>
+                <td style={styles.tdKey}>Physical Formats</td>
+                <td style={styles.tdVal}>{(bookData.physicalFormats || []).join(", ")}</td>
               </tr>
             </tbody>
           </table>
