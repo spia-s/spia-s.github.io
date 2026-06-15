@@ -31,6 +31,10 @@ export const BOOK_CATALOGUE = {
     { title: "The Hobbit", author: "J.R.R. Tolkien" },
     { title: "The Arrival", author: "Shaun Tan" },
     { title: "The Very Hungry Caterpillar", author: "Eric Carle" },
+    { title: "Dreamers", author: "Yuyi Morales" },
+    { title: "Last Stop on Market Street", author: "Matt de la Peña" },
+    { title: "Ada Twist, Scientist", author: "Andrea Beaty" },
+    { title: "O Pote Vazio", author: "Demi" },
   ],
   Français: [
     { title: "Le Petit Prince", author: "Antoine de Saint-Exupéry" },
@@ -41,7 +45,7 @@ export const BOOK_CATALOGUE = {
   ],
   Italiano: [
     { title: "Il Piccolo Principe", author: "Antoine de Saint-Exupéry" },
-    { title: "Favole al telefono", author: "Gianni Rodari" },
+    { title: "Favole al Telefono", author: "Gianni Rodari" },
     { title: "Le Avventure di Pinocchio", author: "Carlo Collodi" },
     { title: "Mio Fratello Rincorre i Dinosauri", author: "Giacomo Mazzariol" },
     { title: "La Vita Segreta degli Alberi per Bambini", author: "Peter Wohlleben" },
@@ -62,15 +66,7 @@ export const BOOK_CATALOGUE = {
     { title: "A Droga da Obediência", author: "Pedro Bandeira" },
     { title: "Turma da Mônica", author: "Mauricio de Sousa" },
     { title: "Harry Potter e a Pedra Filosofal", author: "J.K. Rowling" },
-    { title: "O Pote Vazio", author: "Demi" },
-    { title: "Pequenos Cientistas", author: "Vários" },
-  ],
-  Bilingual: [
-    { title: "The Little Prince (Bilingual)", author: "Antoine de Saint-Exupéry" },
-    { title: "Dreamers", author: "Yuyi Morales" },
-    { title: "The Arrival (Bilingual)", author: "Shaun Tan" },
-    { title: "Last Stop on Market Street", author: "Matt de la Peña" },
-    { title: "Ada Twist, Scientist", author: "Andrea Beaty" },
+    { title: "Pequenos Cientistas", author: "Vários Autores" },
   ],
 };
 
@@ -731,7 +727,7 @@ export function KidsCornerCatalogueBrowser({ apiKey }) {
           <div style={styles.centered}>
             <div style={{ fontSize: 48, opacity: 0.3 }}>📚</div>
             <h2 style={{ fontFamily: "Georgia, serif", color: "#555", marginTop: 16 }}>Select a book to begin</h2>
-            <p style={{ color: "#888", fontSize: 14 }}>43 books across 6 languages</p>
+            <p style={{ color: "#888", fontSize: 14 }}>34 books across 5 languages</p>
           </div>
         )}
       </main>
