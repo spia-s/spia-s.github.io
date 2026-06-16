@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Wait for supabase client to be initialized (with longer timeout)
     let attempts = 0;
     const maxAttempts = 30;
-    
+
     while (!window.supabaseClient && attempts < maxAttempts) {
         await new Promise(resolve => setTimeout(resolve, 100));
         attempts++;
@@ -65,8 +65,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         return;
     }
 
+    let allBooks = [];
+
     try {
-        // Fetch books from Supabase with author data and filters
+        // Fetch books from Supabase with author data, filters, and cover URLs
         const { data: books, error } = await window.supabaseClient
             .from('books')
             .select(`
@@ -78,6 +80,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 primary_category,
                 filters,
                 language_order,
+                cover_url,
                 authors (name)
             `)
             .order('language_order', { ascending: true });
@@ -93,12 +96,187 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
 
+        // Store all books for filtering
+        allBooks = books;
+
         // Render books (already sorted by language_order from database)
-        renderBooks(books);
+        renderBooks(allBooks);
+
+        // Set up filter listeners
+        setupFilterListeners();
 
     } catch (error) {
         console.error('Error:', error);
         showErrorState('Failed to load books. Please try again later.');
+    }
+
+    // Function to get selected filters
+    function getSelectedFilters() {
+        const filters = {
+            lang: [],
+            age: [],
+            format: [],
+            narrative: [],
+            genre: [],
+            visual: [],
+            value: []
+        };
+
+        // Get all checked checkboxes
+        document.querySelectorAll('.filter-checkbox:checked').forEach(checkbox => {
+            const group = checkbox.getAttribute('data-filter-group');
+            const value = checkbox.value;
+            if (filters[group]) {
+                filters[group].push(value);
+            }
+        });
+
+        return filters;
+    }
+
+    // Function to get search query
+    function getSearchQuery() {
+        const searchInput = document.getElementById('filter-search');
+        return searchInput ? searchInput.value.toLowerCase().trim() : '';
+    }
+
+    // Function to check if a book matches the selected filters
+    function bookMatchesFilters(book, selectedFilters) {
+        const bookFilters = book.filters || {};
+
+        // If no filters selected, book matches
+        const hasAnyFilter = Object.values(selectedFilters).some(arr => arr.length > 0);
+        if (!hasAnyFilter) return true;
+
+        // Check language filter
+        if (selectedFilters.lang.length > 0) {
+            const bookLang = bookFilters.language || book.original_language || '';
+            const langMatch = selectedFilters.lang.some(lang => {
+                if (lang === 'bilingual') {
+                    return bookFilters.language === 'bilingual' || bookFilters.language === 'multilingual';
+                }
+                return bookLang === lang;
+            });
+            if (!langMatch) return false;
+        }
+
+        // Check age filter
+        if (selectedFilters.age.length > 0) {
+            const bookAge = bookFilters.age || book.age_label || '';
+            const ageMatch = selectedFilters.age.some(age => bookAge === age);
+            if (!ageMatch) return false;
+        }
+
+        // Check format filter
+        if (selectedFilters.format.length > 0) {
+            const bookFormats = bookFilters.format || [];
+            const formatMatch = selectedFilters.format.some(fmt => {
+                const normalizedFormat = fmt.replace(/-/g, ' ');
+                return bookFormats.includes(normalizedFormat);
+            });
+            if (!formatMatch) return false;
+        }
+
+        // Check narrative filter
+        if (selectedFilters.narrative.length > 0) {
+            const bookNarratives = bookFilters.narrative || [];
+            const narrativeMatch = selectedFilters.narrative.some(narr => 
+                bookNarratives.includes(narr)
+            );
+            if (!narrativeMatch) return false;
+        }
+
+        // Check genre filter
+        if (selectedFilters.genre.length > 0) {
+            const bookGenres = bookFilters.genre || [];
+            const genreMatch = selectedFilters.genre.some(gen => 
+                bookGenres.includes(gen)
+            );
+            if (!genreMatch) return false;
+        }
+
+        // Check visual filter
+        if (selectedFilters.visual.length > 0) {
+            const bookVisuals = bookFilters.visual || [];
+            const visualMatch = selectedFilters.visual.some(vis => 
+                bookVisuals.includes(vis)
+            );
+            if (!visualMatch) return false;
+        }
+
+        // Check values filter
+        if (selectedFilters.value.length > 0) {
+            const bookValues = bookFilters.values || [];
+            const valueMatch = selectedFilters.value.some(val => 
+                bookValues.includes(val)
+            );
+            if (!valueMatch) return false;
+        }
+
+        return true;
+    }
+
+    // Function to check if a book matches the search query
+    function bookMatchesSearch(book, searchQuery) {
+        if (!searchQuery) return true;
+        
+        const title = (book.title || '').toLowerCase();
+        const author = (book.authors?.name || '').toLowerCase();
+        
+        return title.includes(searchQuery) || author.includes(searchQuery);
+    }
+
+    // Function to filter and render books
+    function filterAndRenderBooks() {
+        const selectedFilters = getSelectedFilters();
+        const searchQuery = getSearchQuery();
+
+        const filteredBooks = allBooks.filter(book => {
+            return bookMatchesFilters(book, selectedFilters) && 
+                   bookMatchesSearch(book, searchQuery);
+        });
+
+        renderBooks(filteredBooks);
+
+        // Update results count if needed
+        updateResultsCount(filteredBooks.length);
+    }
+
+    // Function to update results count
+    function updateResultsCount(count) {
+        let countElement = document.getElementById('results-count');
+        if (!countElement) {
+            countElement = document.createElement('div');
+            countElement.id = 'results-count';
+            countElement.className = 'results-count';
+            const searchContainer = document.querySelector('.search-container');
+            if (searchContainer) {
+                searchContainer.after(countElement);
+            }
+        }
+        countElement.textContent = `${count} ${count === 1 ? 'book' : 'books'} found`;
+    }
+
+    // Function to set up filter listeners
+    function setupFilterListeners() {
+        // Listen to checkbox changes
+        document.querySelectorAll('.filter-checkbox').forEach(checkbox => {
+            checkbox.addEventListener('change', filterAndRenderBooks);
+        });
+
+        // Listen to search input
+        const searchInput = document.getElementById('filter-search');
+        if (searchInput) {
+            searchInput.addEventListener('input', filterAndRenderBooks);
+        }
+
+        // Listen to clear all filters buttons (use class selector since there are multiple)
+        document.querySelectorAll('.btn-clear-all').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Wait for UI to update, then filter
+                setTimeout(filterAndRenderBooks, 50);
+            });
+        });
     }
 
     async function createBookCard(book) {
@@ -118,8 +296,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         coverImg.loading = 'lazy';
         coverImg.decoding = 'async';
 
-        // Try Supabase storage only
-        const coverUrl = await fetchSupabaseStorageCover(book.id, book.slug, book.original_language);
+        // Use cover_url from database if available
+        const coverUrl = book.cover_url;
 
         if (coverUrl) {
             console.log(`Loading cover for "${book.title}": ${coverUrl}`);
@@ -127,7 +305,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Handle image load errors
             coverImg.onerror = function() {
-                console.log(`"${book.title}" failed to load from storage, showing placeholder`);
+                console.log(`"${book.title}" failed to load, showing placeholder`);
                 showPlaceholder();
             };
 
@@ -135,7 +313,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 console.log(`"${book.title}" loaded successfully (${coverImg.naturalWidth}x${coverImg.naturalHeight})`);
             };
         } else {
-            console.log(`No cover found in storage for "${book.title}", showing placeholder`);
+            console.log(`No cover URL found for "${book.title}", showing placeholder`);
             showPlaceholder();
         }
 
